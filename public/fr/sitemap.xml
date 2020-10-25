@@ -18,6 +18,81 @@
   </url>
   
   <url>
+    <loc>https://test.plevy.fr/fr/publications/</loc>
+    <lastmod>2020-10-21T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publications/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/fr/contact/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/fr/cv/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/cv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/fr/publis/le-temps-de-lexperience-enchanter-le-quotidien-par-le-design/</loc>
+    <lastmod>2018-11-18T13:00:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publis/time-of-experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publis/le-temps-de-lexperience-enchanter-le-quotidien-par-le-design/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/fr/publis/</loc>
+    <lastmod>2018-11-18T13:00:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publis/"
+                />
+  </url>
+  
+  <url>
     <loc>https://test.plevy.fr/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,20 +103,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://test.plevy.fr/fr/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://test.plevy.fr/fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://test.plevy.fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://test.plevy.fr/fr/"
                 />
   </url>
   
