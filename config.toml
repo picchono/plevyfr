@@ -9,6 +9,10 @@ theme = "plevy"
 DefaultContentLanguage = "en"
 copyright = "plevy.fr"
 
+[permalinks]
+  "/" = "/:filename/"
+  posts = "/:06/:1/:2/:title/"
+
 [privacy.disqus]
 disable = true
 
