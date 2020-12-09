@@ -127,8 +127,8 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply" id="everydayRe" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:rounded-lg lg:px-4 lg:py-6"><script>
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="everydayRe" >
+    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -142,7 +142,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/fr/research/everyday/">
             
             <a href="/fr/"
@@ -169,7 +169,7 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -217,13 +217,13 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-32 lg:pt-32 lg:max-w-screen-xl">Enchanter le quotidien  <span class="text-eureka italic">Currently updating</span></h1>
-    <main class="mx-4 lg:ml-96 lg:mr-32 lg:max-w-screen-xl">
+    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-12 2xl:mr-32 lg:pt-32 lg:max-w-screen-xl">Enchanter le quotidien  <span class="text-eureka italic">Currently updating</span></h1>
+    <main class="mx-4 lg:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 
     <div class="align-bottom pl-12 lg:w-1/2 lg:pr-60"><p class="text-lg leading-10">Étudier la vie quotidienne serait une entreprise parfaitement ridicule,et d’abord condamnée à ne rien saisir de son objet, si l’on ne se proposait pas explicitementd’étudier la vie quotidienne afin de la transformer.<br/><span class="text italic">- Guy Debord (1961)</span></p></div>
     <div>&nbsp;</div>
 </div>
-<div class="container mb-10">
+<div class="container mb-20">
     <div class="my-24 lg:mt-0">    
 
 <div class="grid grid-rows-1 xl:grid-cols-2 bg-secondary-bg w-all gap-0">
@@ -293,49 +293,79 @@
     </div><script src="https://cdn.jsdelivr.net/npm/spotlight.js@0.6.6/dist/spotlight.bundle.js" integrity="sha256-+ACxOLZGYtNNlTDEWEeO3djuK1elgOdJG4t8oyP3T9E=" crossorigin="anonymous"></script>
     <h2 class="mb-10">Projets & Publications</h2>
     
-    <div class="grid grid-rows-1 lg:grid-cols-2 xl:grid-cols-3 gap-16">
+    <div class="grid grid-rows-1 xl:grid-cols-2 gap-16">
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/"><h5>Artefactual emptiness – On appropriation in kansei design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2020). Artefactual emptiness  - On appropriation in kansei design. Proceedings of Kansei Engineering and Emotion Research International Conference 2020, KEER2020. Tokyo, Japan: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Artefactual emptiness – On appropriation in kansei design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2020). Artefactual emptiness  - On appropriation in kansei design. Proceedings of Kansei Engineering and Emotion Research International Conference 2020, KEER2020. Tokyo, Japan: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/designing-for-the-everyday-through-thusness-and-irregularity/"><h5>Designing for the everyday through thusness and irregularity</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2019). Designing for the everyday through thusness and irregularity. In Proceedings of 8th International Congress of International Association of Societies of Design Research, IASDR 2019. Manchester, UK: Manchester Metropolitan University.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/designing-for-the-everyday-through-thusness-and-irregularity/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Designing for the everyday through thusness and irregularity</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2019). Designing for the everyday through thusness and irregularity. In Proceedings of 8th International Congress of International Association of Societies of Design Research, IASDR 2019. Manchester, UK: Manchester Metropolitan University.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/le-temps-de-lexperience-enchanter-le-quotidien-par-le-design/"><h5>Le temps de l’expérience, enchanter le quotidien par le design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2018). Le temps de l&#39;expérience, Enchanter le quotidien par le design. Compiègne University of Technology, France</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/le-temps-de-lexperience-enchanter-le-quotidien-par-le-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Le temps de l’expérience, enchanter le quotidien par le design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2018). Le temps de l&#39;expérience, Enchanter le quotidien par le design. Compiègne University of Technology, France</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/projects/haiku-cocoa/"><h5>A peine hors du lit</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">布団抜け匙にて点てるココアの茶</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/projects/haiku-cocoa/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>A peine hors du lit</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">布団抜け匙にて点てるココアの茶</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/the-beauty-of-making-hot-chocolate/"><h5>The beauty of making hot chocolate, an inquiry on designing for everyday rituals</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2018). The beauty of making hot chocolate – an inquiry on designing for everyday rituals. In Design Research Society 2018, DRS2018. Limerick, Ireland: Design Research Society. https://doi.org/10.21606/dma.2017.514</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/the-beauty-of-making-hot-chocolate/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>The beauty of making hot chocolate, an inquiry on designing for everyday rituals</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2018). The beauty of making hot chocolate – an inquiry on designing for everyday rituals. In Design Research Society 2018, DRS2018. Limerick, Ireland: Design Research Society. https://doi.org/10.21606/dma.2017.514</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/3d-modeling-and-3d-printing-explorations-on-japanese-tea-ceremony-utensils/"><h5>3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamada, S. (2017). 3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils. In Proceedings of the 11th International Conference on Tangible, Embedded and Embodied Interactions, TEI17. Yokohama, Japan: ACM Press. https://doi.org/10.1145/3024969.3024990</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/3d-modeling-and-3d-printing-explorations-on-japanese-tea-ceremony-utensils/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamada, S. (2017). 3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils. In Proceedings of the 11th International Conference on Tangible, Embedded and Embodied Interactions, TEI17. Yokohama, Japan: ACM Press. https://doi.org/10.1145/3024969.3024990</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals/"><h5>What matters for ritual visualization, towards a design tool for the description and the composition of rituals</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Hengeveld B.J. (2016). What matters for ritual visualization – Towards a design tool for the description and the composition of rituals. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>What matters for ritual visualization, towards a design tool for the description and the composition of rituals</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Hengeveld B.J. (2016). What matters for ritual visualization – Towards a design tool for the description and the composition of rituals. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/perspectives-en-design-dinteraction/"><h5>Perspectives en design d’interaction</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/perspectives-en-design-dinteraction/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Perspectives en design d’interaction</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/exploring-the-challenge-of-designing-rituals/"><h5>Exploring the challenge of designing rituals</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2015). Exploring the challenge of designing rituals. In V., Popovic, A., Blackler, &amp; B., Kraal (Eds.), the Proceedings of 6th International Congress of International Association of Societies of Design Research, IASDR 2015. Brisbane, Australia: Queensland University of Technology.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/exploring-the-challenge-of-designing-rituals/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Exploring the challenge of designing rituals</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2015). Exploring the challenge of designing rituals. In V., Popovic, A., Blackler, &amp; B., Kraal (Eds.), the Proceedings of 6th International Congress of International Association of Societies of Design Research, IASDR 2015. Brisbane, Australia: Queensland University of Technology.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/users-appreciation-of-engagement-in-service-design-the-case-of-food-service-design/"><h5>User’s appreciation of engagement in service design: The case of food service design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Wakabayashi, N. (2008). User&#39;s appreciation of engagement in service design: The case of food service design. the Proceedings of International Service Innovation Design Conference 2008 - ISIDC08. Busan, Korea.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/users-appreciation-of-engagement-in-service-design-the-case-of-food-service-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>User’s appreciation of engagement in service design: The case of food service design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Wakabayashi, N. (2008). User&#39;s appreciation of engagement in service design: The case of food service design. the Proceedings of International Service Innovation Design Conference 2008 - ISIDC08. Busan, Korea.</p>
+                </div>
             </a>
         
-    </div>
+    </div>    
 </div>
 
 <script>

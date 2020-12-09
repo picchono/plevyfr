@@ -126,8 +126,8 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply" id="" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:rounded-lg lg:px-4 lg:py-6"><script>
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
+    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -141,7 +141,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/publications/exploring-the-challenge-of-designing-rituals/">
             
             <a href="/"
@@ -168,7 +168,7 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -216,8 +216,8 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-32 lg:pt-32 lg:max-w-screen-xl">Exploring the challenge of designing rituals </h1>
-    <main class="mx-4 lg:ml-96 lg:mr-32 lg:max-w-screen-xl">
+    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-12 2xl:mr-32 lg:pt-32 lg:max-w-screen-xl">Exploring the challenge of designing rituals </h1>
+    <main class="mx-4 lg:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 <div class="mb-10 grid grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-10 lg:gap-x-24">
     <div class="order-1">Lévy, P. (2015). Exploring the challenge of designing rituals. In V., Popovic, A., Blackler, &amp; B., Kraal (Eds.), the Proceedings of 6th International Congress of International Association of Societies of Design Research, IASDR 2015. Brisbane, Australia: Queensland University of Technology.</p></div>
     <div class="order-2"></div>

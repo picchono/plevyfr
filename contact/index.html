@@ -140,7 +140,7 @@
 
 
 <body class="bckgrndImageCover min-h-screen backgrndMultiply" id="contact" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full lg:w-56 lg:rounded-lg lg:p-4"><script>
+    <div class="h-12 flex shadow-xl lg:items-end lg:h-84 lg:left-4 lg:bottom-4 lg:fixed lg:z-20 lg:bg-white lg:bg-opacity-80 lg:rounded-xl"><div class="w-full lg:w-56 lg:rounded-lg lg:p-4"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -154,7 +154,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/contact/">
             
             <a href="/"
@@ -181,7 +181,7 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -229,21 +229,19 @@
             }
         }
 </script></div></div>
-    <main class="lg:ml-96">
-    <div class="flex flex-col lg:flex-row h-full">
-        <div class="w-full lg:w-1/2 px-6 lg:px-0 align-middle mb-20 lg:mb-0 lg:mt-20">
+    <div class="w-screen gmap_canvas h-96 lg:h-screen lg:fixed lg:z-0">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=5.475826263427735%2C51.44331539120874%2C5.496854782104493%2C51.45170700729616&amp;layer=mapnik&amp;marker=51.44751139203022%2C5.486340522766113"></iframe>
+    </div>
+    <div class="flex flex-col lg:flex-row shadow-xl h-full mt-10 lg:mt-0 lg:h-auto lg:z-10 lg:fixed lg:left-60 lg:ml-4 lg:top-36 lg:px-10 lg:py-8 lg:w-96 bg-white lg:bg-opacity-80 lg:rounded-xl">
+        <div class="w-full px-6 lg:px-0 align-middle mb-20 lg:mb-0 lg:mt-4">
         
             <h2 style="text-align: left;">dr. Pierre Lévy</h2>
             <p style="text-align: left;">Eindhoven University of Technology<br/>Department of Industrial Design<br/>Atlas Bldg, 7.130<br/>5612AJ Eindhoven<br/>The Netherlands</p>
             <p class="social"><a href="/PLevy_contact.vcf" target="_blank" class="inline-block mr-4"><i class='far fa-address-card'></i></a><a href="https://www.linkedin.com/in/levypier" target="_blank" class="inline-block mr-4"><i class='fab fa-linkedin-in'></i></a><a href="https://twitter.com/PLevy_Design" target="_blank" class="inline-block mr-4"><i class='fab fa-twitter'></i></a></p>
-            <p class="mt-12 -ml-3"><a href="/PLevy_contact.vcf"><img src="/PLevy_QR2020.webp" class="w-64 p-3 qrcode"></a></p>
+            <p class="mt-12 -ml-3 mb-1"><a href="/PLevy_contact.vcf"><img src="/PLevy_QR2020.webp" class="w-64 p-3 hidden lg:inline  qrcode"></a></p>
         
         </div>
-        <div class="w-full gmap_canvas h-96 lg:h-screen">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=5.475826263427735%2C51.44331539120874%2C5.496854782104493%2C51.45170700729616&amp;layer=mapnik&amp;marker=51.44751139203022%2C5.486340522766113"></iframe>
-        </div>
     </div>
-</main>
 </body>
 </html>

@@ -127,8 +127,8 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply" id="" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:rounded-lg lg:px-4 lg:py-6"><script>
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
+    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -142,7 +142,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/fr/projects/kinectic-folds-interaction-priming/">
             
             <a href="/fr/"
@@ -169,7 +169,7 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -217,8 +217,8 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-32 lg:pt-32 lg:max-w-screen-xl">Kinectic Folds: Interaction Priming </h1>
-    <main class="mx-4 lg:ml-96 lg:mr-32 lg:max-w-screen-xl">
+    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-12 2xl:mr-32 lg:pt-32 lg:max-w-screen-xl">Kinectic Folds: Interaction Priming </h1>
+    <main class="mx-4 lg:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 
 
 
@@ -243,7 +243,7 @@
         </p>
     </div>
     
-    <div class="order-5 embed-wrapper"><iframe src="https://player.vimeo.com/video/43598541" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="order-6">By playing this movie,<br/>you accept the <a href="https://vimeo.com/terms" target="blank">Terms of Vimeo</a>.</div>
+    <div class="order-5 embed-wrapper rounded-md"><iframe src="https://player.vimeo.com/video/43598541" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="order-6">By playing this movie,<br/>you accept the <a href="https://vimeo.com/terms" target="blank">Terms of Vimeo</a>.</div>
     <div class="order-7 lg:pr-12">
 <p>The prototype was inspired by the moment of perceptual crossing that occurs when you meet a stray cat in the street, and a moment of anticipation makes time stand still, as you and the cat try to figure each other out.<br/>Using a single sheet of folded paper and embedding it with motors and custom-built touch-capacitive sensors, an object which breathes and responds to the presence of human touch was designed, creating the perception that the Kinetic Fold is alive.</p></div>
     <div class="order-8">

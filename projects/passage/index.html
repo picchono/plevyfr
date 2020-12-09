@@ -129,8 +129,8 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply" id="" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:rounded-lg lg:px-4 lg:py-6"><script>
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
+    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -144,7 +144,7 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/projects/passage/">
             
             <a href="/"
@@ -171,7 +171,7 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -219,8 +219,8 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-32 lg:pt-32 lg:max-w-screen-xl">Passage </h1>
-    <main class="mx-4 lg:ml-96 lg:mr-32 lg:max-w-screen-xl">
+    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-12 2xl:mr-32 lg:pt-32 lg:max-w-screen-xl">Passage </h1>
+    <main class="mx-4 lg:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 
 
 
@@ -245,7 +245,7 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
         </p>
     </div>
     
-    <div class="order-5 embed-wrapper"><iframe src="https://player.vimeo.com/video/41910928" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="order-6">By playing this movie,<br/>you accept the <a href="https://vimeo.com/terms" target="blank">Terms of Vimeo</a>.</div>
+    <div class="order-5 embed-wrapper rounded-md"><iframe src="https://player.vimeo.com/video/41910928" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="order-6">By playing this movie,<br/>you accept the <a href="https://vimeo.com/terms" target="blank">Terms of Vimeo</a>.</div>
     <div class="order-7 lg:pr-12">
 <p>(Excerpt from my <a href="/publications/time-of-experience/">Habilitation</a>)</p>
 <p>Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Vermeyen at the Eindhoven University of Technology. Passage focuses on the place of transition between two physical spaces, i.e. their inter-space. The project statement invites students to create a design for the inter-space without influencing the experience of either space. This statement seems a priori phenomenologically incoherent, since the experience of something external to oneself necessarily takes place in a space and requires that the user’s attention be directed at least partially towards this thing. Yet, not only does the inter-space not seem to be a space (but rather a surface), and the attention of a person passing through a door is most often directed towards the space in which they intend to travel.</p>
@@ -255,7 +255,7 @@ Passage is a project carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Ve
 </div>
     <div class="order-8">
         <div class="flex flex-col spotlight-group">
-            <a class="place-self-center mb-4 spotlight" href="https://live.staticflickr.com/65535/50588356177_dfcb7b7873_o.jpg" data-title="Passage (ChiYong Lim, Gracia Goh, Kate Vermeyen)"><img src="https://live.staticflickr.com/65535/50588356177_62ebb9c307_c.jpg" class="grey rounded-sm lg:w-96" /></a>
+            <a class="place-self-center mb-4 spotlight" href="https://live.staticflickr.com/65535/50588356177_dfcb7b7873_o.jpg" data-title="Passage (ChiYong Lim, Gracia Goh, Kate Vermeyen)"><img src="https://live.staticflickr.com/65535/50588356177_62ebb9c307_c.jpg" class="grey rounded-md lg:w-96" /></a>
         </div><script src="https://cdn.jsdelivr.net/npm/spotlight.js@0.6.6/dist/spotlight.bundle.js" integrity="sha256-+ACxOLZGYtNNlTDEWEeO3djuK1elgOdJG4t8oyP3T9E=" crossorigin="anonymous"></script>
     </div>
 </div>

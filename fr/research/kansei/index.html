@@ -127,8 +127,8 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply" id="kanseiRe" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:rounded-lg lg:px-4 lg:py-6"><script>
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="kanseiRe" >
+    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -142,7 +142,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden px-6 lg:p-0 w-full text-primary-text bg-primary-bg shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/fr/research/kansei/">
             
             <a href="/fr/"
@@ -169,7 +169,7 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row w-80 left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Light"><i class="fas fa-sun"></i></span>
                     <span class="px-2 text-gray-700 hover:text-eureka" type="Dark"><i class="fas fa-moon"></i></span>
@@ -217,193 +217,324 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-32 lg:pt-32 lg:max-w-screen-xl">Kansei studies, kansei design  <span class="text-eureka italic">Currently updating</span></h1>
-    <main class="mx-4 lg:ml-96 lg:mr-32 lg:max-w-screen-xl">
+    <h1 class="mx-4 pt-12 pb-32 lg:ml-96 lg:mr-12 2xl:mr-32 lg:pt-32 lg:max-w-screen-xl">Kansei studies, kansei design  <span class="text-eureka italic">Currently updating</span></h1>
+    <main class="mx-4 lg:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 
     <div class="align-bottom pl-12 lg:w-1/2 lg:pr-60"><p class="text-lg leading-10">A piece of waka makes your heart abate and kansei, which is a virtue of waka.<br/><span class="text italic">- Yoshida (1687)</span></p></div>
     <div>&nbsp;</div>
 </div>
-<div class="container mb-10">
+<div class="container mb-20">
     <div class="my-24 lg:mt-0">
-For over three decades, kansei engineering has expanded greatly and has become a significant discipline both in the industrial and the academic worlds. In this paper, I present the current situation of kansei engineering, and plead for the emancipation of other disciplines, as part of kansei research as well. By reconstructing the historical path of kansei research and exploring the variety of disciplines within kansei research, I point out the opportunities for kansei design to emerge. Whereas kansei engineering and kansei science have found their roots in scientifically established approaches (respectively engineering and brain science), kansei design intends to return to earlier Japanese philosophical or cultural works to rediscover the essence of kansei, and to use them as inspirational means for design. This new discipline certainly needs to be elaborated further.</div>
+For over three decades, kansei engineering has expanded greatly and has become a significant discipline both in the industrial and the academic worlds. In this paper, I present the current situation of kansei engineering, and plead for the emancipation of other disciplines, as part of kansei research as well. By reconstructing the historical path of kansei research and exploring the variety of disciplines within kansei research, I point out the opportunities for kansei design to emerge. Whereas kansei engineering and kansei science have found their roots in scientifically established approaches (respectively engineering and brain science), kansei design intends to return to earlier Japanese philosophical or cultural works to rediscover the essence of kansei, and to use them as inspirational means for design. This new discipline certainly needs to be elaborated further.
+</div>
     
     <h2 class="mb-10">Projets & Publications</h2>
     
-    <div class="grid grid-rows-1 lg:grid-cols-2 xl:grid-cols-3 gap-16">
+    <div class="grid grid-rows-1 xl:grid-cols-2 gap-16">
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/"><h5>Artefactual emptiness – On appropriation in kansei design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2020). Artefactual emptiness  - On appropriation in kansei design. Proceedings of Kansei Engineering and Emotion Research International Conference 2020, KEER2020. Tokyo, Japan: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Artefactual emptiness – On appropriation in kansei design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2020). Artefactual emptiness  - On appropriation in kansei design. Proceedings of Kansei Engineering and Emotion Research International Conference 2020, KEER2020. Tokyo, Japan: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/projects/passage/"><h5>Passage</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Passage est un projet de design kanasei réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Vermeyen à l’Université de Technologie d’Eindhoven.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/projects/passage/">
+                <div class="xl:w-1/2 px-4 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full bckgrndImageCover" style="background-image: url('https://live.staticflickr.com/65535/50588356177_62ebb9c307_z.jpg')"><h5><span class="px-2 py-1 bg-primary-bg rounded-md">Passage</span></h5></div> 
+                
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Passage est un projet de design kanasei réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Vermeyen à l’Université de Technologie d’Eindhoven.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-engineering-and-emotion-research-2018/"><h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2018, KEER 2018</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lokman, A.M., Yamanaka, T., Lévy, P., Chen, K., Koyama, S. (Eds). 2018. Proceedings of the 7th International Conference on Kansei Engineering and Emotion Research 2018 – KEER2018. Kuching, Sarawak, Malaysia. ISBN: 978-981-10-8612-0.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-engineering-and-emotion-research-2018/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2018, KEER 2018</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lokman, A.M., Yamanaka, T., Lévy, P., Chen, K., Koyama, S. (Eds). 2018. Proceedings of the 7th International Conference on Kansei Engineering and Emotion Research 2018 – KEER2018. Kuching, Sarawak, Malaysia. ISBN: 978-981-10-8612-0.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/reinventing-the-steering-wheel/"><h5>Reinventing the (steering) wheel, A kansei design approach for novel driving experience</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Kennedy, R., &amp; Lévy, P. (2016). Reinventing the (steering) wheel – A kansei design approach for novel driving experience. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/reinventing-the-steering-wheel/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Reinventing the (steering) wheel, A kansei design approach for novel driving experience</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Kennedy, R., &amp; Lévy, P. (2016). Reinventing the (steering) wheel – A kansei design approach for novel driving experience. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/perspectives-en-design-dinteraction/"><h5>Perspectives en design d’interaction</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/perspectives-en-design-dinteraction/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Perspectives en design d’interaction</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/impact-of-perception-theories-on-kansei-design/"><h5>Impact of perception theories on kansei design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2014). Impact of perception theories on kansei design. Journal of Japan Society of Kansei Engineering, 13(1), 21–26.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/impact-of-perception-theories-on-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Impact of perception theories on kansei design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2014). Impact of perception theories on kansei design. Journal of Japan Society of Kansei Engineering, 13(1), 21–26.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/perception-theories-and-kansei-design/"><h5>Perception Theories and Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2014). Perception Theories and Kansei Design. In P., Lévy, S., Schütte, &amp;amp; T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 287–297). Linköping, Sweden: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/perception-theories-and-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Perception Theories and Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2014). Perception Theories and Kansei Design. In P., Lévy, S., Schütte, &amp;amp; T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 287–297). Linköping, Sweden: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/rite-de-transition/"><h5>Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Kint, J., Klooster, S., &amp; Lévy, P. (2014). Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts. In P., Lévy, S., Schütte, &amp; T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 1115–1125). Linköping, Sweden: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/rite-de-transition/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Kint, J., Klooster, S., &amp; Lévy, P. (2014). Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts. In P., Lévy, S., Schütte, &amp; T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 1115–1125). Linköping, Sweden: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/exploring-constituents-for-kansei-design-towards-a-framework/"><h5>Exploring constituents for kansei design, towards a framework</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2013). Exploring constituents for kansei design, towards a framework. the Proceedings of 5th International Congress of International Association of Societies of Design Research, IASDR 2013 (pp 148–159). Tokyo, Japan: Shibaura University of Technology.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/exploring-constituents-for-kansei-design-towards-a-framework/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Exploring constituents for kansei design, towards a framework</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2013). Exploring constituents for kansei design, towards a framework. the Proceedings of 5th International Congress of International Association of Societies of Design Research, IASDR 2013 (pp 148–159). Tokyo, Japan: Shibaura University of Technology.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/beyond-kansei-engineering-the-emancipation-of-kansei-design/"><h5>Beyond kansei engineering: the emancipation of kansei design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2013). Beyond kansei engineering: the emancipation of kansei design. International Journal of Design. 7(2), 83–94</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/beyond-kansei-engineering-the-emancipation-of-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Beyond kansei engineering: the emancipation of kansei design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2013). Beyond kansei engineering: the emancipation of kansei design. International Journal of Design. 7(2), 83–94</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/holism-and-kansei-design-kansei-beyond-borders/"><h5>Holism and kansei design, kansei beyond borders</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2013). Holism and kansei design – kansei beyond borders, presented at the International Colloquium on Kansei and Design 2013, University of Tsukuba, Tsukuba, Japan. August 30th, 2013.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/holism-and-kansei-design-kansei-beyond-borders/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Holism and kansei design, kansei beyond borders</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2013). Holism and kansei design – kansei beyond borders, presented at the International Colloquium on Kansei and Design 2013, University of Tsukuba, Tsukuba, Japan. August 30th, 2013.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/introducing-research-activities-knowledge-sharing-and-creativity-with-kansei-design/"><h5>Introducing research activities: Knowledge Sharing and Creativity with Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2009). Introducing research activities: Knowledge Sharing and Creativity with Kansei Design. Journal of Japan Society of Kansei Engineering, 8(2)</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/introducing-research-activities-knowledge-sharing-and-creativity-with-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Introducing research activities: Knowledge Sharing and Creativity with Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2009). Introducing research activities: Knowledge Sharing and Creativity with Kansei Design. Journal of Japan Society of Kansei Engineering, 8(2)</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/involving-psychophysiological-knowledge-in-kansei-design/"><h5>Involving psychophysiological knowledge in Kansei design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Kim, D., Tsai, T.J., Lee, S.H., &amp; Yamanaka, T. (2012). Involving psychophysiological knowledge in Kansei design. International Journal of Design Engineering. 5(2), 122-141. doi:10.1504/IJDE.2012.053018</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/involving-psychophysiological-knowledge-in-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Involving psychophysiological knowledge in Kansei design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Kim, D., Tsai, T.J., Lee, S.H., &amp; Yamanaka, T. (2012). Involving psychophysiological knowledge in Kansei design. International Journal of Design Engineering. 5(2), 122-141. doi:10.1504/IJDE.2012.053018</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/the-multi-disciplinary-nature-of-kansei-research-an-historical-approach/"><h5>The multi-disciplinary nature of kansei research: an historical approach</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2012). The multi-disciplinary nature of kansei research: an historical approach. Penghu, Taiwan.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/the-multi-disciplinary-nature-of-kansei-research-an-historical-approach/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>The multi-disciplinary nature of kansei research: an historical approach</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2012). The multi-disciplinary nature of kansei research: an historical approach. Penghu, Taiwan.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/special-issue-kansei-research-in-europe/"><h5>Special issue: kansei research in Europe</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2012). Special issue: kansei research in Europe, presented at the Kansei Engineering and Emotion Research International Conference 2012, KEER2012, Penghu, Taiwan. May 22-25, 2012.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/special-issue-kansei-research-in-europe/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Special issue: kansei research in Europe</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2012). Special issue: kansei research in Europe, presented at the Kansei Engineering and Emotion Research International Conference 2012, KEER2012, Penghu, Taiwan. May 22-25, 2012.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/when-movement-invites-to-experience-a-kansei-design-exploration-on-senses-qualities/"><h5>When Movement Invites to Experience: a Kansei Design Exploration on Senses’ Qualities</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Deckers, E.J.L., &amp; Restrepo Cruz, M. (2012). When Movement Invites to Experience: a Kansei Design Exploration on Senses&#39; Qualities. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/when-movement-invites-to-experience-a-kansei-design-exploration-on-senses-qualities/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>When Movement Invites to Experience: a Kansei Design Exploration on Senses’ Qualities</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Deckers, E.J.L., &amp; Restrepo Cruz, M. (2012). When Movement Invites to Experience: a Kansei Design Exploration on Senses&#39; Qualities. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/developing-a-design-approach-exploring-resistance-and-ambiguity/"><h5>Developing a design approach, exploring resistance and ambiguity</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Trotto, A., Hummels, C.C.M., &amp; Lévy, P. (2012). Developing a design approach, exploring resistance and ambiguity. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/developing-a-design-approach-exploring-resistance-and-ambiguity/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Developing a design approach, exploring resistance and ambiguity</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Trotto, A., Hummels, C.C.M., &amp; Lévy, P. (2012). Developing a design approach, exploring resistance and ambiguity. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/making-the-world-through-kansei-3-approaches/"><h5>Making the world through kansei: 3 Approaches</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2012). Making the world through kansei: 3 Approaches, presented at Tokyo Institute of Technology, Tokyo, Japan. March 16th, 2012.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/making-the-world-through-kansei-3-approaches/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Making the world through kansei: 3 Approaches</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2012). Making the world through kansei: 3 Approaches, presented at Tokyo Institute of Technology, Tokyo, Japan. March 16th, 2012.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/psychophysiological-applications-in-kansei-design/"><h5>Psychophysiological Applications in Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Yamanaka, T., &amp; Tomico, O. (2011). Psychophysiological Applications in Kansei Design. In &amp; M., Shi (Eds.) Kansei Engineering and Soft Computing: Theory and Practice (pp. 266-286). Hershey, PA: IGI Global. http://dx.doi.org/10.4018/978-1-61692-797-4.ch015</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/psychophysiological-applications-in-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Psychophysiological Applications in Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Yamanaka, T., &amp; Tomico, O. (2011). Psychophysiological Applications in Kansei Design. In &amp; M., Shi (Eds.) Kansei Engineering and Soft Computing: Theory and Practice (pp. 266-286). Hershey, PA: IGI Global. http://dx.doi.org/10.4018/978-1-61692-797-4.ch015</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-research-in-eurasia/"><h5>Kansei research in Eurasia</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2010). Kansei research in Eurasia, presented at the the TIK Symposium 2010, Taihung, Taiwan. October 23rd, 2010.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-research-in-eurasia/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei research in Eurasia</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2010). Kansei research in Eurasia, presented at the the TIK Symposium 2010, Taihung, Taiwan. October 23rd, 2010.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-science-and-kansei-value-creation-through-kansei-behavioral-and-brain-sciences/"><h5>感性価値の高い化粧品開発にむけた手法と考え方感性認知脳科学的視点から考える感性価値創造 [Kansei Science and Kansei Value Creation through Kansei, Behavioral and Brain Sciences]</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Yamanaka, T., &amp; Lévy, P. (2010). 感性価値の高い化粧品開発にむけた手法と考え方 感性認知脳科学的視点から考える感性価値創造 [Kansei Science and Kansei Value Creation through Kansei, Behavioral and Brain Sciences]. Cosmetic Stage. 4(33), 1-11</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-science-and-kansei-value-creation-through-kansei-behavioral-and-brain-sciences/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>感性価値の高い化粧品開発にむけた手法と考え方感性認知脳科学的視点から考える感性価値創造 [Kansei Science and Kansei Value Creation through Kansei, Behavioral and Brain Sciences]</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Yamanaka, T., &amp; Lévy, P. (2010). 感性価値の高い化粧品開発にむけた手法と考え方 感性認知脳科学的視点から考える感性価値創造 [Kansei Science and Kansei Value Creation through Kansei, Behavioral and Brain Sciences]. Cosmetic Stage. 4(33), 1-11</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-engineering-and-emotion-research-2010/"><h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010, KEER 2010</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Bouchard, C., Yamanaka, T., &amp; Aoussat A. (Eds.). 2010. The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010 – KEER 2010. Paris, France. ISBN: 978-4-9905104-0-4.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-engineering-and-emotion-research-2010/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010, KEER 2010</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Bouchard, C., Yamanaka, T., &amp; Aoussat A. (Eds.). 2010. The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010 – KEER 2010. Paris, France. ISBN: 978-4-9905104-0-4.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/developing-sensory-functions-transfer-human-senses-from-contextual-perception/"><h5>Developing sensory functions: Transfer human senses from contextual perception</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Tsai, T.J., Lévy, P., Ono, K., &amp; Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, &amp; A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/developing-sensory-functions-transfer-human-senses-from-contextual-perception/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Developing sensory functions: Transfer human senses from contextual perception</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Tsai, T.J., Lévy, P., Ono, K., &amp; Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, &amp; A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/prospective-psychophysiological-approach-for-kansei-design-knowledge-sharing-between-psychophysiology-and-design/"><h5>Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Yamanaka, T., Ono, K., &amp; Watanabe, M. (2009). Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design. the Proceedings of International Association of Societies of Design Research Conference 2009 - IASDR09 ([on CD]). Seoul, Korea: Korean Society of Design Science.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/prospective-psychophysiological-approach-for-kansei-design-knowledge-sharing-between-psychophysiology-and-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Yamanaka, T., Ono, K., &amp; Watanabe, M. (2009). Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design. the Proceedings of International Association of Societies of Design Research Conference 2009 - IASDR09 ([on CD]). Seoul, Korea: Korean Society of Design Science.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-studies-description-and-mapping-through-kansei-study-keywords/"><h5>Kansei Studies Description and Mapping through Kansei Study Keywords</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2009). Kansei Studies Description and Mapping through Kansei Study Keywords. Kansei Engineering International. 8(2), 179–185.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-studies-description-and-mapping-through-kansei-study-keywords/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei Studies Description and Mapping through Kansei Study Keywords</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2009). Kansei Studies Description and Mapping through Kansei Study Keywords. Kansei Engineering International. 8(2), 179–185.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/methods-and-means-for-kansei-design/"><h5>Methods and Means for Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Tsai, T.J., Lévy, P., Ono, K., &amp; Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, &amp; A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/methods-and-means-for-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Methods and Means for Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Tsai, T.J., Lévy, P., Ono, K., &amp; Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, &amp; A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/neural-networks-involved-in-artistic-creativity/"><h5>Neural networks involved in artistic creativity</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Kowatari, Y., Lee, S.H., Yamamura, H., Nagamori, Y., Lévy, P., Yamane, S., &amp; Yamamoto, Y. (2009). Neural networks involved in artistic creativity. Human Brain Mapping. 30(5), 1678–1690. doi:10.1002/hbm.20633</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/neural-networks-involved-in-artistic-creativity/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Neural networks involved in artistic creativity</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Kowatari, Y., Lee, S.H., Yamamura, H., Nagamori, Y., Lévy, P., Yamane, S., &amp; Yamamoto, Y. (2009). Neural networks involved in artistic creativity. Human Brain Mapping. 30(5), 1678–1690. doi:10.1002/hbm.20633</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/lier-affectivite-et-conception-ingenierie-kansei/"><h5>Lier Affectivité et Conception: l’Ingénierie Kansei</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2008). Lier Affectivité et Conception: l’Ingénierie Kansei. Techniques de l&#39;Ingénieur, AG2140v1</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/lier-affectivite-et-conception-ingenierie-kansei/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Lier Affectivité et Conception: l’Ingénierie Kansei</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2008). Lier Affectivité et Conception: l’Ingénierie Kansei. Techniques de l&#39;Ingénieur, AG2140v1</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-engineering-science-rrans-interdisciplinary-research/"><h5>Kansei Engineering|Science, Trans|Interdisciplinary Research</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2008). Kansei Engineering|Science – Trans|Interdisciplinary Research, presented at the KEER International Symposium 2008, Taipei, Taiwan. October 2nd, 2008.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-engineering-science-rrans-interdisciplinary-research/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei Engineering|Science, Trans|Interdisciplinary Research</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2008). Kansei Engineering|Science – Trans|Interdisciplinary Research, presented at the KEER International Symposium 2008, Taipei, Taiwan. October 2nd, 2008.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/designing-based-on-the-evoked-metaphor-case-study/"><h5>Designing based on the evoked metaphor, Case study</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2008). Designing based on the evoked metaphor - Case study. In D., Marjanovic, M., Storga, N., Pavkovic, &amp; N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 1095 – 1104). Dubrovnik, Croatia.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/designing-based-on-the-evoked-metaphor-case-study/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Designing based on the evoked metaphor, Case study</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2008). Designing based on the evoked metaphor - Case study. In D., Marjanovic, M., Storga, N., Pavkovic, &amp; N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 1095 – 1104). Dubrovnik, Croatia.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-physiological-measurements-and-contructivist-psychological-explorations-for-approaching-user-subjective-experience-during-and-after-product-usage/"><h5>Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Tomico, O., Mizutani, N., Lévy, P., Takahiro, Y., &amp; Yamanaka, T. (2008). Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage. In D., Marjanovic, M., Storga, N., Pavkovic, &amp; N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 529 – 536). Dubrovnik, Croatia.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-physiological-measurements-and-contructivist-psychological-explorations-for-approaching-user-subjective-experience-during-and-after-product-usage/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Tomico, O., Mizutani, N., Lévy, P., Takahiro, Y., &amp; Yamanaka, T. (2008). Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage. In D., Marjanovic, M., Storga, N., Pavkovic, &amp; N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 529 – 536). Dubrovnik, Croatia.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/explaining-kansei-design-studies/"><h5>Explaining kansei design studies</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Nakamori, S., &amp; Yamanaka, T. (2008). Explaining kansei design studies. In P.M.A., Desmet, S., Tsvetanova, P., Hekkert, &amp; L., Justice (Eds.), the Proceedings of Design and Emotion Conference 2008 - D&amp;E08. Hong-Kong: School of Design, The Hong Kong Polytechnic University.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/explaining-kansei-design-studies/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Explaining kansei design studies</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Nakamori, S., &amp; Yamanaka, T. (2008). Explaining kansei design studies. In P.M.A., Desmet, S., Tsvetanova, P., Hekkert, &amp; L., Justice (Eds.), the Proceedings of Design and Emotion Conference 2008 - D&amp;E08. Hong-Kong: School of Design, The Hong Kong Polytechnic University.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-studies-description-and-mapping-through-kansei-studies-keywords/"><h5>Kansei Studies Description and Mapping through Kansei Studies Keywords</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2008). Kansei Studies Description and Mapping through Kansei Studies Keywords. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08. Daejeon, Korea.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-studies-description-and-mapping-through-kansei-studies-keywords/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei Studies Description and Mapping through Kansei Studies Keywords</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2008). Kansei Studies Description and Mapping through Kansei Studies Keywords. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08. Daejeon, Korea.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-physiological-measurements-and-constructivist-psychological-explorations-for-approaching-users-subjective-experience-during-and-after-the-product-use/"><h5>Kansei-Physiological Measurements and Constructivist, Psychological Explorations for Approaching User’s Subjective Experience during and after the Product Use</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Yamanaka, T., Tomico, O., Mizutani, N., Yokoi, T., Cho, Y., &amp; Lévy, P. (2008). Kansei-Physiological Measurements and Constructivist – Psychological Explorations for Approaching User&#39;s Subjective Experience during and after the Product Use. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08 ([on CD]). Daejeon, Korea.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-physiological-measurements-and-constructivist-psychological-explorations-for-approaching-users-subjective-experience-during-and-after-the-product-use/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei-Physiological Measurements and Constructivist, Psychological Explorations for Approaching User’s Subjective Experience during and after the Product Use</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Yamanaka, T., Tomico, O., Mizutani, N., Yokoi, T., Cho, Y., &amp; Lévy, P. (2008). Kansei-Physiological Measurements and Constructivist – Psychological Explorations for Approaching User&#39;s Subjective Experience during and after the Product Use. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08 ([on CD]). Daejeon, Korea.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/interdisciplinary-design-method-for-ecodesign-introducing-kansei-research-for-design-to-ecodesign/"><h5>Interdisciplinary Design Method for EcoDesign, Introducing Kansei research for design to EcoDesign</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2007). Interdisciplinary Design Method for EcoDesign – Introducing Kansei research for design to EcoDesign. the Proceedings of 5th International Symposium on Environmentally Conscious Design and Inverse Manufacturing - EcoDesign2007 ([on CD]). Tokyo, Japan.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/interdisciplinary-design-method-for-ecodesign-introducing-kansei-research-for-design-to-ecodesign/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Interdisciplinary Design Method for EcoDesign, Introducing Kansei research for design to EcoDesign</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2007). Interdisciplinary Design Method for EcoDesign – Introducing Kansei research for design to EcoDesign. the Proceedings of 5th International Symposium on Environmentally Conscious Design and Inverse Manufacturing - EcoDesign2007 ([on CD]). Tokyo, Japan.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-and-kansei-studies-an-overview-towards-kansei-design/"><h5>Kansei and Kansei Studies: an Overview towards Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2008). Kansei and Kansei Studies: an Overview towards Kansei Design, presented at the the International Symposium of the 21th Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart, Tsukuba, Japan. September 9th, 2007.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-and-kansei-studies-an-overview-towards-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei and Kansei Studies: an Overview towards Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2008). Kansei and Kansei Studies: an Overview towards Kansei Design, presented at the the International Symposium of the 21th Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart, Tsukuba, Japan. September 9th, 2007.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/creating-an-evoked-metaphor-for-kansei-design/"><h5>Creating an Evoked Metaphor for Kansei Design</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., Yamanaka, T., Wang, L., &amp; Igarashi, H. (2007). Creating an Evoked Metaphor for Kansei Design. the Proceedings of International Conference on Kansei Engineering and Emotion Research - KEER07 ([on CD]). Sapporo, Japan.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/creating-an-evoked-metaphor-for-kansei-design/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Creating an Evoked Metaphor for Kansei Design</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., Yamanaka, T., Wang, L., &amp; Igarashi, H. (2007). Creating an Evoked Metaphor for Kansei Design. the Proceedings of International Conference on Kansei Engineering and Emotion Research - KEER07 ([on CD]). Sapporo, Japan.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/towards-a-definition-of-kansei/"><h5>Towards a definition of Kansei</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2006). Towards a definition of Kansei. the Proceedings of 2006 Design Research Society International Conference, Wonderground 2006 ([on CD]). Lisbon, Portugal.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/towards-a-definition-of-kansei/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Towards a definition of Kansei</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2006). Towards a definition of Kansei. the Proceedings of 2006 Design Research Society International Conference, Wonderground 2006 ([on CD]). Lisbon, Portugal.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/interdisciplinary-workgroup-methodology-based-on-intuition-application-to-a-communication-tool-design-based-on-kansei-information-approach/"><h5>Interdisciplinary workgroup methodology based on Intuition, Application to a communication tool design based on Kansei information approach</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2006). Interdisciplinary workgroup methodology based on Intuition – Application to a communication tool design based on Kansei information approach. Kansei Engineering International. 5(4), 31–40.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/interdisciplinary-workgroup-methodology-based-on-intuition-application-to-a-communication-tool-design-based-on-kansei-information-approach/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Interdisciplinary workgroup methodology based on Intuition, Application to a communication tool design based on Kansei information approach</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2006). Interdisciplinary workgroup methodology based on Intuition – Application to a communication tool design based on Kansei information approach. Kansei Engineering International. 5(4), 31–40.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/matik-cmc-design-by-kansei-information-approach/"><h5>MATiK, CMC design by Kansei Information approach</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2006). MATiK – CMC design by Kansei Information approach. the Proceedings of Kansei Engineering and Intelligent Systems - KEIS&#39;06 ([on CD]). Aizu, Japan</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/matik-cmc-design-by-kansei-information-approach/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>MATiK, CMC design by Kansei Information approach</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2006). MATiK – CMC design by Kansei Information approach. the Proceedings of Kansei Engineering and Intelligent Systems - KEIS&#39;06 ([on CD]). Aizu, Japan</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/kansei-information-approach-for-an-interdisciplinary-design-method-proposal-based-on-intuition/"><h5>Kansei information approach for an interdisciplinary design method proposal based on intuition</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2006). Kansei information approach for an interdisciplinary design method proposal based on intuition. In D., Marjanovic (Eds.), the Proceedings of 9th International Design Conference 2006 (pp 1475 – 1482). Dubrovnik, Croatia.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/kansei-information-approach-for-an-interdisciplinary-design-method-proposal-based-on-intuition/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Kansei information approach for an interdisciplinary design method proposal based on intuition</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2006). Kansei information approach for an interdisciplinary design method proposal based on intuition. In D., Marjanovic (Eds.), the Proceedings of 9th International Design Conference 2006 (pp 1475 – 1482). Dubrovnik, Croatia.</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/interdisciplinary-design-for-the-cyberspaceby-an-approach-in-kansei-information-methodology-and-workgroup-communication-tool-design-approach-in-kansei/"><h5>Interdisciplinary design for the cyberspace by an approach in kansei information, Methodology and Workgroup Communication Tool Design Approach in Kansei</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P. (2006). Interdisciplinary design for the cyberspace by an approach in kansei information – Methodology and Workgroup Communication Tool Design Approach in Kansei. University of Tsukuba, Japan</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/interdisciplinary-design-for-the-cyberspaceby-an-approach-in-kansei-information-methodology-and-workgroup-communication-tool-design-approach-in-kansei/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Interdisciplinary design for the cyberspace by an approach in kansei information, Methodology and Workgroup Communication Tool Design Approach in Kansei</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P. (2006). Interdisciplinary design for the cyberspace by an approach in kansei information – Methodology and Workgroup Communication Tool Design Approach in Kansei. University of Tsukuba, Japan</p>
+                </div>
             </a>
         
-            <a class="pb-2 researchbox" href="https://plevy.fr/fr/publications/introducing-matik-service-proposition-for-a-new-it-communication-system-through-an-approach-in-kansei/"><h5>Introducing MATiK service, Proposition for a new IT communication system through an approach in Kansei</h5>
-                <p class="px-6 py-4 border-l border-secondary-text">Lévy, P., &amp; Yamanaka, T. (2004). Introducing MATiK service – Proposition for a new IT communication system through an approach in Kansei. the Proceedings of 2004 Design Research Society International Conference - Futureground 2004 ([on CD]). Melbourne, Australia: Monash University.</p>
+            <a class="researchbox rrounded-xl border lg:border-0 lg:shadow-lg lg:hover:shadow-2xl duration-500 ease-in-out flex flex-col xl:flex-row p-0 w-full bg-primary-bg hover:bg-secondary-bg transition-all" href="https://plevy.fr/fr/publications/introducing-matik-service-proposition-for-a-new-it-communication-system-through-an-approach-in-kansei/">
+                <div class="xl:w-1/2 px-6 pt-4 rounded-t-md xl:rounded-t-none xl:rounded-l-md w-full h-auto xl:h-full"><h5>Introducing MATiK service, Proposition for a new IT communication system through an approach in Kansei</h5></div> 
+                <div class="xl:w-1/2 px-6 pt-4 bg-secondary-bg rounded-b-md xl:rounded-b-none xl:rounded-r-md">
+                   <p class="">Lévy, P., &amp; Yamanaka, T. (2004). Introducing MATiK service – Proposition for a new IT communication system through an approach in Kansei. the Proceedings of 2004 Design Research Society International Conference - Futureground 2004 ([on CD]). Melbourne, Australia: Monash University.</p>
+                </div>
             </a>
         
-    </div>
+    </div>    
 </div>
 
 <script>
