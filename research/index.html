@@ -190,20 +190,19 @@
                 </div>
             
             <div class="relative">
-                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden w-auto cursor-pointer z-40"
+                <div class="absolute bg-secondary-bg flex flex-row left-auto right-0 hidden rounded-md w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
-                    <div class="inline-block pl-2 text-primary-text hover:text-eureka" type="Light"><span class="icon-light-up"></span></div>
                     <div class="inline-block pl-2 text-primary-text hover:text-eureka" type="Dark"><span class="icon-star"></span></div>
-                    <div class="inline-block pl-2 text-primary-text hover:text-eureka" type="Auto"><span class="icon-adjust"></span></div>
+                    <div class="inline-block px-2 text-primary-text hover:text-eureka" type="Light"><span class="icon-light-up"></span></div>
                 </div>
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
                     <span class="icon-adjust"></span>
-                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open"></div>
+                <div class="fixed hidden" id="is-open"></div>
             </div>
         </div>
     </div>
 
-    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile"></div>
+    <div class="fixed hidden" id="is-open-mobile"></div>
 
 </nav>
 <script>
