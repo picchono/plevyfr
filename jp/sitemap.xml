@@ -238,6 +238,26 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/jp/about/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://plevy.fr/jp/about/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/jp/tags/linkedin/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -274,26 +294,6 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://plevy.fr/jp/tags/pro/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/jp/cv/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/cv/"
                 />
   </url>
   

@@ -283,22 +283,22 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/cv/</loc>
+    <loc>https://plevy.fr/about/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/cv/"
+                href="https://plevy.fr/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://plevy.fr/jp/cv/"
+                href="https://plevy.fr/jp/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://plevy.fr/cv/"
+                href="https://plevy.fr/about/"
                 />
   </url>
   
@@ -358,17 +358,17 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/cv/complete/</loc>
+    <loc>https://plevy.fr/about/complete/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/cv/complete/"
+                href="https://plevy.fr/fr/about/complete/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://plevy.fr/cv/complete/"
+                href="https://plevy.fr/about/complete/"
                 />
   </url>
   
