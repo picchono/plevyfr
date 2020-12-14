@@ -33,8 +33,6 @@
 <script defer src="https://plevy.fr/js/eureka.min.js"></script>
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css" media="all">
-<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"></script>
 
 <meta itemprop="name" content="Pierre Lévy | plevy.fr">
 <meta itemprop="description"
@@ -98,7 +96,7 @@
 
 
 <link rel="alternate" type="application/rss+xml" href="https://plevy.fr/fr/index.xml" title="plevy.fr" />
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed transition-all duration-700 ease-in-out" id="home"  style="background-image: url('https://plevy.fr/PLevy_front.webp')" >
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="home"  style="background-image: url('https://plevy.fr/PLevy_front.webp')" >
     <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
@@ -113,7 +111,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all duration-700 ease-in-out px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/fr/">
             
             <a href="/fr/"
@@ -216,11 +214,6 @@ Pays-Bas</p></div>
         <a class="block mb-2 p-4 rounded-md border bg-primary-bg lg:bg-transparent lg:hover:shadow-xl lg:transition-all lg:duration-500 lg:ease-in-out" href="https://plevy.fr/fr/publications/3d-modeling-and-3d-printing-explorations-on-japanese-tea-ceremony-utensils/">3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils<p class="date" >23 March 2017</p></a>
 	
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', ()=>{
-        hljs.initHighlightingOnLoad();
-    })
-</script>
 
     </main>
 </body>

@@ -31,8 +31,6 @@
 <script defer src="https://plevy.fr/js/eureka.min.js"></script>
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css" media="all">
-<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"></script>
 
 <meta itemprop="name" content="dr. Pierre Lévy, HDR | plevy.fr">
 <meta itemprop="description"
@@ -140,7 +138,7 @@
 
 
 <link rel="alternate" type="application/rss+xml" href="https://plevy.fr/about/index.xml" title="plevy.fr" />
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed transition-all duration-700 ease-in-out" id="cv" >
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="cv" >
     <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-lg lg:px-4 lg:py-6"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
@@ -155,7 +153,7 @@
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all duration-700 ease-in-out px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
         <div class="menu flex-col flex lg:pb-0 mb-20" id="current-url" currenturl="https://plevy.fr/about/">
             
             <a href="/"
@@ -274,11 +272,11 @@
             
              | <strong><i>Transforming Practices (TP)</i> educational project group leader</strong> (Since 2018)
             
-             | <strong><i>Vitality</i> educational project group leader</strong> (2016 - 2018)
-            
              | <strong>Member of the ICT committee of TU/e.ID</strong> (Since 2016)
             
              | <strong>Fellowship at d.school Paris, France</strong> (2016 - 2018)
+            
+             | <strong><i>Vitality</i> educational project group leader</strong> (2016 - 2018)
             
              | <strong>Education coordinator of TU/e.ID</strong> (2015 - 2016)
             
@@ -312,11 +310,6 @@
     
     
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        hljs.initHighlightingOnLoad();
-    })
-</script>
 
     </main>
 </body>
