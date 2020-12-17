@@ -776,4 +776,23 @@
                 />
   </url>
   
+  <url>
+    <loc>https://plevy.fr/jp/404/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/404/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/404/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://plevy.fr/jp/404/"
+                />
+  </url>
+  
 </urlset>
