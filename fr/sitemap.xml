@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://plevy.fr/fr/topics/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/topics/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/tags/design/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
@@ -209,6 +224,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/research/everyday/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/search/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/search/"
                 />
   </url>
   
