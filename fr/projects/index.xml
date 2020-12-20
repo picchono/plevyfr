@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on plevy.fr</title>
+    <title>Projets on plevy.fr</title>
     <link>https://plevy.fr/fr/projects/</link>
-    <description>Recent content in Projects on plevy.fr</description>
+    <description>Recent content in Projets on plevy.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 26 Apr 2020 13:38:26 +0200</lastBuildDate><atom:link href="https://plevy.fr/fr/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2020 20:03:12 +0200</lastBuildDate><atom:link href="https://plevy.fr/fr/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transforming Practices squad</title>
       <link>https://plevy.fr/fr/projects/transforming-practices-squad/</link>
