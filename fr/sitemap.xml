@@ -823,6 +823,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/fr/tags/ritual-everyday-design-education/</loc>
+    <lastmod>2018-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/ritual-everyday-design-education/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/ritual-everyday-design-education/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/projects/haiku-cocoa/</loc>
     <lastmod>2018-09-03T16:27:15+02:00</lastmod>
     <xhtml:link
@@ -1089,21 +1104,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/composing-everyday-rituals/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/fr/tags/ritual-everyday-design-education/</loc>
-    <lastmod>2015-09-01T14:55:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/ritual-everyday-design-education/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/ritual-everyday-design-education/"
                 />
   </url>
   
