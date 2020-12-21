@@ -472,11 +472,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/project/project-coaching-tue/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/project/project-coaching-tue/"
                 />
@@ -582,11 +577,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/matter-of-transformation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/matter-of-transformation/"
                 />
@@ -662,11 +652,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/design-for-social-innovation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/design-for-social-innovation/"
                 />
@@ -679,11 +664,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/bachelor/perspectives-on-aesthetics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/perspectives-on-aesthetics/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -807,11 +787,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/design-for-debate/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/bachelor/design-for-debate/"
                 />
@@ -839,11 +814,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/bachelor/designing-for-the-everyday/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/designing-for-the-everyday/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -973,26 +943,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/fr/teaching/master/composing-everyday-rituals/</loc>
-    <lastmod>2016-09-04T00:55:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/teaching/master/composing-everyday-rituals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/composing-everyday-rituals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/teaching/master/composing-everyday-rituals/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/fr/publications/what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals/</loc>
     <lastmod>2016-09-02T23:06:45+02:00</lastmod>
     <xhtml:link
@@ -1107,11 +1057,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/designing-for-the-here-and-the-now-2/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/bachelor/designing-for-the-here-and-the-now-2/"
                 />
@@ -1127,13 +1072,38 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/from-idea-to-design/"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/from-idea-to-design/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/teaching/master/composing-everyday-rituals/</loc>
+    <lastmod>2015-09-01T14:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/composing-everyday-rituals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/teaching/bachelor/from-idea-to-design/"
+                href="https://plevy.fr/fr/teaching/master/composing-everyday-rituals/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/tags/ritual-everyday-design-education/</loc>
+    <lastmod>2015-09-01T14:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/ritual-everyday-design-education/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/ritual-everyday-design-education/"
                 />
   </url>
   
@@ -1168,17 +1138,72 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/fr/tags/everyday/</loc>
+    <lastmod>2014-12-01T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/everyday/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/everyday/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/tags/ritual/</loc>
+    <lastmod>2014-12-01T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/ritual/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/ritual/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/tags/tea/</loc>
+    <lastmod>2014-12-01T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/tea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/tea/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/projects/tea-together/</loc>
+    <lastmod>2014-12-01T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/tea-together/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/tea-together/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/teaching/master/designing-for-rituals/</loc>
     <lastmod>2014-11-04T00:55:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/master/designing-for-rituals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/designing-for-rituals/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1317,11 +1342,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/designing-for-the-here-and-the-now/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/bachelor/designing-for-the-here-and-the-now/"
                 />
@@ -1439,11 +1459,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/bachelor/from-idea-to-concept/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/from-idea-to-concept/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1597,11 +1612,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/designing-quality-in-interaction-dqi-theory/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/designing-quality-in-interaction-dqi-theory/"
                 />
@@ -1617,11 +1627,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/glow-festival-workshop/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/glow-festival-workshop/"
                 />
@@ -1634,11 +1639,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/project/dschool-me310/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/project/dschool-me310/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1822,11 +1822,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/kansei-design-exploring-values-in-experience/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/bachelor/kansei-design-exploring-values-in-experience/"
                 />
@@ -1842,11 +1837,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/sensual-dynamics/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/sensual-dynamics/"
                 />
@@ -1859,11 +1849,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/bachelor/a-voyage-provoking-a-cultural-clash-to-inspire-design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/bachelor/a-voyage-provoking-a-cultural-clash-to-inspire-design/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2047,11 +2032,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/service-product-design/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/service-product-design/"
                 />
@@ -2172,11 +2152,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/master/product-design-methods/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/teaching/master/product-design-methods/"
                 />
@@ -2249,11 +2224,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/teaching/doctoral/prospective-psychophysiological-approach-for-kansei-design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/teaching/doctoral/prospective-psychophysiological-approach-for-kansei-design/"
                 />
     <xhtml:link
                 rel="alternate"

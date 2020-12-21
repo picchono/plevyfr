@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ritual on plevy.fr</title>
+    <link>https://plevy.fr/fr/tags/ritual/</link>
+    <description>Recent content in ritual on plevy.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 01 Dec 2014 16:27:15 +0200</lastBuildDate><atom:link href="https://plevy.fr/fr/tags/ritual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tea Together</title>
+      <link>https://plevy.fr/fr/projects/tea-together/</link>
+      <pubDate>Mon, 01 Dec 2014 16:27:15 +0200</pubDate>
+      
+      <guid>https://plevy.fr/fr/projects/tea-together/</guid>
+      <description>Elective: Composing everyday ritualsStudents: Gabriele Barzilai, Roy Gevers, Thijs Hesby Roeleven, Xihao Hu, Yijun Yu, Huan Zhang</description>
+    </item>
+    
+  </channel>
+</rss>
