@@ -1600,6 +1600,16 @@
   <url>
     <loc>https://plevy.fr/projects/dqi-theory/</loc>
     <lastmod>2011-09-03T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/dqi-theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/dqi-theory/"
+                />
   </url>
   
   <url>
