@@ -173,6 +173,31 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://plevy.fr/jp/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/teachjson/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/tags/tranforming-practices/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
@@ -453,6 +478,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/project/project-coaching-tue/</loc>
+    <lastmod>2020-09-01T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/project/project-coaching-tue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/project/project-coaching-tue/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/</loc>
     <lastmod>2020-08-30T17:03:37+02:00</lastmod>
     <xhtml:link
@@ -603,6 +643,36 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/master/design-for-social-innovation/</loc>
+    <lastmod>2019-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/design-for-social-innovation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/design-for-social-innovation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/perspectives-on-aesthetics/</loc>
+    <lastmod>2019-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/perspectives-on-aesthetics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/perspectives-on-aesthetics/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/projects/design-30-forum/</loc>
     <lastmod>2019-09-03T16:27:15+02:00</lastmod>
     <xhtml:link
@@ -689,6 +759,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/publications/time-of-experience/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/design-for-debate/</loc>
+    <lastmod>2018-11-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/design-for-debate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/design-for-debate/"
                 />
   </url>
   
@@ -993,6 +1078,51 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/bachelor/designing-for-the-here-and-the-now-2/</loc>
+    <lastmod>2015-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/designing-for-the-here-and-the-now-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/designing-for-the-here-and-the-now-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/from-idea-to-concept/</loc>
+    <lastmod>2015-09-02T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/from-idea-to-concept/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/from-idea-to-concept/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/from-idea-to-design/</loc>
+    <lastmod>2015-09-02T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/from-idea-to-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/from-idea-to-design/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/projects/composing-everyday-rituals/</loc>
     <lastmod>2015-09-01T14:55:28+02:00</lastmod>
     <xhtml:link
@@ -1034,6 +1164,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/projects/experiential-design-landscapes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/master/designing-for-rituals/</loc>
+    <lastmod>2014-11-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/designing-for-rituals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/designing-for-rituals/"
                 />
   </url>
   
@@ -1199,6 +1344,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/publications/beyond-kansei-engineering-the-emancipation-of-kansei-design/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/designing-for-the-here-and-the-now/</loc>
+    <lastmod>2013-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/designing-for-the-here-and-the-now/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/designing-for-the-here-and-the-now/"
                 />
   </url>
   
@@ -1593,6 +1753,36 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/master/designing-quality-in-interaction-dqi-theory/</loc>
+    <lastmod>2011-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/designing-quality-in-interaction-dqi-theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/designing-quality-in-interaction-dqi-theory/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/master/glow-festival-workshop/</loc>
+    <lastmod>2011-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/glow-festival-workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/glow-festival-workshop/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/projects/dqi-theory/</loc>
     <lastmod>2011-09-03T16:27:15+02:00</lastmod>
     <xhtml:link
@@ -1604,6 +1794,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/projects/dqi-theory/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/project/dschool-me310/</loc>
+    <lastmod>2011-09-01T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/project/dschool-me310/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/project/dschool-me310/"
                 />
   </url>
   
@@ -1773,6 +1978,51 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/bachelor/kansei-design-exploring-values-in-experience/</loc>
+    <lastmod>2009-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/kansei-design-exploring-values-in-experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/kansei-design-exploring-values-in-experience/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/master/sensual-dynamics/</loc>
+    <lastmod>2009-09-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/sensual-dynamics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/sensual-dynamics/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/bachelor/a-voyage-provoking-a-cultural-clash-to-inspire-design/</loc>
+    <lastmod>2009-09-01T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/bachelor/a-voyage-provoking-a-cultural-clash-to-inspire-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/bachelor/a-voyage-provoking-a-cultural-clash-to-inspire-design/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/publications/colourful-rain-experiencing-synaesthesia/</loc>
     <lastmod>2009-08-22T21:06:57+02:00</lastmod>
     <xhtml:link
@@ -1938,6 +2188,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/master/service-product-design/</loc>
+    <lastmod>2008-04-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/service-product-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/service-product-design/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/publications/explaining-kansei-design-studies/</loc>
     <lastmod>2008-03-25T20:31:02+01:00</lastmod>
     <xhtml:link
@@ -2043,6 +2308,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/teaching/master/product-design-methods/</loc>
+    <lastmod>2007-04-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/master/product-design-methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/master/product-design-methods/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/publications/towards-a-definition-of-kansei/</loc>
     <lastmod>2006-09-29T19:13:29+02:00</lastmod>
     <xhtml:link
@@ -2099,6 +2379,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/publications/kansei-information-approach-for-an-interdisciplinary-design-method-proposal-based-on-intuition/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/teaching/doctoral/prospective-psychophysiological-approach-for-kansei-design/</loc>
+    <lastmod>2006-04-04T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/teaching/doctoral/prospective-psychophysiological-approach-for-kansei-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/teaching/doctoral/prospective-psychophysiological-approach-for-kansei-design/"
                 />
   </url>
   
