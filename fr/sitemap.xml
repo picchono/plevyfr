@@ -1073,6 +1073,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/fr/projects/designing-rituals/</loc>
+    <lastmod>2014-11-03T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/designing-rituals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/designing-rituals/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/publications/impact-of-perception-theories-on-kansei-design/</loc>
     <lastmod>2014-09-06T13:36:40+02:00</lastmod>
     <xhtml:link
@@ -1129,6 +1144,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/publications/rite-de-transition/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/projects/data-resonance/</loc>
+    <lastmod>2014-06-03T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/data-resonance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/data-resonance/"
                 />
   </url>
   
@@ -1429,6 +1459,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/projects/passage/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/projects/practice-cdr/</loc>
+    <lastmod>2012-09-03T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/practice-cdr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/practice-cdr/"
                 />
   </url>
   
