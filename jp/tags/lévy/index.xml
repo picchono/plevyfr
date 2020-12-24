@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lévy on plevy.fr</title>
+    <link>https://plevy.fr/jp/tags/l%C3%A9vy/</link>
+    <description>Recent content in Lévy on plevy.fr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 24 Oct 2020 00:55:28 +0200</lastBuildDate><atom:link href="https://plevy.fr/jp/tags/l%C3%A9vy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pierre Lévy</title>
+      <link>https://plevy.fr/jp/</link>
+      <pubDate>Sat, 24 Oct 2020 00:55:28 +0200</pubDate>
+      
+      <guid>https://plevy.fr/jp/</guid>
+      <description>レヴィ・ピエール 機械工学修士 感性科学博士 情報通信科学の研究指導資格 (HDR - フランスにおける博士論文指導資格)
+助教 オランダ・アイントホーフェン工科大学(TU/e) デザイン学部 Systemic Change 研究所 Transforming Practices 研究チーム</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://plevy.fr/jp/contact/</link>
+      <pubDate>Fri, 16 Oct 2020 20:03:12 +0200</pubDate>
+      
+      <guid>https://plevy.fr/jp/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dr. Pierre Lévy, HDR</title>
+      <link>https://plevy.fr/jp/about/</link>
+      <pubDate>Fri, 16 Oct 2020 20:03:12 +0200</pubDate>
+      
+      <guid>https://plevy.fr/jp/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
