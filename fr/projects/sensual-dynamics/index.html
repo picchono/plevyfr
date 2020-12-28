@@ -132,12 +132,12 @@
     }
 </script>
 <nav class="flex flex-col items-left w-full h-12 lg:h-auto">
-    <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6">
+    <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6">
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
-        <div class="menu flex-col flex lg:pb-0 mb-10" id="current-url" currenturl="https://plevy.fr/fr/projects/sensual-dynamics/">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none ">
+        <div class="menu flex-col flex lg:p-6 lg:pb-0 mb-1" id="current-url" currenturl="https://plevy.fr/fr/projects/sensual-dynamics/">
             
             <a href="/fr/"
                 class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-eureka">Accueil</a>
@@ -159,7 +159,7 @@
             
         </div>
 
-        <div class="flex flow-col justify-between pb-10 lg:pb-0">
+        <div class="flex flow-col justify-between lg:p-6">
             
                 <div id="languageMode">
                     <span class="font-bold">FR</span>&nbsp;|&nbsp;<a href="https://plevy.fr/projects/sensual-dynamics/">EN</a>
@@ -172,9 +172,13 @@
                     <div class="inline-block pl-2 text-primary-text hover:text-eureka" type="Light"><span class="icon-light-up"></span></div>
                 </div>
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <span class="icon-adjust"></span>
-                <div class="fixed hidden" id="is-open"></div>
+                    <span class="icon-adjust"></span><div class="fixed hidden" id="is-open"></div>
+                </div>
             </div>
+        </div>
+        <div class="bg-secondary-bg mt-2 w-full pt-4 pb-10 flex flex-row justify-between content-center lg:px-6 lg:py-3"> 
+            <div class=""><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="mr-4"><img src="https://creativecommons.org/images/chooser/chooser_cc.png" class="w-5 mr-1 inline-block"><img src="https://creativecommons.org/images/chooser/chooser_by.png" class="w-5 mr-1 inline-block"><img src="https://creativecommons.org/images/chooser/chooser_nc.png" class="w-5 mr-1 inline-block"></a></div>
+            <div class=""><a href="https://gohugo.io/" target="_blank"><img src='/hugo_logo.svg' class="w-5 inline-block"></a></div>
         </div>
     </div>
 

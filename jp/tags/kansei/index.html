@@ -121,7 +121,7 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://plevy.fr/jp/tags/kansei/index.xml" title="plevy.fr" />
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-screen lg:fixed"><div class="w-full bg-primary-bg lg:w-56 lg:ml-4 lg:mb-2 lg:rounded-sm lg:px-4 lg:py-6"><script>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -131,12 +131,12 @@
     }
 </script>
 <nav class="flex flex-col items-left w-full h-12 lg:h-auto">
-    <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6">
+    <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6">
         <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
     </div>
 
-    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
-        <div class="menu flex-col flex lg:pb-0 mb-10" id="current-url" currenturl="https://plevy.fr/jp/tags/kansei/">
+    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-6 lg:p-0 w-full text-primary-text shadow-lg z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none ">
+        <div class="menu flex-col flex lg:p-6 lg:pb-0 mb-1" id="current-url" currenturl="https://plevy.fr/jp/tags/kansei/">
             
             <a href="/jp/"
                 class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-eureka">ホーム</a>
@@ -149,7 +149,7 @@
             
         </div>
 
-        <div class="flex flow-col justify-between pb-10 lg:pb-0">
+        <div class="flex flow-col justify-between lg:p-6">
             
                 <div id="languageMode">
                     <span class="font-bold">JP</span>&nbsp;|&nbsp;<a href="https://plevy.fr/tags/kansei/">EN</a>&nbsp;|&nbsp;<a href="https://plevy.fr/fr/tags/kansei/">FR</a>
@@ -162,9 +162,13 @@
                     <div class="inline-block pl-2 text-primary-text hover:text-eureka" type="Light"><span class="icon-light-up"></span></div>
                 </div>
                 <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
-                    <span class="icon-adjust"></span>
-                <div class="fixed hidden" id="is-open"></div>
+                    <span class="icon-adjust"></span><div class="fixed hidden" id="is-open"></div>
+                </div>
             </div>
+        </div>
+        <div class="bg-secondary-bg mt-2 w-full pt-4 pb-10 flex flex-row justify-between content-center lg:px-6 lg:py-3"> 
+            <div class=""><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="mr-4"><img src="https://creativecommons.org/images/chooser/chooser_cc.png" class="w-5 mr-1 inline-block"><img src="https://creativecommons.org/images/chooser/chooser_by.png" class="w-5 mr-1 inline-block"><img src="https://creativecommons.org/images/chooser/chooser_nc.png" class="w-5 mr-1 inline-block"></a></div>
+            <div class=""><a href="https://gohugo.io/" target="_blank"><img src='/hugo_logo.svg' class="w-5 inline-block"></a></div>
         </div>
     </div>
 
