@@ -288,46 +288,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/tags/cv/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/cv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/cv/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/about/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/about/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/tags/linkedin/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -359,61 +319,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/research/philodesigncorrespondance/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/tags/pro/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/pro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/pro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/pro/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/about/complete/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/about/complete/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/about/complete/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/tags/resume/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/resume/"
                 />
   </url>
   
