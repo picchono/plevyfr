@@ -158,26 +158,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/jp/contact/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/jp/tags/contact/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -238,26 +218,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/jp/tags/linkedin/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/linkedin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/linkedin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/linkedin/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/jp/tags/pro/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -294,26 +254,6 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://plevy.fr/jp/tags/resume/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/jp/tags/twitter/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/tags/twitter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/tags/twitter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/twitter/"
                 />
   </url>
   

@@ -248,26 +248,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/contact/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/tags/contact/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -334,11 +314,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/tags/linkedin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/linkedin/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -439,11 +414,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/tags/twitter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/tags/twitter/"
                 />
     <xhtml:link
                 rel="alternate"
