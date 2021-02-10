@@ -136,7 +136,18 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://plevy.fr/fr/about/index.xml" title="plevy.fr" />
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="cv" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -223,8 +234,9 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">dr. Pierre Lévy, HDR </h1>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+    <div class="absolute z-20 top-0 left-0 w-full">
+        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">dr. Pierre Lévy, HDR </h1>
+        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 <div class="lg:container grid grid-rows lg:grid-cols-5 lg:gap-12 mb-4 lg:mb-12">
     
     
@@ -256,9 +268,9 @@
             
             <span class="listVertical"><strong>Directeur du groupe de projets <i>Vitality</i></strong> (2016 - 2018)</span>
             
-            <span class="listVertical"><strong>Coordinateur éducatif de la Faculté de Design Industriel, TU/e</strong> (2015 - 2016)</span>
-            
             <span class="listVertical"><strong>Directeur du groupe de projets <i>in-Transportation interaction [iTi]</i></strong> (2015 - 2016)</span>
+            
+            <span class="listVertical"><strong>Coordinateur éducatif de la Faculté de Design Industriel, TU/e</strong> (2015 - 2016)</span>
             
             <span class="listVertical"><strong>Chercheur invité à l’École Doctorale des Sciences Humaines Généralisées, Université de Tsukuba, Japon</strong> (2013 - 2014)</span>
             
@@ -309,7 +321,7 @@
     </div>
         
 </div>
-
-    </main>
+</main>
+    </div>
 </body>
 </html>

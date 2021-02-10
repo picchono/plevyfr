@@ -130,7 +130,18 @@
 
 
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -217,8 +228,9 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">IxD&amp;A #30, Special issue: On Making </h1>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+    <div class="absolute z-20 top-0 left-0 w-full">
+        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">IxD&amp;A #30, Special issue: On Making </h1>
+        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 <div class="mb-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">
     <div>
         <div class="order-1 pt-4 lg:text-right lg:pr-6 lg:mb-12">Marti, P., Frens, J., Hengeveld, B., & Lévy P. (Eds). 2016. Interaction Design and Architecture(s), special issue: On Making. ISSN: 1826-9745.</div>
@@ -254,7 +266,7 @@
 <p><a href="http://www.mifav.uniroma2.it/inevent/events/idea2010/index.php?s=10&a=10&link=ToC_30_P&link=30_6_abstract" target="_blank" rel="noreferrer"><span class="icon-link"></span></a> Antonio Rizzo, Giovanni Burresi, Francesco Montefoschi, Maurizio Caporali, Roberto Giorgi. Making IoT with UDOO, pp. 95-112.</p></div>
     <div class="order-4"></div>
 </div>
-
-    </main>
+</main>
+    </div>
 </body>
 </html>

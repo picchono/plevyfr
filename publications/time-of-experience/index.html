@@ -126,7 +126,18 @@ First of all, because UTC has put Technologies and Human Sciences at the centre 
 
 
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -213,8 +224,9 @@ First of all, because UTC has put Technologies and Human Sciences at the centre 
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">Le temps de l’expérience, enchanter le quotidien par le design </h1>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+    <div class="absolute z-20 top-0 left-0 w-full">
+        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">Le temps de l’expérience, enchanter le quotidien par le design </h1>
+        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 <div class="mb-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">
     <div>
         <div class="order-1 pt-4 lg:text-right lg:pr-6 lg:mb-12">Lévy, P. (2018). Le temps de l'expérience, Enchanter le quotidien par le design. Compiègne University of Technology, France</div>
@@ -343,7 +355,7 @@ This raises the question of the time values that are given to these everyday exp
 </div>
     <div class="order-4"></div>
 </div>
-
-    </main>
+</main>
+    </div>
 </body>
 </html>

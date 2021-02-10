@@ -122,7 +122,18 @@
 
 
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="transpractRe" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -209,8 +220,9 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">Transforming practices  <span class="text-epierrot italic">Currently updating</span></h1>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+    <div class="absolute z-20 top-0 left-0 w-full">
+        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">Transforming practices  <span class="text-epierrot italic">Currently updating</span></h1>
+        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 
 <div class="align-bottom lg:pl-12 lg:w-1/2 lg:pr-60"><p class="text-lg leading-10">Every experience enacted and undergone modiﬁes the one who acts and undergoes, while this modiﬁcation affects, whether we wish it or not, the quality of subsequent experiences. For it is a somewhat different person who enters into them.<br/><span class="text italic">- Dewey (2015:35)</span></p></div><div>&nbsp;</div>
 <div class="container mb-20">
@@ -327,7 +339,7 @@
         
     </div>    
 </div>
-
-    </main>
+</main>
+    </div>
 </body>
 </html>

@@ -98,7 +98,18 @@
 
 <link rel="alternate" type="application/rss+xml" href="https://plevy.fr/jp/tags/index.xml" title="plevy.fr" />
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
         || storageColorScheme == "Dark") {
@@ -176,8 +187,9 @@
             }
         }
 </script></div></div>
-    <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl"> </h1>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+    <div class="absolute z-20 top-0 left-0 w-full">
+        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl"> </h1>
+        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
 <article class="mx-6 my-8">
     <h1 class="font-bold text-3xl text-primary-text">Tags</h1>
     
@@ -245,7 +257,7 @@
     </h2>
     
 </div>
-
-    </main>
+</main>
+    </div>
 </body>
 </html>
