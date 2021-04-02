@@ -181,23 +181,21 @@
         <div class="flex flow-col justify-between py-2 px-6 mt-20 lg:mt-4">
             
                 <div id="languageMode">
-                    <span class="font-bold">FR</span>&nbsp;|&nbsp;<a href="https://plevy.fr/about/">EN</a>&nbsp;|&nbsp;<a href="https://plevy.fr/jp/about/">JP</a>
+                    <span class="font-bold">FR</span>&nbsp;|&nbsp;<a href="https://plevy.fr/about/" title="EN" data-tooltip="English" rel="noreferrer">EN</a>&nbsp;|&nbsp;<a href="https://plevy.fr/jp/about/" title="JP" data-tooltip="日本語" rel="noreferrer">JP</a>
                 </div>
             
             <div class="relative">
                 <div class="absolute bg-primary-bg flex flex-row left-auto right-0 hidden rounded-md w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
-                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><span class="icon-star"></span></div>
-                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><span class="icon-light-up"></span></div>
+                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i></div>
+                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i class="far fa-sun"></i></div>
                 </div>
-                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode">
-                    <span class="icon-adjust"></span><div class="fixed hidden" id="is-open"></div>
-                </div>
+                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i><div class="fixed hidden" id="is-open"></div></div>
             </div>
         </div>
         <div class="bg-secondary-bg w-full py-1 flex flex-row justify-between content-center px-6"> 
-            <div class="leading-9"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="cc" rel="noreferrer"><span class='icon-cc'></span><span class='icon-cc-by'></span><span class='icon-cc-nc-eu'></span><span class='icon-cc-sa'></span></a></div>
-            <div><a href="https://gohugo.io/" target="_blank" rel="noreferrer"><img src='/hugo_logo.svg' class="h-4 w-4 inline-block mr-1" alt="made with hugo"></a></div>
+            <div class="leading-9"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="cc" title="Creative Commons" data-tooltip="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International" rel="noreferrer"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-nc-eu"></i><i class="fab fa-creative-commons-sa"></i></div>
+            <div><a href="https://gohugo.io/" target="_blank" title="Hugo" data-tooltip="Hugo" rel="noreferrer"><img src='/hugo_logo.svg' class="h-4 w-4 inline-block mr-1" alt="made with hugo"></a></div>
         </div>
     </div>
 
@@ -208,6 +206,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        notitle();
     });
 
     let currenturl = document.getElementById('current-url').getAttribute('currenturl')
@@ -243,9 +242,9 @@
         <p class="px-4 py-6 lg:px-8">Je suis assistant professor en design pour l’enchantement du quotidient au Département de Design Industriel de l’Université de Technology d’Eindhoven (TU/e) aux Pays-Bas. Je suis le co-fondateur et ex-président de l’European Kansei Group (EKG), et membre du comité directoire de la Kansei Engineering and Emotion Research (KEER). Je suis ingénieur en génie mécanique (UTC, Compiègne), docteur en science du kansei (Université de Tsukuba, Japon), et HDR en sciences de l’information et de la communication (UTC, Compiègne). Je m’intéresse particulièrement à la relation en théorie et pratique dans les sciences et les pratiques transformatrices. Ma recherche porte principalement sur les théories incarnées et la philosophie japonaise en relation avec les valeur et de beau au quotidien.</p>
     </div>
     <div class="lg:col-span-3 lg:row-span-2 px-4 py-16 lg:pt-2">
-        <p><strong>Maître de conférence (full-time tenured assistant professor)</strong> | Université de Technologie de Eindhoven, Pays-Bas<br />Membre du groupe de recherche <i>Designing Quality of Interaction</i> (2009-2017), puis <i>Systemic Change</i> (since 2018)</p>
+        <p><strong>Maître de conférence (full-time tenured assistant professor)</strong> | <a href='https://www.tue.nl' target='_blank' title='Eindhoven University of Technology' rel='noreferrer'>Université de Technologie de Eindhoven</a>, Pays-Bas<br />Membre du groupe de recherche <i>Designing Quality of Interaction</i> (2009-2017), puis <i>Systemic Change</i> (since 2018)</p>
         <p>Directeur du groupe de projets <i>Transforming Practices (TP)</i><br />Responsable du <i>DataLab</i><br /></p>
-        <p>Chercheur associé au <a href='https://www.dicen-idf.org' target='_blank' title='Dicen-IDF'>Dicen-IDF</a>, France<br />Coordinateur du Comité directoire du <a href='https://keer.org' target='_blank' title='KEER'>Kansei Engineering and Emotion Research (KEER)</a><br /></p>
+        <p>Chercheur associé au <a href='https://www.dicen-idf.org' target='_blank' title='Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France' data-tooltip='Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France'>Dicen-IDF</a>, France<br />Coordinateur du Comité directoire du <a href='https://keer.org' target='_blank' title='keer.org'>Kansei Engineering and Emotion Research (KEER)</a><br /></p>
         <p>&nbsp;</p>
         <p><b>2018 - Habilitation à Diriger des Recherches en Sciences de l’Information de la Communication (infocom)</b> | UTC Compiègne, France
             <br /><span class="comment">Le temps de l’expérience, enchanter le quotidien par le design</span><br /><span class="comment">Université de Technologie de Compiègne, France</span></p><p></p><p></p><p><b>2006 - Doctorat en Science du Kansei</b> | Université of Tsukuba, Japon
@@ -253,7 +252,7 @@
             <br /><span class="comment">Université de Technologie de Compiègne, France</span></p>
         <h2 class="mt-12 pt-8">Expérience professionelle</h2>
         <p>Depuis 2009 |
-            Université de Technologie de Eindhoven, 
+            <a href='https://www.tue.nl' target='_blank' title='Eindhoven University of Technology' rel='noreferrer'>Université de Technologie de Eindhoven</a>, 
             Pays-Bas<br /><b>Maître de conférence (full-time tenured assistant professor)</b><br/>
             Membre du groupe de recherche <i>Designing Quality of Interaction</i> (2009-2017), puis <i>Systemic Change</i> (since 2018) | 
             </p>
@@ -261,14 +260,14 @@
             Université de Chiba, 
             Japon<br /><b>Enseignent et chercheur (Lecturer/Researcher)</b><br/>
             Responsable de l'enseignement et des activités du programme de master <i>Service Product Design</i></p>
-        
         <p>2006 - 2008 |
             Université de Tsukuba, 
             Japon<br /><b>Chercheur postdoctoral</b><br/>
             bourse de recherche postdoctorale du <i>21st Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart</i>, financé by par le Ministère Japonais de l'Éducation, de la Culture, des Sports, de la Science and de la Technologie (MEXT)</p>
+        
         <p>2000 - 2002 |
             Decathlon in Japon (devenu Oxylane), 
-            Japon<br /><b>Ingénieur/designer, responsable de la R&amp;D au Japon</b><br/>
+            Japon<br /><b>Ingénieur/designer, responsable de la R&D au Japon</b><br/>
             Projets d'innovation en collaboration avec des partenaires japonais</p>
         <p>1999 - 2000 |
             Éridania Béghin-Say (devenu Thereos), 
@@ -281,7 +280,7 @@
         
             <span class="listVertical"><strong>Membre du Comité Editorial de l’International Journal of Affective Engineering (IJAE)</strong> (Depuis 2006)</span>
         
-            <span class="listVertical"><strong>Coordinateur du Comité directoire du <a href='https://keer.org' target='_blank' title='KEER'>Kansei Engineering and Emotion Research (KEER)</a></strong> (Depuis 2014)</span>
+            <span class="listVertical"><strong>Coordinateur du Comité directoire du <a href='https://keer.org' target='_blank' title='keer.org'>Kansei Engineering and Emotion Research (KEER)</a></strong> (Depuis 2014)</span>
         
             <span class="listVertical"><strong>Co-organisateur de la Conférence Internationale KEER 2010, Paris, France</strong> (2009 -2010)</span>
         
@@ -292,10 +291,8 @@
         <div class="px-4 lg:pt-4 lg:pb-12 lg:px-8">
             <h2 class="pt-4">Contact</h2>
             <p style="text-align: left;">Eindhoven University of Technology<br/>Department of Industrial Design<br/>Atlas Bldg, 7.130<br/>5612AJ Eindhoven<br/>Pays-Bas</p>
-            <p class="social"><a href="/PLevy_contact.vcf" target="_blank" class="inline-block mr-4" rel="noreferrer"><span class='icon-vcard'></span></a><a href="https://www.linkedin.com/in/levypier" target="_blank" class="inline-block mr-4" rel="noreferrer"><span class='icon-linkedin'></span></a><a href="https://twitter.com/PLevy_Design" target="_blank" class="inline-block mr-4" rel="noreferrer"><span class='icon-twitter'></span></a></p>
-        </div>
-        <div class="gmap_canvas h-96 rounded-b-lg pt-4 lg:p-2">
-            <iframe class="rounded-b-lg" width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4973.137903914867!2d5.485210217557404!3d51.44770960000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d8e02f5b3b5d%3A0x34693cecc73e5a97!2sAtlas!5e0!3m2!1sen!2snl!4v1610322448347!5m2!1sen!2snl" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p class="social"><a href="https://goo.gl/maps/R1YPivshD1ZfzQoF9" target="_blank" class="inline-block mr-4" rel="noreferrer" title="map"><i class="far fa-map"></i></a>
+                <a href="/PLevy_contact.vcf" target="_blank" class="inline-block mr-4" rel="noreferrer" title="vCard"><i class='far fa-address-card'></i></a><a href="https://www.linkedin.com/in/levypier" target="_blank" class="inline-block mr-4" rel="noreferrer" title="linkedIn"><i class='fab fa-linkedin-in'></i></a><a href="https://twitter.com/PLevy_Design" target="_blank" class="inline-block mr-4" rel="noreferrer" title="Twitter"><i class='fab fa-twitter'></i></a></p>
         </div>
     </div>
         

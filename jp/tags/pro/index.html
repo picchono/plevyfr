@@ -157,23 +157,21 @@
         <div class="flex flow-col justify-between py-2 px-6 mt-20 lg:mt-4">
             
                 <div id="languageMode">
-                    <span class="font-bold">JP</span>&nbsp;|&nbsp;<a href="https://plevy.fr/tags/pro/">EN</a>&nbsp;|&nbsp;<a href="https://plevy.fr/fr/tags/pro/">FR</a>
+                    <span class="font-bold">JP</span>&nbsp;|&nbsp;<a href="https://plevy.fr/tags/pro/" title="EN" data-tooltip="English" rel="noreferrer">EN</a>&nbsp;|&nbsp;<a href="https://plevy.fr/fr/tags/pro/" title="FR" data-tooltip="Français" rel="noreferrer">FR</a>
                 </div>
             
             <div class="relative">
                 <div class="absolute bg-primary-bg flex flex-row left-auto right-0 hidden rounded-md w-auto cursor-pointer z-40"
                     id='lightDarkOptions'>
-                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><span class="icon-star"></span></div>
-                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><span class="icon-light-up"></span></div>
+                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i></div>
+                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i class="far fa-sun"></i></div>
                 </div>
-                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode">
-                    <span class="icon-adjust"></span><div class="fixed hidden" id="is-open"></div>
-                </div>
+                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i><div class="fixed hidden" id="is-open"></div></div>
             </div>
         </div>
         <div class="bg-secondary-bg w-full py-1 flex flex-row justify-between content-center px-6"> 
-            <div class="leading-9"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="cc" rel="noreferrer"><span class='icon-cc'></span><span class='icon-cc-by'></span><span class='icon-cc-nc-eu'></span><span class='icon-cc-sa'></span></a></div>
-            <div><a href="https://gohugo.io/" target="_blank" rel="noreferrer"><img src='/hugo_logo.svg' class="h-4 w-4 inline-block mr-1" alt="made with hugo"></a></div>
+            <div class="leading-9"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="cc" title="Creative Commons" data-tooltip="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International" rel="noreferrer"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-nc-eu"></i><i class="fab fa-creative-commons-sa"></i></div>
+            <div><a href="https://gohugo.io/" target="_blank" title="Hugo" data-tooltip="Hugo" rel="noreferrer"><img src='/hugo_logo.svg' class="h-4 w-4 inline-block mr-1" alt="made with hugo"></a></div>
         </div>
     </div>
 
@@ -184,6 +182,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        notitle();
     });
 
     let currenturl = document.getElementById('current-url').getAttribute('currenturl')
