@@ -183,6 +183,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/research/old_index/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/research/recherche/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/research/old_index/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/tags/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
@@ -303,6 +318,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/research/philodesigncorrespondance/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/research/philodesigncorrespondance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/research/philodesigncorrespondance/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/about/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -334,21 +364,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/tags/linkedin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/research/philodesigncorrespondance/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/research/philodesigncorrespondance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/research/philodesigncorrespondance/"
                 />
   </url>
   

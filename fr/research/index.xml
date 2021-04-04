@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recherche on plevy.fr</title>
+    <title>Research on plevy.fr</title>
     <link>https://plevy.fr/fr/research/</link>
-    <description>Recent content in Recherche on plevy.fr</description>
+    <description>Recent content in Research on plevy.fr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Sat, 24 Oct 2020 00:55:28 +0200</lastBuildDate><atom:link href="https://plevy.fr/fr/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recherche</title>
+      <link>https://plevy.fr/fr/research/recherche/</link>
+      <pubDate>Sat, 24 Oct 2020 00:55:28 +0200</pubDate>
+      
+      <guid>https://plevy.fr/fr/research/recherche/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Enchanter le quotidien</title>
       <link>https://plevy.fr/fr/research/everyday/</link>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>Correspondance philosophie-design</title>
+      <title>Correspondance design-philosophie</title>
       <link>https://plevy.fr/fr/research/philodesigncorrespondance/</link>
       <pubDate>Fri, 16 Oct 2020 20:03:12 +0200</pubDate>
       

@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sat, 24 Oct 2020 00:55:28 +0200</lastBuildDate><atom:link href="https://plevy.fr/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Research</title>
+      <link>https://plevy.fr/research/old_index/</link>
+      <pubDate>Sat, 24 Oct 2020 00:55:28 +0200</pubDate>
+      
+      <guid>https://plevy.fr/research/old_index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Enchanting the everyday</title>
       <link>https://plevy.fr/research/everyday/</link>
       <pubDate>Fri, 16 Oct 2020 20:04:12 +0200</pubDate>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>Philosophy-design correspondance</title>
+      <title>Design-Philosophy correspondance</title>
       <link>https://plevy.fr/research/philodesigncorrespondance/</link>
       <pubDate>Fri, 16 Oct 2020 20:03:12 +0200</pubDate>
       
