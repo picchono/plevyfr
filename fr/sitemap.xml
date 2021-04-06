@@ -18,32 +18,47 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/fr/topics/communiquer-en-temps-de-crise/</loc>
+    <loc>https://plevy.fr/fr/other/communiquer-en-temps-de-crise/</loc>
     <lastmod>2020-12-10T16:27:15+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://plevy.fr/topics/communiquer-en-temps-de-crise/"
+                href="https://plevy.fr/other/communiquer-en-temps-de-crise/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/topics/communiquer-en-temps-de-crise/"
+                href="https://plevy.fr/fr/other/communiquer-en-temps-de-crise/"
                 />
   </url>
   
   <url>
-    <loc>https://plevy.fr/fr/topics/</loc>
+    <loc>https://plevy.fr/fr/other/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://plevy.fr/topics/"
+                href="https://plevy.fr/other/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/topics/"
+                href="https://plevy.fr/fr/other/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/tags/concept/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/tags/concept/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/tags/concept/"
                 />
   </url>
   
@@ -124,6 +139,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/tags/l%C3%A9vy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/notions/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/notions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/notions/"
                 />
   </url>
   
@@ -638,17 +668,17 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/fr/topics/design-lecture-caroline-hummels/</loc>
+    <loc>https://plevy.fr/fr/other/design-lecture-caroline-hummels/</loc>
     <lastmod>2019-09-03T16:27:15+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://plevy.fr/topics/design-lecture-caroline-hummels/"
+                href="https://plevy.fr/other/design-lecture-caroline-hummels/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://plevy.fr/fr/topics/design-lecture-caroline-hummels/"
+                href="https://plevy.fr/fr/other/design-lecture-caroline-hummels/"
                 />
   </url>
   
@@ -724,6 +754,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/publications/contemplating-the-impossible/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/notions/everyday/</loc>
+    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/notions/everyday/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/notions/everyday/"
                 />
   </url>
   
