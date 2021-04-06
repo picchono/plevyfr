@@ -763,6 +763,11 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/notions/appropriation/</loc>
+    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/notions/everyday/</loc>
     <lastmod>2018-10-16T20:04:12+02:00</lastmod>
     <xhtml:link
@@ -774,6 +779,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/notions/everyday/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/notions/kansei/</loc>
+    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/notions/kansei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/notions/kansei/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/notions/kodawari/</loc>
+    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/notions/kodawari/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/notions/kodawari/"
                 />
   </url>
   
