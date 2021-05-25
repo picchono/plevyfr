@@ -48,21 +48,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/notions/</loc>
-    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/other/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
@@ -109,21 +94,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/research/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/research/old_index/</loc>
-    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/research/recherche/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/research/old_index/"
                 />
   </url>
   
@@ -524,66 +494,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/publications/contemplating-the-impossible/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/notions/appropriation/</loc>
-    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/appropriation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/appropriation/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/notions/everyday/</loc>
-    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/everyday/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/everyday/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/notions/kansei/</loc>
-    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/kansei/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/kansei/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/notions/kodawari/</loc>
-    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/kodawari/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/kodawari/"
                 />
   </url>
   
