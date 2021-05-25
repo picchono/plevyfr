@@ -238,6 +238,26 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/fr/all/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/all/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://plevy.fr/jp/all/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/all/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/research/transformingpractices/</loc>
     <lastmod>2020-09-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -523,21 +543,6 @@
   </url>
   
   <url>
-    <loc>https://plevy.fr/fr/notions/kansei/</loc>
-    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/notions/kansei/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/notions/kansei/"
-                />
-  </url>
-  
-  <url>
     <loc>https://plevy.fr/fr/notions/kodawari/</loc>
     <lastmod>2018-10-16T20:04:12+02:00</lastmod>
     <xhtml:link
@@ -549,6 +554,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://plevy.fr/fr/notions/kodawari/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plevy.fr/fr/notions/kansei/</loc>
+    <lastmod>2018-10-16T20:04:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/notions/kansei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/notions/kansei/"
                 />
   </url>
   

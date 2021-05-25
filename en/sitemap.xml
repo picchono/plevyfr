@@ -208,6 +208,26 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/all/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/all/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://plevy.fr/jp/all/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/all/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/about/complete/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link

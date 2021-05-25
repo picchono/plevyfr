@@ -120,101 +120,9 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" ><div class="lines">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-</div><div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed z-30"><div class="w-full bg-primary-bg lg:w-56"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches)
-        || storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    } else if (storageColorScheme == "Light") {
-        document.getElementsByTagName('html')[0].classList.remove('dark')
-    }
-</script>
-<nav class="fixed z-50 right-0 bg-secondary-bg lg:bg-primary-bg lg:relative flex flex-col items-left lg:w-full h-12     lg:h-auto">
-    <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6">
-        <button id="navbar-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
-    </div>
-
-    <div id="target" class="hidden bg-primary-bg lg:bg-transparent transition-all px-0 lg:p-0 w-full text-primary-text shadow-xl z-20 h-screen lg:h-full lg:flex lg:flex-col lg:justify-between lg:items-left lg:shadow-none">
-        <div class="menu flex-col flex py-2 px-6 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url" currenturl="https://plevy.fr/fr/publications/introducing-matik-service-proposition-for-a-new-it-communication-system-through-an-approach-in-kansei/">
-            
-            <a href="/fr/"
-                class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot">Accueil</a>
-            
-            <a href="/fr/about"
-                class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot">À propos</a>
-            
-            <a href="/fr/research"
-                class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot">Recherche</a>
-            
-            <a href="/fr/publications"
-                class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot">Publications</a>
-            
-            <a href="/fr/search"
-                class="block mt-4 pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot">Chercher</a>
-            
-        </div>
-        <div class="flex flow-col justify-between py-2 px-6 mt-20 lg:mt-4">
-            
-                <div id="languageMode">
-                    <span class="font-medium">FR</span>&nbsp;|&nbsp;<a href="https://plevy.fr/publications/introducing-matik-service-proposition-for-a-new-it-communication-system-through-an-approach-in-kansei/" title="EN" data-tooltip="English" rel="noreferrer">EN</a>
-                </div>
-            
-            <div class="relative">
-                <div class="absolute bg-primary-bg flex flex-row left-auto right-0 hidden rounded-md w-auto cursor-pointer z-40"
-                    id='lightDarkOptions'>
-                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i></div>
-                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i class="far fa-sun"></i></div>
-                </div>
-                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i><div class="fixed hidden" id="is-open"></div></div>
-            </div>
-        </div>
-        <div class="bg-secondary-bg w-full py-1 flex flex-row justify-between content-center px-6"> 
-            <div class="leading-9"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="cc" title="Creative Commons" data-tooltip="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International" rel="noreferrer"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-nc-eu"></i><i class="fab fa-creative-commons-sa"></i></div>
-            <div><a href="https://gohugo.io/" target="_blank" title="Hugo" data-tooltip="Hugo" rel="noreferrer"><img src='/hugo_logo.svg' class="h-4 w-4 inline-block mr-1" alt="made with hugo"></a></div>
-        </div>
-    </div>
-
-    <div class="fixed hidden" id="is-open-mobile"></div>
-
-</nav>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        switchBurger();
-        notitle();
-    });
-
-    let currenturl = document.getElementById('current-url').getAttribute('currenturl')
-        if (currenturl.length > 1) {
-            currenturl = currenturl.substr(0, currenturl.length - 1)
-        }
-
-        sessionStorage.setItem("mainKey", currenturl)
-
-        let elements = document.getElementsByClassName('main-a');
-        for (let i in elements) {
-            if (typeof elements[i] === "object") {
-                let elementurl = elements[i].getAttribute('href')
-                if (elementurl.length > 1 && elementurl.charAt(elementurl.length - 1) == '/') {
-                    elementurl = elementurl.substr(0, elementurl.length - 1)
-                }
-                if (elementurl == sessionStorage.getItem("mainKey")) {
-                    elements[i].classList.add('text-epierrot')
-                } else {
-                    elements[i].classList.remove('text-epierrot')
-                }
-            }
-        }
-</script></div></div>
-    <div class="absolute z-20 top-0 left-0 w-full">
-        <h1 class="mx-4 pt-12 lg:pt-32 pb-32 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">Introducing MATiK service, Proposition for a new IT communication system through an approach in Kansei </h1>
-        <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl">
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id=""
+  >
+  <main>
 <div class="mb-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">
     <div>
         <div class="order-1 pt-4 lg:text-right lg:pr-6 lg:mb-12">Lévy, P., & Yamanaka, T. (2004). Introducing MATiK service – Proposition for a new IT communication system through an approach in Kansei. the Proceedings of 2004 Design Research Society International Conference - Futureground 2004 ([on CD]). Melbourne, Australia: Monash University.</div>
@@ -243,6 +151,6 @@
     <div class="order-4"></div>
 </div>
 </main>
-    </div>
+    
 </body>
 </html>
