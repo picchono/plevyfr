@@ -121,63 +121,16 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
-            "(prefers-color-scheme: dark)").matches) ||
-        storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    } else if (storageColorScheme == "Light") {
-        document.getElementsByTagName('html')[0].classList.remove('dark')
-    }
-</script>
-<nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/projects/designing-rituals/">
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id=""
+  >
+  <main>
+<div class="w-full px-4 lg;px-0 lg:container lg:mx-auto lg:grid lg:grid-cols-2">
+    <h1 class="lg:mx-4 pt-4 lg:max-w-screen-xl lg:order-2 lg:pt-36">Designing rituals </h1>
+    <div
+        class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin">
+        The aim of this course is to address these qualities embodied in rituals from an interaction design perspective, and to explore the relation between the designed artefacts and the rituals they are involved in.</div>
+    <div class="pt-2 pb-10 lg:pb-0 lg:order-3 lg:pr-6">
         
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">About</a>
-        
-        <a scrllto="#activities"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activities</a>
-        
-    </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">EN</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/fr/projects/designing-rituals/" title="FR"
-                data-tooltip="Français"
-                rel="noreferrer">FR</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
-                </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
-        </div>
-    </div>
-
-</nav>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        notitle();
-    });
-</script></div></div>
-    <main class="mx-4 mb-20 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl lg:grid lg:grid-cols-2">
-        <h1 class="lg:mx-4 mt-4 lg:max-w-screen-xl lg:order-2 lg:mt-36">Designing rituals </h1>
-        <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin">The aim of this course is to address these qualities embodied in rituals from an interaction design perspective, and to explore the relation between the designed artefacts and the rituals they are involved in.</div>
-        <div class="pt-2 pb-10 lg:pb-0 lg:order-3 lg:pr-6">
-            
     <div class="mb-1">By playing this movie, you accept the <a href="https://policies.google.com/" target="_blank" rel="noreferrer">Policies & Terms of Google</a>.</div><div class="embed-wrapper mb-10"><iframe src="https://www.youtube-nocookie.com/embed/QzCO9uz9Ens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     
 
@@ -186,7 +139,7 @@
 
 
 
-            <div class="grid grid-cols-7 mt-8 grid-rows-1 gap-1 spotlight-group">
+        <div class="grid grid-cols-7 mt-8 grid-rows-1 gap-1 spotlight-group">
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/65535/50754485482_521fd44f36_o.jpg" data-title="Description of the &#39;Welcoming with tea&#39; ritual"><img src="https://live.staticflickr.com/65535/50754485482_8658bbac09_q.jpg" class="rounded-sm lg:w-96" /></a>
 
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/7306/16322831880_c70c8e73d3_o.jpg" data-title="Discussion with tea masters"><img src="https://live.staticflickr.com/7306/16322831880_184d7b8ae6_q.jpg" class="rounded-sm lg:w-96" /></a>
@@ -239,19 +192,23 @@
 
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/7643/27123382246_36c637fa6e_o.jpg" data-title="Tea Together"><img src="https://live.staticflickr.com/7643/27123382246_d940d0644c_q.jpg" class="rounded-sm lg:w-96" /></a>
 </div><script src="https://cdn.jsdelivr.net/npm/spotlight.js@0.6.6/dist/spotlight.bundle.js" integrity="sha256-+ACxOLZGYtNNlTDEWEeO3djuK1elgOdJG4t8oyP3T9E=" crossorigin="anonymous"></script>
-            
-            
+        
+        
+    </div>
+    <div class="lg:order-4 mx-4 mt-10">
+        <div class="bg-secondary-bg p-6 mb-14 rounded border">
+            Course taught in English for the master degree
+            (5ects) at TU/e, The Netherlands
+            by
+            <span class="listComma">Pierre Lévy</span>.
         </div>
-        <div class="lg:order-4 mx-4 mt-10">
-            <div class="bg-secondary-bg p-6 mb-14 rounded border">
-                Course taught in English for the master degree (5ects) at TU/e, The Netherlands by
-                <span class="listComma">Pierre Lévy</span>.
-            </div>
-            <div class="mt-10 mb-20"><p>Our lives are a collection of rituals. The way we wake up, the way we leave or enter our home, the way we prepare our suitcase before going on a trip are just simple examples of the many rituals each of us have constructed and that structure our everyday lives. These rituals are not rigid procedures, but a seemingly established series of activities from which experiential meaning emerges, and by which personal values are expressed.</p>
+        <div class="mt-10 mb-20"><p>Our lives are a collection of rituals. The way we wake up, the way we leave or enter our home, the way we prepare our suitcase before going on a trip are just simple examples of the many rituals each of us have constructed and that structure our everyday lives. These rituals are not rigid procedures, but a seemingly established series of activities from which experiential meaning emerges, and by which personal values are expressed.</p>
 <p>The aim of this course is to address these qualities embodied in rituals from an interaction design perspective, and to explore the relation between the designed artefacts and the rituals they are involved in. Through this exploration, we will gain insights in the reciprocal nature of these influences between the artefacts and the ritual (and by extension the experiential meanings and the expressed values). The final discussion will address the merits of addressing rituals in interaction design, and how to design for meaningful rituals.</p>
 <p>To address this course through a project, we will first turn to a Japanese tea ceremony, which is one of the most elaborated and rich rituals and one of the pillars of the Japanese craftsmanship culture. By extracting key characteristics of this ritual, we will start a design exploration to conclude with a concept at the end of the first week. The entire module focuses on one ritual (to be decided), and each group will focus on one artefact within this overarching ritual. The second week focuses on opportunities of a series of prototyping iterations to reach details. Each of them being concluded by a discussion on the reciprocal influences between the artefacts and the ritual and the implication on the interaction design process. The final day will close the module by a demonstration of the ritual with the newly designed series of artefacts.</p>
 </div>
-        </div>
-    </main>
+    </div>
+</div>
+</main>
+    
 </body>
 </html>

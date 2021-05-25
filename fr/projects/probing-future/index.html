@@ -121,67 +121,19 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
-            "(prefers-color-scheme: dark)").matches) ||
-        storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    } else if (storageColorScheme == "Light") {
-        document.getElementsByTagName('html')[0].classList.remove('dark')
-    }
-</script>
-<nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/fr/projects/probing-future/">
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id=""
+  >
+  <main>
+<div class="w-full px-4 lg;px-0 lg:container lg:mx-auto lg:grid lg:grid-cols-2">
+    <h1 class="lg:mx-4 pt-4 lg:max-w-screen-xl lg:order-2 lg:pt-36">Probing Future </h1>
+    <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin lg:min-h-16">
+        In this Design Fiction project, several potential healthcare futures are explored in a collaboration between Philips Design, Eindhoven University of Technology, Design Academy Eindhoven, and Frank Kolkman.</div>
+    
+    <div class="pt-2 pb-10 lg:pb-0 lg:order-6 lg:pr-6">
         
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">À propos</a>
         
-        <a scrllto="#activities"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activités</a>
         
-    </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">FR</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/projects/probing-future/" title="EN"
-                data-tooltip="English"
-                rel="noreferrer">EN</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
-                </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
-        </div>
-    </div>
-
-</nav>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        notitle();
-    });
-</script></div></div>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl lg:grid lg:grid-cols-2">
-        <h1 class="lg:mx-4 mt-4 lg:max-w-screen-xl lg:order-2 lg:mt-36">Probing Future </h1>
-        <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin">In this Design Fiction project, several potential healthcare futures are explored in a collaboration between Philips Design, Eindhoven University of Technology, Design Academy Eindhoven, and Frank Kolkman.</div>
-        
-        <div class="pt-2 pb-10 lg:pb-0 lg:order-5 lg:pr-6">
-            
-            
-            
-            <div class="grid grid-cols-7 mt-8 grid-rows-1 gap-1 spotlight-group">
+        <div class="grid grid-cols-7 mt-8 grid-rows-1 gap-1 spotlight-group">
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/65535/50588233976_1b6255ee87_o.jpg" data-title="Gaia (Kimia Amir-Moazami, Daan Colussi, Xander Cummins, Sam Kragtwijk - photography by Juuke Schoorl)"><img src="https://live.staticflickr.com/65535/50588233976_9914ff9641_q.jpg" class="rounded-sm lg:w-96" /></a>
 
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/65535/50587487388_375dddd5cd_o.jpg" data-title="Etherea (Nesrin Güneş, Kai Landolt, Lisa Li, Lara Villa - photography by Juuke Schoorl)"><img src="https://live.staticflickr.com/65535/50587487388_7b2a793619_q.jpg" class="rounded-sm lg:w-96" /></a>
@@ -192,14 +144,16 @@
 
     <a class="place-self-center spotlight" href="https://live.staticflickr.com/65535/50589711141_94ec3b0a48_o.jpg" data-title="(​Jordy Alblas, Nesrin Güneş, Sam Kragtwijk, Clarissa Schmitt)"><img src="https://live.staticflickr.com/65535/50589711141_4e0f63f78b_q.jpg" class="rounded-sm lg:w-96" /></a>
 </div><script src="https://cdn.jsdelivr.net/npm/spotlight.js@0.6.6/dist/spotlight.bundle.js" integrity="sha256-+ACxOLZGYtNNlTDEWEeO3djuK1elgOdJG4t8oyP3T9E=" crossorigin="anonymous"></script>
-        </div>
-        <div class="lg:order-6 mx-4 mt-2">
+    </div>
+    <div class="lg:order-5 mx-6 mt-6 text-left">
 <p>How would our world look like 20, 30, 40 or 50 years from now? Will we monitor each individual on the planet to live a low-risk life? Will we replace organs, eyes, or other parts of our body with artificial alternatives? Will we upload our brains and live on a server? Or do we seek ways to embrace a life more related to mother earth? In this Design Fiction project, several potential healthcare futures are explored. The project is a collaboration between Philips Design, Eindhoven University of Technology, Design Academy Eindhoven, and Frank Kolkman.</p>
 <p>When designing and developing for an audience, as was done in this project, a wide range of different opinions have to be dealt with. A well-known example are robots and Artificial intelligence (AI). Some people only see the positive side and potentials: what if robots could take over all our work so we have full-time vacation? Others only see the downsides and risks: what if robots become smarter than people and start attacking us? Either way, the truth will be somewhere in the middle, but it is very important to capture such opinions and discover what society thinks of current developments. The goal of this project was to do exactly that by developing design probes for four potential healthcare futures – based on a framework by Philips Design – and exhibiting them during the Dutch Design Week (DDW) and within Philips to provoke a debate.</p>
 <p>During the first part of the project, four teams each developed a design probe for one of the potential futures, which were exhibited at the Dutch Design Week.</p>
 <p>The project was continued within another team and a fifth probe was designed based on the insights gathered at the DDW. This time, the focus was laid on preventive healthcare in the present time, which led to the design of a fictive device that helps parents to monitor their baby’s health and aids them in growing a healthy child.</p>
 
 </div>
-    </main>
+</div>
+</main>
+    
 </body>
 </html>

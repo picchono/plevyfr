@@ -121,74 +121,29 @@
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
-            "(prefers-color-scheme: dark)").matches) ||
-        storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    } else if (storageColorScheme == "Light") {
-        document.getElementsByTagName('html')[0].classList.remove('dark')
-    }
-</script>
-<nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/fr/projects/cnam-m2_tnic/">
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id=""
+  >
+  <main>
+<div class="w-full px-4 lg;px-0 lg:container lg:mx-auto lg:grid lg:grid-cols-2">
+    <h1 class="lg:mx-4 pt-4 lg:max-w-screen-xl lg:order-2 lg:pt-36">Designer, perspectives et transformations </h1>
+    <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin lg:min-h-16">
+        CNAM Master 2<br>CTransition Numérique et Innovation Collaborative</div>
+    <div class="pt-2 pb-10 lg:pb-0 lg:order-2 lg:col-span-2 lg:pr-6 bg-secondary-bg p-6 rounded">
+<div class="mb-1">By accessing this board, you accept the <a href="https://miro.com/legal/terms-of-service/" target="_blank" rel="noreferrer">Terms of Miro</a>.</div><div class="embed-wrapper mb-6"><iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lG0F4os=/?moveToViewport=-5986%2c-6311%2c1751%2c931" frameBorder="0" scrolling="no" allowFullScreen></iframe></div>
+
+
+
+    </div>
+    <div class="pt-2 pb-10 lg:pb-0 lg:order-6 lg:pr-6">
         
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">À propos</a>
         
-        <a scrllto="#activities"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activités</a>
+        
         
     </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">FR</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/projects/cnam-m2_tnic/" title="EN"
-                data-tooltip="English"
-                rel="noreferrer">EN</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
-                </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
-        </div>
-    </div>
-
-</nav>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        notitle();
-    });
-</script></div></div>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl lg:grid lg:grid-cols-2">
-        <h1 class="lg:mx-4 mt-4 lg:max-w-screen-xl lg:order-2 lg:mt-36">Designer, perspectives et transformations </h1>
-        <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin">CNAM Master 2<br>CTransition Numérique et Innovation Collaborative</div>
-        <div class="pt-2 pb-10 lg:pb-0 lg:order-2 lg:col-span-2 lg:pr-6">
-<div class="mb-1">By accessing this board, you accept the <a href="https://miro.com/legal/terms-of-service/" target="_blank" rel="noreferrer">Terms of Miro</a>.</div><div class="embed-wrapper mb-10"><iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lG0F4os=/?moveToViewport=-5986%2c-6311%2c1751%2c931" frameBorder="0" scrolling="no" allowFullScreen></iframe></div>
-
-
+    <div class="lg:order-5 mx-6 mt-6 text-left"><i>Intro</i>
 </div>
-        <div class="pt-2 pb-10 lg:pb-0 lg:order-5 lg:pr-6">
-            
-            
-            
-            
-        </div>
-        <div class="lg:order-6 mx-4 mt-2"><i>Intro</i>
 </div>
-    </main>
+</main>
+    
 </body>
 </html>

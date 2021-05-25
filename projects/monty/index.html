@@ -123,78 +123,32 @@ The envisioned environment in which Monty can be used is a designer’s working 
 
 
 
-<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="" >
-    <div class="h-12 flex lg:items-end lg:h-96 lg:bottom-0 lg:fixed"><div class="w-full bg-primary-bg lg:w-56"><script>
-    let storageColorScheme = localStorage.getItem("lightDarkMode")
-    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
-            "(prefers-color-scheme: dark)").matches) ||
-        storageColorScheme == "Dark") {
-        document.getElementsByTagName('html')[0].classList.add('dark')
-    } else if (storageColorScheme == "Light") {
-        document.getElementsByTagName('html')[0].classList.remove('dark')
-    }
-</script>
-<nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/projects/monty/">
+<body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id=""
+  >
+  <main>
+<div class="w-full px-4 lg;px-0 lg:container lg:mx-auto lg:grid lg:grid-cols-2">
+    <h1 class="lg:mx-4 pt-4 lg:max-w-screen-xl lg:order-2 lg:pt-36">Monty </h1>
+    <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin lg:min-h-16">
+        Due to its curious nature Monty might not always be focused on what you are doing. He can however be temporarily motivated to move towards a particular area on your desk.<br/><i>by Rens Alkemade</i></div>
+    
+    <div class="pt-2 pb-10 lg:pb-0 lg:order-6 lg:pr-6">
         
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">About</a>
         
-        <a scrllto="#activities"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activities</a>
         
-    </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">EN</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/fr/projects/monty/" title="FR"
-                data-tooltip="Français"
-                rel="noreferrer">FR</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
-                </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
-        </div>
-    </div>
-
-</nav>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        getcolorscheme();
-        notitle();
-    });
-</script></div></div>
-    <main class="mx-4 lg:ml-72 xl:ml-80 2xl:ml-96 lg:mr-12 2xl:mr-32 lg:max-w-screen-xl lg:grid lg:grid-cols-2">
-        <h1 class="lg:mx-4 mt-4 lg:max-w-screen-xl lg:order-2 lg:mt-36">Monty </h1>
-        <div class="lg:border-r border-secondary-text pt-6 pb-20 lg:mt-36 lg:mb-40 lg:pr-6 lg:py-0 lg:text-right lg:order-1 font-normal lg:font-thin">Due to its curious nature Monty might not always be focused on what you are doing. He can however be temporarily motivated to move towards a particular area on your desk.<br/><i>by Rens Alkemade</i></div>
-        
-        <div class="pt-2 pb-10 lg:pb-0 lg:order-5 lg:pr-6">
-            
-            
-            
     <div class="mb-1">By playing this movie, you accept the <a href="https://policies.google.com/" target="_blank" rel="noreferrer">Policies & Terms of Google</a>.</div><div class="embed-wrapper mb-10"><iframe src="https://www.youtube-nocookie.com/embed/KYEstjI4bHM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     
 
 
 
-            
-        </div>
-        <div class="lg:order-6 mx-4 mt-2"><p>Monty a curious entity that has the ability to perceive activity within its field of vision. When Monty detects activity it will gradually move towards the activity until it is in centre of its perception. If its interest is kept on the activity long enough, Monty becomes engaged and will start taking pictures of the activity.</p>
+        
+    </div>
+    <div class="lg:order-5 mx-6 mt-6 text-left"><p>Monty a curious entity that has the ability to perceive activity within its field of vision. When Monty detects activity it will gradually move towards the activity until it is in centre of its perception. If its interest is kept on the activity long enough, Monty becomes engaged and will start taking pictures of the activity.</p>
 <p>The envisioned environment in which Monty can be used is a designer’s working environment. Here Monty will mainly be interested in the activity of the designer which will lead to process pictures of all the activities performed by this designer. This in turn gives the designer the possibility to reflect on his own process by scrolling through the visual representation of his activities. And will give him process pictures that can be used for communicative purposes.</p>
 <p>Due to its curious nature Monty might not always be focused on what you are doing. He can however be temporarily motivated to move towards a particular area on your desk.</p>
 <p><b>(Rens Alkemade)</b></p>
 </div>
-    </main>
+</div>
+</main>
+    
 </body>
 </html>
