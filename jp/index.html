@@ -107,7 +107,7 @@
         <p class="font-bold text-red-600 italic">Currently updating the website, some parts may not function properly...</p>
     </div>
     <div class="h-12 flex lg:h-auto pb-4" name="cover">
-        <div class="w-full lg:w-56"><script>
+        <div class="w-full lg:w-56 mb-40"><script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
             "(prefers-color-scheme: dark)").matches) ||
@@ -214,6 +214,7 @@
 </div>
 
 
+<div class="w-full h-20 bg-primary-bg"></div>
 <div class="flex flex-col lg:flex-row w-full bg-primary-bg pt-10" name="activities" id="activities">
     <div class="flex flex-col flex-grow-0 lg:h-screen sticky w-full lg:w-84 top-0 lg:top-6 lg:pl-6 z-50">
         <div class="flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:pt-14 lg:pb-20 px-6 bg-secondary-bg shadow-xl rounded-lg">
