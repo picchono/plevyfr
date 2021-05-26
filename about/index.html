@@ -163,11 +163,11 @@
             <a href='https://www.chiba-u.ac.jp/e/' target='_blank' title='Chiba University' rel='noreferrer'>Chiba University</a>, 
             Japan<br /><b>Researcher/Lecturer</b><br/>
             Responsible for the teaching activities of the Service Product Design master team</p>
+        
         <p>2006 - 2008 |
             <a href='https://www.tsukuba.ac.jp/' target='_blank' title='University of Tsukuba' rel='noreferrer'>University of Tsukuba</a>, 
             Japan<br /><b>Post-doctor researcher</b><br/>
             Postdoctoral grant from the 21st Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart, sponsored by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT)</p>
-        
         <p>2000 - 2002 |
             <a href='https://www.decathlon.com/' target='_blank' title='Decathlon' rel='noreferrer'>Decathlon</a> in Japan (became Oxylane), 
             Japan<br /><b>R&D Engineer/Designer, Responsible for R&D at the Japanese office</b><br/>
@@ -201,6 +201,23 @@
         
 </div>
 </main>
-  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg" href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg"
+    href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
+        "(prefers-color-scheme: dark)").matches) ||
+      storageColorScheme == "Dark") {
+      document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+      document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      getcolorscheme();
+      notitle();
+    });
+  </script>
 </body>
+
 </html>

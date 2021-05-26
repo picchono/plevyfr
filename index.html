@@ -3008,5 +3008,21 @@ For over three decades, kansei engineering has expanded greatly and has become a
 
 </main>
   
+  <script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
+        "(prefers-color-scheme: dark)").matches) ||
+      storageColorScheme == "Dark") {
+      document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+      document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      getcolorscheme();
+      notitle();
+    });
+  </script>
 </body>
+
 </html>

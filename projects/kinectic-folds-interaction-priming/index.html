@@ -144,6 +144,23 @@
 <p>The prototype was inspired by the moment of perceptual crossing that occurs when you meet a stray cat in the street, and a moment of anticipation makes time stand still, as you and the cat try to figure each other out.<br/>Using a single sheet of folded paper and embedding it with motors and custom-built touch-capacitive sensors, an object which breathes and responds to the presence of human touch was designed, creating the perception that the Kinetic Fold is alive.</p></div>
 </div>
 </main>
-  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg" href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg"
+    href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
+        "(prefers-color-scheme: dark)").matches) ||
+      storageColorScheme == "Dark") {
+      document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+      document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      getcolorscheme();
+      notitle();
+    });
+  </script>
 </body>
+
 </html>

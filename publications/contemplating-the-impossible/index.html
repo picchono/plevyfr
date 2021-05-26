@@ -217,6 +217,23 @@ La reconnaissance est la mémoire du cœur.</p>
     </div>
 </div>
 </main>
-  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg" href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <a class="fixed top-3 left-3 px-3 py-2 leading-none bg-primary-text text-primary-bg rounded-lg"
+    href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
+        "(prefers-color-scheme: dark)").matches) ||
+      storageColorScheme == "Dark") {
+      document.getElementsByTagName('html')[0].classList.add('dark')
+    } else if (storageColorScheme == "Light") {
+      document.getElementsByTagName('html')[0].classList.remove('dark')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      getcolorscheme();
+      notitle();
+    });
+  </script>
 </body>
+
 </html>
