@@ -108,43 +108,47 @@
     <p>Chercheur associé | <a href="https://www.dicen-idf.org/" target="_blank" title="Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France" data-tooltip="Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France" rel="noreferrer">Dicen-IDF</a> (EA 7339) | France</p>
     </div>
     <div class="h-12 flex lg:h-auto pb-4" name="cover">
-        <div class="w-full lg:w-56 mb-40"><nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/fr/">
-        
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">À propos</a>
-        
-        <a scrllto="#activities"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activités</a>
-        
-    </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">FR</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/" title="EN"
-                data-tooltip="English"
-                rel="noreferrer">EN</a>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/jp/" title="JP"
-                data-tooltip="日本語"
-                rel="noreferrer">JP</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
+        <div class="w-full lg:w-56 mb-40">
+            <nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
+                <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
+                    currenturl="https://plevy.fr/fr/">
+                    
+                    <a scrllto="#about"
+                        class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">À propos</a>
+                    
+                    <a scrllto="#activities"
+                        class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">Activités</a>
+                    
                 </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
+                <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
+                    
+                    <div id="languageMode">
+                        <span
+                            class="font-medium">FR</span>&nbsp;|&nbsp;<a
+                            href="https://plevy.fr/" title="EN"
+                            data-tooltip="English"
+                            rel="noreferrer">EN</a>&nbsp;|&nbsp;<a
+                            href="https://plevy.fr/jp/" title="JP"
+                            data-tooltip="日本語"
+                            rel="noreferrer">JP</a>
+                    </div>
+                    
+                    <div class="relative">
+                        <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
+                            id='lightDarkOptions'>
+                            <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i
+                                    class="far fa-moon"></i>
+                            </div>
+                            <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
+                                    class="far fa-sun"></i></div>
+                        </div>
+                        <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
+                            <div class="fixed hidden" id="is-open"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </div>
-</nav></div>
     </div>
 </div>
 <div class="h-6"></div>
@@ -199,12 +203,16 @@
 </div>
 
 
-<div class="w-full h-20 bg-primary-bg"></div>
-<div class="flex flex-col lg:flex-row w-full bg-primary-bg pt-10" name="activities" id="activities">
+<div class="w-full h-20 bg-secondary-bg lg:bg-primary-bg"></div>
+<div class="flex flex-col lg:flex-row w-full bg-primary-bg lg:pt-10" name="activities" id="activities">
     <div class="flex flex-col flex-grow-0 lg:h-screen sticky w-full lg:w-84 top-0 lg:top-6 lg:pl-6 z-50">
-        <div
-            class="flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:pt-14 lg:pb-14 px-6 bg-secondary-bg shadow-xl rounded-lg">
-            <div data-filter="all" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu active">Tous
+          <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6 bg-tertiary-bg">
+                <button id="navbox-btn" aria-label="Menu"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
+            </div>
+        <div id="target" 
+            class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:pt-14 lg:pb-14 px-6 bg-tertiary-bg shadow-xl rounded-lg">
+            <div data-filter="all" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu active">
+                Tous
             </div>
             <div data-filter="research" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu">
                 Recherche</div>
@@ -221,17 +229,22 @@
                 <div data-filter="publications" class="mb-2 mr-6 lg:mr-0 lg:mb-2 cursor-pointer w-auto">Tous
                 </div>
                 <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Journaux</div>
-                <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Conférences</div>
-                <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Chapitres</div>
-                <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Dissertations</div>
+                <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Conférences
+                </div>
+                <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
+                    Chapitres</div>
+                <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
+                    Dissertations</div>
                 <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Éditions</div>
-                <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Présentations</div>
+                <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
+                    Présentations</div>
                 <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Rapports</div>
                 <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer "></div>
             </div>
             <div class="projects submenu hidden">
                 <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Projets</div>
-                <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Projets d&#39;étudiants</div>
+                <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
+                    Projets d&#39;étudiants</div>
                 <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Lectures</div>
             </div>
             <div class="other submenu hidden"></div>
@@ -248,7 +261,7 @@
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designer, perspectives et transformations</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 CNAM Master 2<br>CTransition Numérique et Innovation Collaborative
             </p>
@@ -268,7 +281,7 @@
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Scaffolding shared imagination with tangible design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Maarten L. Smith, Sander van der Zwan, Jelle P. Bruineberg, Pierre D. Lévy, and Caroline C. M. Hummels. 2021. Scaffolding shared imagination with tangible design. In Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’21), February 14–17, 2021, Salzburg, Austria. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/3430524.3440639
             </p>
@@ -288,7 +301,7 @@
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Manuel Zacklad : Communiquer en temps de crise</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Communiquer est essentiel, particulièrement en temps de crise. Dans cet exercice, souvent il a été adopté une méthode verticale, contrebalancée par une communication débridée sur les réseaux sociaux, parfois montrés du doigt comme des propagateurs de faits non étayés scientifiquement. Si ce constat porte une part de vérité, il faut cependant veiller à ne pas systématiquement assimiler, dans le cadre de débat démocratique, controverse et complotisme.
             </p>
@@ -308,7 +321,7 @@
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Enchanter le quotidien</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Étudier la vie quotidienne serait une entreprise parfaitement ridicule,et d’abord condamnée à ne rien saisir de son objet, si l’on ne se proposait pas explicitementd’étudier la vie quotidienne afin de la transformer.<br /><span
                     class="text italic">- Guy Debord
@@ -344,7 +357,7 @@
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Correspondance design-philosophie</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 
             </p>
@@ -366,7 +379,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Pratiques transformantes</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Every experience enacted and undergone modiﬁes the one who acts and undergoes, while this modiﬁcation affects, whether we wish it or not, the quality of subsequent experiences. For it is a somewhat different person who enters into them.<br /><span
                     class="text italic">- Dewey
@@ -388,7 +401,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Artefactual emptiness – On appropriation in kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2020). Artefactual emptiness  - On appropriation in kansei design. Proceedings of Kansei Engineering and Emotion Research International Conference 2020, KEER2020. Tokyo, Japan: Japan Society of Kansei Engineering.
             </p>
@@ -407,7 +420,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Studying requirements for designing a vitality data sharing platform from a multi-stakeholder perspective</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Wada, K., van Renswouw, L. M., Wallner, G., Levy, P. D., & Vos, S. B. (2020). Studying requirements for designing a vitality data sharing platform from a multi-stakeholder perspective. Paper presented at 8th International Conference on Kansei Engineering and Emotion Research (KEER 2020), Tokyo, Japan.
             </p>
@@ -426,7 +439,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Philosophy at Work – Postphenomenology as a Generative Lens in Design Research and Practice</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 van der Zwan, S., Smith, M. L., Bruineberg, J., Lévy, P., & Hummels, C. C. M. (2020). Philosophy at Work - Postphenomenology as a Generative Lens in Design Research and Practice. Proceedings of the Design Research Society 2020, DRS2020, Sydney, Australia (online). https://doi.org/10.21606/drs.2020.337
             </p>
@@ -445,7 +458,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Exploring Public Playgrounds through a Data-Enabled Design Approach</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 van den Heuvel, R., Lévy, P., Vos, S., & Hummels, C. (2020). Exploring Public Playgrounds through A Data-Enabled Design Approach. Companion Publication of the 2020 ACM Designing Interactive Systems Conference, DIS2020, 1–6. https://doi.org/10.1145/3393914.3395865
             </p>
@@ -464,7 +477,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Office Jungle: A Vision for Wildness to Turn Offices into Jungles</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Nieuweboer, I., Damen, I., Brombacher, H., Lévy, P., Vos, S., & Lallemand, C. (2020). The Office Jungle: A Vision for Wildness to Turn Offices into Jungles. Companion Publication of the 2020 ACM Designing Interactive Systems Conference, 341–344. https://doi.org/10.1145/3393914.3395818
             </p>
@@ -484,7 +497,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Transforming Practices squad</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Transforming Practices (TP) considers the transformations of our societies, dealing with major societal issues, local challenges for social resilience, or everyday activities, as well as their interrelations. Envisioning transformative practices, we question through designing the how, who, why and what of design for these major societal issues.
             </p>
@@ -504,7 +517,7 @@ intro
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Matter of Transformation</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 How the interweaving between design, philosophy and human & social sciences impacts practices, societies and individuals
             </p>
@@ -539,7 +552,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for Systemic Change</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Many societal challenges require a systemic approach towards change. An approach where multiple stakeholders together create insight in the challenge at hand, and explore possible directions for systemic change. This session explores the concept of Designing for Systemic Change, including: what is it, how do we approach it, and what are the challenges we face?
             </p>
@@ -560,7 +573,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Design research and innovation framework for transformative practices</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Hummels, C., Trotto, A., Peeters, J., Lévy, P., Alves Lino, J. & Klooster, S. (2019). Design research and innovation framework for transformative practices. In Strategy for change (pp. 52-76). Glasgow, UK: Glasgow Caledonian University. ISBN: 978-972-789-482-6
             </p>
@@ -579,7 +592,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for the everyday through thusness and irregularity</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2019). Designing for the everyday through thusness and irregularity. In Proceedings of 8th International Congress of International Association of Societies of Design Research, IASDR 2019. Manchester, UK: Manchester Metropolitan University.
             </p>
@@ -599,7 +612,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Design 3.0 Forum</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Design 3.0 Forum aims to raise and discuss the challenging issues in design research, education and practice in this newly emerging paradigm we now face with new forms of end-user products such as intelligent products and services, DIY/fabrication tools, and IoTs. These new forms of products and services change the ways people interact with them and shape their everyday lives.
             </p>
@@ -634,7 +647,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Design lectures by Caroline Hummels</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 A series of recorded lectures on design,<br />by prof.dr.ir. Caroline Hummels @TU/e.
             </p>
@@ -654,7 +667,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Probing Future</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 In this Design Fiction project, several potential healthcare futures are explored in a collaboration between Philips Design, Eindhoven University of Technology, Design Academy Eindhoven, and Frank Kolkman.
             </p>
@@ -680,7 +693,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Stewart</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Stewart is a tactile interface designed for a fully autonomous car.<br/><i>a final bachelor project by Felix Ros</i>
             </p>
@@ -708,7 +721,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>A Design Approach towards Affording the Trend of Privacy</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Muller, D.A., & Lévy, P. (2019). A Design Approach towards Affording the Trend of Privacy. In Design Interactive Systems Conference, DIS19. New York, NY, USA: ACM. https://doi.org/10.1145/3322276.3322324
             </p>
@@ -728,7 +741,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Le temps de l’expérience, enchanter le quotidien par le design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2018). Le temps de l'expérience, Enchanter le quotidien par le design. Compiègne University of Technology, France
             </p>
@@ -849,7 +862,7 @@ On se pose donc ici la question des valeurs de temps que l’on donne à ces exp
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Contemplating the impossible</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2018). Contemplating the Impossible, presented at Eindhoven University of Technology, Eindhoven, The Netherlands. October 19th, 2018.
             </p>
@@ -940,7 +953,7 @@ La reconnaissance est la mémoire du cœur.</p>
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kees Overbeeke symposium</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Preceding the inaugural lecture of prof. Stephan Wensveen, you are cordially invited to attend the Kees Overbeeke symposium at the Senaatszaal in the Auditorium, on Friday, October 19, 2018.<br/><i>On the legagy of Prof. Kees Overbeeke</i>
             </p>
@@ -964,7 +977,7 @@ La reconnaissance est la mémoire du cœur.</p>
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for the everyday</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Addressing the ordinary through design
             </p>
@@ -1000,7 +1013,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>A peine hors du lit</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 布団抜け匙にて点てるココアの茶
             </p>
@@ -1026,7 +1039,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The beauty of making hot chocolate, an inquiry on designing for everyday rituals</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2018). The beauty of making hot chocolate – an inquiry on designing for everyday rituals. In Design Research Society 2018, DRS2018. Limerick, Ireland: Design Research Society. https://doi.org/10.21606/dma.2017.514
             </p>
@@ -1045,7 +1058,7 @@ The learning objectives of this course include:
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2018, KEER 2018</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lokman, A.M., Yamanaka, T., Lévy, P., Chen, K., Koyama, S. (Eds). 2018. Proceedings of the 7th International Conference on Kansei Engineering and Emotion Research 2018 – KEER2018. Kuching, Sarawak, Malaysia. ISBN: 978-981-10-8612-0.
             </p>
@@ -1066,7 +1079,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Analysis of the Design and Engineering-process towards a First Prototype in the Field of Sports and Vitality</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Janssen, M. A., Heuvel, R. van den, Megens, C. J. P. G., Levy, P. D. & Vos, S. B. (2018). Analysis of the design and engineering-process towards a first prototype in the field of sports and vitality. In Proceedings of 12th Conference of the International Sports Engineering Association, 2(6), 297. Brisbane, Queensland, Australia: Multidisciplinary Digital Publishing Institute (MDPI). https://doi.org/10.3390/proceedings2060297
             </p>
@@ -1085,7 +1098,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Light behavior design: violation of unification principles and the effect on the user experience</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Dassen, W., Wensveen, S., & Lévy, P. (2017). Light Behavior Design: Violation of Unification Principles and the Effect on the User Experience. In Design Interactive Systems Conference, DIS17 (pp. 259–263). New York, NY, USA: ACM. https://doi.org/10.1145/3064857.3079157
             </p>
@@ -1105,7 +1118,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>People Place Process: A self-reflection tool to become a professional in design thinking, based on pedagogical action research</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The nature of design thinking projects requires a great capacity to solve situated-inquiry problems (versus technical problem solving – Schön). Design thinking requires practitioners to become reflective professionals. This piece of research provides a protocol and tools to guide their journey of self-reflection.<br/><i>Doctoral dissertation of Véronique Hillen</i>
             </p>
@@ -1131,7 +1144,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Enhancing co-responsibility for patient engagement</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Neutelings, I., Lévy, P., Djajadiningrat, T., & Hummels, C. (2017). Enhancing co-responsibility for patient engagement. The Design Journal, 20(sup1), S2273–S2283. https://doi.org/10.1080/14606925.2017.1352743
             </p>
@@ -1150,7 +1163,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamada, S. (2017). 3D-modeling and 3D-printing explorations on Japanese tea ceremony utensils. In Proceedings of the 11th International Conference on Tangible, Embedded and Embodied Interactions, TEI17. Yokohama, Japan: ACM Press. https://doi.org/10.1145/3024969.3024990
             </p>
@@ -1169,7 +1182,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>What matters for ritual visualization, towards a design tool for the description and the composition of rituals</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Hengeveld B.J. (2016). What matters for ritual visualization – Towards a design tool for the description and the composition of rituals. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.
             </p>
@@ -1188,7 +1201,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Reinventing the (steering) wheel, A kansei design approach for novel driving experience</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Kennedy, R., & Lévy, P. (2016). Reinventing the (steering) wheel – A kansei design approach for novel driving experience. Proceedings of Kansei Engineering and Emotion Research International Conference 2016, KEER2016. Leeds, UK: Japan Society of Kansei Engineering.
             </p>
@@ -1207,7 +1220,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Gesture-based and Haptic Interfaces for Connected and Autonomous Driving</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Terken, J., Lévy, P., Wang, W., Karjanto, J., Yusof, N.M.., Ros, F., & Zwaan, S. (2016). Gesture-Based and Haptic Interfaces for Connected and Autonomous Driving. In I.L., Nunes (Eds.) Advances in Human Factors and System Interactions, Proceedings of the AHFE 2016 International Conference on Human Factors and System Interactions, July 27-31, 2016, Walt Disney World®, Florida, USA (pp. 107-115). Switzerland: Springer International Publishing. http://dx.doi.org/10.1007/978-3-319-41956-5_11
             </p>
@@ -1226,7 +1239,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Perspectives en design d’interaction</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016
             </p>
@@ -1245,7 +1258,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>IxD&amp;A #30, Special issue: On Making</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Marti, P., Frens, J., Hengeveld, B., & Lévy P. (Eds). 2016. Interaction Design and Architecture(s), special issue: On Making. ISSN: 1826-9745.
             </p>
@@ -1274,7 +1287,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kinectic Folds: Interaction Priming</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 This research focuses on what happens to our relationship with objects when they come alive and engage in reciprocal communication with us.<br/><i>An (es)sense research project by Kevin N. Andersen</i>
             </p>
@@ -1294,7 +1307,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Exploring the challenge of designing rituals</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2015). Exploring the challenge of designing rituals. In V., Popovic, A., Blackler, & B., Kraal (Eds.), the Proceedings of 6th International Congress of International Association of Societies of Design Research, IASDR 2015. Brisbane, Australia: Queensland University of Technology.
             </p>
@@ -1314,7 +1327,7 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Qualités perceptives</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Et ceux qui dansaient furent considérés comme fous par ceux qui ne pouvaient entendre la musique.<br /><span
                     class="text italic">- Friederich Nietsche
@@ -1337,7 +1350,7 @@ introduction research
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Composing Everyday Rituals</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Addressing these qualities embodied in rituals from an interaction design perspective
             </p>
@@ -1368,7 +1381,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Chatter Door, designing for in-between spaces</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Duel, T., &amp; Lévy, P. (2015). The Chatter Door, designing for in-between spaces. In V., Popovic, A., Blackler, &amp; B., Kraal (Eds.), the Proceedings of 6th International Congress of International Association of Societies of Design Research, IASDR 2015. Brisbane, Australia: Queensland University of Technology.
             </p>
@@ -1388,7 +1401,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Experiential design landscapes: how to design for behaviour change, towards an active lifestyle</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The design process is taken into society by creating infrastructures where designers work together with stakeholders in jointly creating experienceable propositions that can evolve over time.<br/><i>Doctoral dissertation of Carl Megens and Michel Peeters</i>
             </p>
@@ -1410,7 +1423,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing rituals</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The aim of this course is to address these qualities embodied in rituals from an interaction design perspective, and to explore the relation between the designed artefacts and the rituals they are involved in.
             </p>
@@ -1432,7 +1445,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Impact of perception theories on kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2014). Impact of perception theories on kansei design. Journal of Japan Society of Kansei Engineering, 13(1), 21–26.
             </p>
@@ -1452,7 +1465,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>aGravity</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Nobody ever said that defying gravity is easy!<br/><i>a final bachelor project by Alex Jurtan</i>
             </p>
@@ -1475,7 +1488,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Perception Theories and Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2014). Perception Theories and Kansei Design. In P., Lévy, S., Schütte, &amp; T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 287–297). Linköping, Sweden: Japan Society of Kansei Engineering.
             </p>
@@ -1494,7 +1507,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Kint, J., Klooster, S., & Lévy, P. (2014). Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts. In P., Lévy, S., Schütte, & T., Yamanaka (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2014, KEER2014 (pp 1115–1125). Linköping, Sweden: Japan Society of Kansei Engineering.
             </p>
@@ -1514,7 +1527,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Data Resonance</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 What does data feel like?<br/><i>by Sander Dijkhuis</i>
             </p>
@@ -1535,7 +1548,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The bases of direct interaction design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). The bases of direct interaction design, presented at Kyoto Institute of Technology, Kyoto, Japan. December 3rd, 2013.
             </p>
@@ -1554,7 +1567,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Direct interaction design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). Direct interaction design, presented at Musashino Art University, Tokyo, Japan. November 19th, 2013.
             </p>
@@ -1573,7 +1586,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Exploring constituents for kansei design, towards a framework</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). Exploring constituents for kansei design, towards a framework. the Proceedings of 5th International Congress of International Association of Societies of Design Research, IASDR 2013 (pp 148–159). Tokyo, Japan: Shibaura University of Technology.
             </p>
@@ -1592,7 +1605,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Matter of transformation, designing an alternative tomorrow inspired by phenomenology</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Hummels, C., & Lévy, P. (2013). Matter of Transformation: Designing an Alternative Tomorrow Inspired by Phenomenology. Interactions, 20(6), 42–49. https://doi.org/10.1145/2533713
             </p>
@@ -1611,7 +1624,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Beyond kansei engineering: the emancipation of kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). Beyond kansei engineering: the emancipation of kansei design. International Journal of Design. 7(2), 83–94
             </p>
@@ -1631,7 +1644,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Sensual Dynamics</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The primacy of perception towards interaction is the main focus of this workshop, proposing an approach to effectively taking it into consideration in the design process.
             </p>
@@ -1653,7 +1666,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Holism and kansei design, kansei beyond borders</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). Holism and kansei design – kansei beyond borders, presented at the International Colloquium on Kansei and Design 2013, University of Tsukuba, Tsukuba, Japan. August 30th, 2013.
             </p>
@@ -1686,7 +1699,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Portfolio for the University Teaching Qualification (BKO)</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2013). Portfolio for the University Teaching Qualification (BKO). Eindhoven University of Technology, The Netherlands
             </p>
@@ -1705,7 +1718,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>People, Place, Process: Lessons Learnt on the Path to a d.school</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Hillen, V., & Lévy, P. (2013). People, Place, Process: Lessons Learnt on the Path to a d.school. the Proceedings of International Conference on Engineering Design 2013, ICED13 ([on CD]). Seoul, Korea: The Design Society.
             </p>
@@ -1725,7 +1738,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Perceptive Qualities in System of Interactive Products</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 On May 3rd 2013, Eva Deckers has received a Ph.D. degree CUM LAUDE on the topic of Perceptive Qualities in System of Interactive Products.
             </p>
@@ -1747,7 +1760,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for Perceptual Crossing: designing and comparing three behaviors</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Deckers, E.J.L., Wensveen, S., Lévy, P., & Ahn, R. (2013). Designing for Perceptual Crossing: designing and comparing three behaviors. the Proceedings of SIGCHI Conference on Human Factors in Computing Systems, CHI'13 (pp 1901–1910). Paris, France: ACM. http://dx.doi.org/10.1145/2470654.2466251
             </p>
@@ -1767,7 +1780,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Systems Design - The Eindhoven School</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 While we are starting to understand how to design for interaction through the integrating of form, interaction and function, the next challenge is already in sight: designing for systems.
             </p>
@@ -1792,7 +1805,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Shift - an installation for the Glow festival</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Light through Culture is an international design school which explores the theme of complexity in learning environments.
             </p>
@@ -1815,7 +1828,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for perceptive qualities: 7 showcases</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Deckers, E.J.L., & Lévy, P. (2012). Designing for perceptive qualities: 7 showcases. the Proceedings of Design Interactive Systems Conference, DIS12 (pp 496–505). Newcastle, UK: ACM. http://dx.doi.org/10.1145/2317956.2318030
             </p>
@@ -1834,7 +1847,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing for perceptual crossing: applying and evaluating design notions</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Deckers, E.J.L., Lévy, P., Wensveen, S., Ahn, R., & Overbeeke, K. (2012). Designing for perceptual crossing: applying and evaluating design notions. International Journal of Design. 6(3), 41–55
             </p>
@@ -1853,7 +1866,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Introducing research activities: Knowledge Sharing and Creativity with Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2009). Introducing research activities: Knowledge Sharing and Creativity with Kansei Design. Journal of Japan Society of Kansei Engineering, 8(2)
             </p>
@@ -1873,7 +1886,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Light in Transition</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Intelligent products and systems are omnipresent, weave into our everyday life, and consequently have the power to transform our society. Adoption of these systems in our environments invites for exploring further how we interact with our environment.<br/><i>by Nadine Amersvoort</i>
             </p>
@@ -1901,7 +1914,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Luma</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 This research project focuses on how to design for perceptive activity in artifacts in order for crossing in perception of expressivity between person and artifact to happen.<br/><i>by Koen Beljaars</i>
             </p>
@@ -1923,7 +1936,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Monty</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Due to its curious nature Monty might not always be focused on what you are doing. He can however be temporarily motivated to move towards a particular area on your desk.<br/><i>by Rens Alkemade</i>
             </p>
@@ -1948,7 +1961,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Passage</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Passage est un projet de design kanasei réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Vermeyen à l’Université de Technologie d’Eindhoven.
             </p>
@@ -1974,7 +1987,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Practice of Constructive Design Research</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The Practice of Constructive Design Research is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.</i>
             </p>
@@ -1996,7 +2009,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Involving psychophysiological knowledge in Kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Kim, D., Tsai, T.J., Lee, S.H., & Yamanaka, T. (2012). Involving psychophysiological knowledge in Kansei design. International Journal of Design Engineering. 5(2), 122-141. doi:10.1504/IJDE.2012.053018
             </p>
@@ -2015,7 +2028,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The multi-disciplinary nature of kansei research: an historical approach</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2012). The multi-disciplinary nature of kansei research: an historical approach. Penghu, Taiwan.
             </p>
@@ -2034,7 +2047,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Special issue: kansei research in Europe</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2012). Special issue: kansei research in Europe, presented at the Kansei Engineering and Emotion Research International Conference 2012, KEER2012, Penghu, Taiwan. May 22-25, 2012.
             </p>
@@ -2054,7 +2067,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Rights through Making - Skills for Pervasive Ethics</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Pervasive ethics is a social praxis aimed at justice and freedom, which pervades society in a capillary way, becoming a Universal attitude that makes people aware of their own rights, able and willing to contribute to seeing their own rights and those of all people fulfilled.<br/><i>Doctoral dissertation of Ambra Trotto</i>
             </p>
@@ -2084,7 +2097,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>When Movement Invites to Experience: a Kansei Design Exploration on Senses’ Qualities</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Deckers, E.J.L., & Restrepo Cruz, M. (2012). When Movement Invites to Experience: a Kansei Design Exploration on Senses' Qualities. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.
             </p>
@@ -2103,7 +2116,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Developing a design approach, exploring resistance and ambiguity</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Trotto, A., Hummels, C.C.M., & Lévy, P. (2012). Developing a design approach, exploring resistance and ambiguity. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering.
             </p>
@@ -2122,7 +2135,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Making the world through kansei: 3 Approaches</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2012). Making the world through kansei: 3 Approaches, presented at Tokyo Institute of Technology, Tokyo, Japan. March 16th, 2012.
             </p>
@@ -2142,7 +2155,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Light through Culture - Experience Human Rights</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Light through Culture is an international design school which explores the theme of complexity in learning environments.</i>
             </p>
@@ -2163,7 +2176,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Psychophysiological Applications in Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Yamanaka, T., & Tomico, O. (2011). Psychophysiological Applications in Kansei Design. In & M., Shi (Eds.) Kansei Engineering and Soft Computing: Theory and Practice (pp. 266-286). Hershey, PA: IGI Global. http://dx.doi.org/10.4018/978-1-61692-797-4.ch015
             </p>
@@ -2182,7 +2195,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Ohlala: Exploring the Relation between Content Completeness and Emotional Experience</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Kuenen, S., Overbeeke, K., Uchiyama, T., & Yamanaka, T. (2011). Ohlala: Exploring the Relation between Content Completeness and Emotional Experience. In N., Roozenburg, L.L., Chen, & P.J., Stappers (Eds.), the Proceedings of International Association of Societies of Design Research 2011, IASDR11 ([on CD]). Delft, The Netherlands: Delft University of Technology.
             </p>
@@ -2202,7 +2215,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing Quality in Interaction theory</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 The primacy of perception towards interaction is the main focus of this workshop, proposing an approach to effectively taking it into consideration in the design process.
             </p>
@@ -2232,7 +2245,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Luciole, lighting up the design process</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Wijnen, J., Hummels, C.C.M., & Vinke, A.A. (2011). Luciole, lighting up the design process. In P., Marti, A., Soro, L., Gamberini, & S., Bagnara (Eds.), the Proceedings of 9th ACM SIGCHI Italian Chapter International Conference on Computer-Human Interaction Facing Complexity - CHItaly (pp 103). Alghero, Italy: ACM. http://dx.doi.org/10.1145/2037296.2037323
             </p>
@@ -2251,7 +2264,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei et kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2011). Kansei et kansei design, presented at l'École Nationale Supérieure de la Création Industrielle, Paris, France. March 31st, 2011.
             </p>
@@ -2270,7 +2283,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Bringing Forth Constructivist Education Assessment: A Frame of Reference to Inspire and to Support Design Education</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Hummels, C.C.M., & Vinke, A.A. (2011). Bringing Forth Constructivist Education Assessment: A Frame of Reference to Inspire and to Support Design Education. the Proceedings of Fifth International Conference on Design Principles and Practices ([on CD]). Rome, Italy: CGPublisher.
             </p>
@@ -2289,7 +2302,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The origin of experience</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2011). The origin of experience, presented at the the seminar series Catch the Future, the Department of Industrial Design of the Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea. March 8th, 2011
             </p>
@@ -2308,7 +2321,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei research in Eurasia</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2010). Kansei research in Eurasia, presented at the the TIK Symposium 2010, Taihung, Taiwan. October 23rd, 2010.
             </p>
@@ -2328,7 +2341,7 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Philosophie japonaise et design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 L’art occidental transforme l’ « impression » en description. Le haïku ne décrit jamais ; son art est contre-descriptif, dans la mesure où tout état de la chose est immédiatement, obstinément, victorieusement converti en une essence fragile d’apparition.<br /><span
                     class="text italic">- Roland Barthes
@@ -2352,7 +2365,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>感性価値の高い化粧品開発にむけた手法と考え方感性認知脳科学的視点から考える感性価値創造</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Yamanaka, T., & Lévy, P. (2010). 感性価値の高い化粧品開発にむけた手法と考え方 感性認知脳科学的視点から考える感性価値創造 [Kansei Science and Kansei Value Creation through Kansei, Behavioral and Brain Sciences]. Cosmetic Stage. 4(33), 1-11
             </p>
@@ -2371,7 +2384,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010, KEER 2010</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Bouchard, C., Yamanaka, T., & Aoussat A. (Eds.). 2010. The Proceedings of the Kansei Engineering and Emotion Research International Conference 2010 – KEER 2010. Paris, France. ISBN: 978-4-9905104-0-4.
             </p>
@@ -2390,7 +2403,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Developing sensory functions: Transfer human senses from contextual perception</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Tsai, T.J., Lévy, P., Ono, K., & Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, & A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.
             </p>
@@ -2409,7 +2422,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Yamanaka, T., Ono, K., & Watanabe, M. (2009). Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design. the Proceedings of International Association of Societies of Design Research Conference 2009 - IASDR09 ([on CD]). Seoul, Korea: Korean Society of Design Science.
             </p>
@@ -2428,7 +2441,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>The Repertory Grid Technique as a Method for the Study of Cultural Differences</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Tomico, O., Karapanos, E., Lévy, P., Mizutani, N., & Yamanaka, T. (2009). The Repertory Grid Technique as a Method for the Study of Cultural Differences. International Journal of Design. 3(3), 55-63.
             </p>
@@ -2447,7 +2460,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Colourful Rain, Experiencing Synaesthesia</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Kim, D., Tsai, T.J., Lee, S.H., & Yamanaka, T. (2009). Colourful Rain – Experiencing Synaesthesia. the Proceedings of International Conference on Designing Pleasurable Products and Interfaces - DPPI09. Compiègne, France.
             </p>
@@ -2466,7 +2479,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei Studies Description and Mapping through Kansei Study Keywords</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2009). Kansei Studies Description and Mapping through Kansei Study Keywords. Kansei Engineering International. 8(2), 179–185.
             </p>
@@ -2485,7 +2498,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Methods and Means for Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Tsai, T.J., Lévy, P., Ono, K., & Watanabe, M. (2010). Developing sensory functions: transfer human senses from contextual perception. In P., Lévy, C., Bouchard, T., Yamanaka, & A., Aoussat (Eds.), the Proceedings of Kansei Engineering and Emotion Research International Conference 2010 - KEER2010 (pp 304–313). Paris, France: Japan Society of Kansei Engineering.
             </p>
@@ -2504,7 +2517,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Neural networks involved in artistic creativity</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Kowatari, Y., Lee, S.H., Yamamura, H., Nagamori, Y., Lévy, P., Yamane, S., & Yamamoto, Y. (2009). Neural networks involved in artistic creativity. Human Brain Mapping. 30(5), 1678–1690. doi:10.1002/hbm.20633
             </p>
@@ -2523,7 +2536,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Lier Affectivité et Conception: l’Ingénierie Kansei</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2008). Lier Affectivité et Conception: l’Ingénierie Kansei. Techniques de l'Ingénieur, AG2140v1
             </p>
@@ -2542,7 +2555,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>User’s appreciation of engagement in service design: The case of food service design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Wakabayashi, N. (2008). User's appreciation of engagement in service design: The case of food service design. the Proceedings of International Service Innovation Design Conference 2008 - ISIDC08. Busan, Korea.
             </p>
@@ -2561,7 +2574,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>An Approach on Functional Analysis in Developing Guideline for Designing Service-embedded Product</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Tsai, T.J., Lévy, P., Ono, K., & Watanabe, M. (2008). An Approach on Functional Analysis in Developing Guideline for Designing Service-embedded Product. the Proceedings of International Service Innovation Design Conference 2008 - ISIDC08 ([on CD]). Busan, Korea.
             </p>
@@ -2580,7 +2593,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Development of Competences for Service Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Ono, K., Lévy, P., Ishizuka, A., Hachima, S., & Waatanabe, M. (2008). Development of Competences for Service Design. the Proceedings of International Service Innovation Design Conference 2008 - ISIDC08. Busan, Korea.
             </p>
@@ -2599,7 +2612,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei Engineering|Science, Trans|Interdisciplinary Research</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2008). Kansei Engineering|Science – Trans|Interdisciplinary Research, presented at the KEER International Symposium 2008, Taipei, Taiwan. October 2nd, 2008.
             </p>
@@ -2618,7 +2631,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Designing based on the evoked metaphor, Case study</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2008). Designing based on the evoked metaphor - Case study. In D., Marjanovic, M., Storga, N., Pavkovic, & N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 1095 – 1104). Dubrovnik, Croatia.
             </p>
@@ -2637,7 +2650,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Tomico, O., Mizutani, N., Lévy, P., Takahiro, Y., & Yamanaka, T. (2008). Kansei physiological measurements and contructivist psychological explorations for approaching user subjective experience during and after product usage. In D., Marjanovic, M., Storga, N., Pavkovic, & N., Bojcetic (Eds.), the Proceedings of 10th International Design Conference 2008 (pp 529 – 536). Dubrovnik, Croatia.
             </p>
@@ -2656,7 +2669,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Explaining kansei design studies</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Nakamori, S., & Yamanaka, T. (2008). Explaining kansei design studies. In P.M.A., Desmet, S., Tsvetanova, P., Hekkert, & L., Justice (Eds.), the Proceedings of Design and Emotion Conference 2008 - D&E08. Hong-Kong: School of Design, The Hong Kong Polytechnic University.
             </p>
@@ -2675,7 +2688,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei Studies Description and Mapping through Kansei Studies Keywords</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2008). Kansei Studies Description and Mapping through Kansei Studies Keywords. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08. Daejeon, Korea.
             </p>
@@ -2694,7 +2707,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei-Physiological Measurements and Constructivist, Psychological Explorations for Approaching User’s Subjective Experience during and after the Product Use</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Yamanaka, T., Tomico, O., Mizutani, N., Yokoi, T., Cho, Y., & Lévy, P. (2008). Kansei-Physiological Measurements and Constructivist – Psychological Explorations for Approaching User's Subjective Experience during and after the Product Use. the Proceedings of International Symposium on Emotion and Sensitivity 2008 - ISES08 ([on CD]). Daejeon, Korea.
             </p>
@@ -2713,7 +2726,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Interdisciplinary Design Method for EcoDesign, Introducing Kansei research for design to EcoDesign</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2007). Interdisciplinary Design Method for EcoDesign – Introducing Kansei research for design to EcoDesign. the Proceedings of 5th International Symposium on Environmentally Conscious Design and Inverse Manufacturing - EcoDesign2007 ([on CD]). Tokyo, Japan.
             </p>
@@ -2732,7 +2745,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei and Kansei Studies: an Overview towards Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2008). Kansei and Kansei Studies: an Overview towards Kansei Design, presented at the the International Symposium of the 21th Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart, Tsukuba, Japan. September 9th, 2007.
             </p>
@@ -2751,7 +2764,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>On Kansei and Kansei Design: a Description of a Japanese Design Approach</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Lee, S.H., & Yamanaka, T. (2007). On Kansei and Kansei Design: a Description of a Japanese Design Approach. the Proceedings of International Association of Societies of Design Research Conference 2007 - IASDR07 ([on CD]). Hong-Kong: School of Design, The Hong Kong Polytechnic University.
             </p>
@@ -2770,7 +2783,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Creating an Evoked Metaphor for Kansei Design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., Yamanaka, T., Wang, L., & Igarashi, H. (2007). Creating an Evoked Metaphor for Kansei Design. the Proceedings of International Conference on Kansei Engineering and Emotion Research - KEER07 ([on CD]). Sapporo, Japan.
             </p>
@@ -2789,7 +2802,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Towards a definition of Kansei</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2006). Towards a definition of Kansei. the Proceedings of 2006 Design Research Society International Conference, Wonderground 2006 ([on CD]). Lisbon, Portugal.
             </p>
@@ -2808,7 +2821,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Interdisciplinary workgroup methodology based on Intuition, Application to a communication tool design based on Kansei information approach</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2006). Interdisciplinary workgroup methodology based on Intuition – Application to a communication tool design based on Kansei information approach. Kansei Engineering International. 5(4), 31–40.
             </p>
@@ -2827,7 +2840,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>MATiK, CMC design by Kansei Information approach</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2006). MATiK – CMC design by Kansei Information approach. the Proceedings of Kansei Engineering and Intelligent Systems - KEIS'06 ([on CD]). Aizu, Japan
             </p>
@@ -2846,7 +2859,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei information approach for an interdisciplinary design method proposal based on intuition</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2006). Kansei information approach for an interdisciplinary design method proposal based on intuition. In D., Marjanovic (Eds.), the Proceedings of 9th International Design Conference 2006 (pp 1475 – 1482). Dubrovnik, Croatia.
             </p>
@@ -2865,7 +2878,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Interdisciplinary design for the cyberspace by an approach in kansei information, Methodology and Workgroup Communication Tool Design Approach in Kansei</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2006). Interdisciplinary design for the cyberspace by an approach in kansei information – Methodology and Workgroup Communication Tool Design Approach in Kansei. University of Tsukuba, Japan
             </p>
@@ -2884,7 +2897,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Introducing MATiK service, Proposition for a new IT communication system through an approach in Kansei</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P., & Yamanaka, T. (2004). Introducing MATiK service – Proposition for a new IT communication system through an approach in Kansei. the Proceedings of 2004 Design Research Society International Conference - Futureground 2004 ([on CD]). Melbourne, Australia: Monash University.
             </p>
@@ -2903,7 +2916,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Illustrative Industrial Interactions Through Kansei – Towards a dynamic reflection of Kansei in the Marketing/Design/Engineering relationship</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Sanabria, J.C., Lévy, P., & Lee, S.H. (2003). Illustrative Industrial Interactions Through Kansei – Towards a dynamic reflection of Kansei in the Marketing/Design/Engineering relationship. In H., Aoki (Eds.), the Proceedings of 6th Asian Design International Conference - 6thADC ([on CD]). Tsukuba, Japan: University of Tsukuba.
             </p>
@@ -2923,7 +2936,7 @@ presentation
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Kansei studies, kansei design</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 A piece of waka makes your heart abate and kansei, which is a virtue of waka.<br /><span
                     class="text italic">- Yoshida
@@ -2946,7 +2959,7 @@ For over three decades, kansei engineering has expanded greatly and has become a
         <div class="px-6 pt-5 rounded w-full h-auto ">
             <h5>Design industriel et interdisciplinarité, Méthode et outil d’intégration de l’interdisciplinarité dans la formation pédagogique initiale du design industriel</h5>
         </div>
-        <div class="px-6 pt-3 pb-1 rounded-b">
+        <div class="px-6 pt-3 pb-4 rounded-b">
             <p class="overflow-ellipsis overflow-hidden ...">
                 Lévy, P. (2002). Design industriel et interdisciplinarité – Méthode et outil d'intégration de l'interdisciplinarité dans la formation pédagogique initiale du design industriel. Université de Technologie de Compiègne, France
             </p>
@@ -2967,33 +2980,6 @@ For over three decades, kansei engineering has expanded greatly and has become a
 </script>
 
 <script>
-    
-    $('.pageMenu').click(function () {
-        var targ = $(this).attr('scrllto');
-        $("html, body").animate({
-            scrollTop: $(targ).offset().top + 10
-        }, 700, "swing");
-    });
-
-    
-    $('.mainMenu, .submenu>div').click(function () {
-        $('.mainMenu, .submenu div').removeClass('active');
-        $(this).addClass('active');
-    });
-
-    
-    $('.mainMenu').click(function () {
-        var targ = '.' + $(this).attr('data-filter');
-        $('.submenu').addClass('hidden');
-        $(targ).removeClass('hidden');
-    });
-
-    
-    $('input').keydown(function () {
-        $("html, body").animate({
-            scrollTop: $("#activities").offset().top + 10
-        }, 500, "swing");
-    });
 </script>
 
 </main>
@@ -3010,6 +2996,7 @@ For over three decades, kansei engineering has expanded greatly and has become a
 
     document.addEventListener('DOMContentLoaded', () => {
       getcolorscheme();
+      switchBurger();
       notitle();
     });
   </script>

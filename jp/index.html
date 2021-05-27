@@ -105,40 +105,44 @@
 <p>フランス・<a href="https://www.dicen-idf.org/" target="_blank" title="Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France" data-tooltip="Dispositifs d’Information et de Communication à l’Ere Numérique – Paris, Ile-de-France" rel="noreferrer">Dicen-IDF</a>の准研究員</p>
     </div>
     <div class="h-12 flex lg:h-auto pb-4" name="cover">
-        <div class="w-full lg:w-56 mb-40"><nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
-    <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
-        currenturl="https://plevy.fr/jp/">
-        
-        <a scrllto="#about"
-            class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">履歴書</a>
-        
-    </div>
-    <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-        
-        <div id="languageMode">
-            <span class="font-medium">JP</span>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/" title="EN"
-                data-tooltip="English"
-                rel="noreferrer">EN</a>&nbsp;|&nbsp;<a
-                href="https://plevy.fr/fr/" title="FR"
-                data-tooltip="Français"
-                rel="noreferrer">FR</a>
-        </div>
-        
-        <div class="relative">
-            <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                id='lightDarkOptions'>
-                <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i class="far fa-moon"></i>
+        <div class="w-full lg:w-56 mb-40">
+            <nav class="flex flex-col items-left lg:w-full h-12 lg:h-auto">
+                <div class="menu flex-col flex py-2 lg:px-0 lg:pb-0 mb-1 w-screen lg:w-auto" id="current-url"
+                    currenturl="https://plevy.fr/jp/">
+                    
+                    <a scrllto="#about"
+                        class="block pb-1 lg:mt-0 main-a text-primary-text hover:text-epierrot cursor-pointer pageMenu">履歴書</a>
+                    
                 </div>
-                <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                        class="far fa-sun"></i></div>
-            </div>
-            <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                <div class="fixed hidden" id="is-open"></div>
-            </div>
+                <div class="flex flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
+                    
+                    <div id="languageMode">
+                        <span
+                            class="font-medium">JP</span>&nbsp;|&nbsp;<a
+                            href="https://plevy.fr/" title="EN"
+                            data-tooltip="English"
+                            rel="noreferrer">EN</a>&nbsp;|&nbsp;<a
+                            href="https://plevy.fr/fr/" title="FR"
+                            data-tooltip="Français"
+                            rel="noreferrer">FR</a>
+                    </div>
+                    
+                    <div class="relative">
+                        <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
+                            id='lightDarkOptions'>
+                            <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i
+                                    class="far fa-moon"></i>
+                            </div>
+                            <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
+                                    class="far fa-sun"></i></div>
+                        </div>
+                        <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
+                            <div class="fixed hidden" id="is-open"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </div>
-</nav></div>
     </div>
 </div>
 <div class="h-6"></div>
@@ -185,7 +189,8 @@
                     </p>
                     
                     <p>&nbsp;</p>
-                    <p><a class="text-bold" href='/#activities'><i class="fas fa-link"></i> 教育・研究活動（英語）</a></p>
+                    <p><a class="text-bold" href='/#activities'><i class="fas fa-link"></i>
+                            教育・研究活動（英語）</a></p>
                     
                 </div>
                 
@@ -210,6 +215,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       getcolorscheme();
+      switchBurger();
       notitle();
     });
   </script>
