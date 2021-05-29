@@ -143,6 +143,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/activities/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/activities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/activities/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/research/philodesigncorrespondance/</loc>
     <lastmod>2020-10-16T20:03:12+02:00</lastmod>
     <xhtml:link
@@ -174,26 +189,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://plevy.fr/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://plevy.fr/all/</loc>
-    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://plevy.fr/fr/all/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://plevy.fr/jp/all/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://plevy.fr/all/"
                 />
   </url>
   
