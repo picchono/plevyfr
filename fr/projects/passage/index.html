@@ -153,8 +153,9 @@ Passage est un projet réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Ver
 </div>
 </div>
 </main>
-  <a class="fixed top-0 left-0 px-3 py-2 leading-none bg-primary-text text-primary-bg"
-    href='https://plevy.fr/'><i class="fas fa-chevron-left"></i></a>
+  <a
+    class="fixed top-0 left-0 px-3 py-2 leading-none bg-primary-text text-primary-bg" href='https://plevy.fr/'><i
+      class="fas fa-chevron-left"></i></a>
   <script>
     let storageColorScheme = localStorage.getItem("lightDarkMode")
     if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia(
@@ -166,6 +167,7 @@ Passage est un projet réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Ver
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+      switchBurger();
       getcolorscheme();
       notitle();
     });
