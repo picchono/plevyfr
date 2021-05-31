@@ -121,8 +121,11 @@
 <body class="bckgrndImageCover min-h-screen backgrndMultiply bg-fixed" id="activities"
   >
   <main>
-<div class="h-10 w-full"></div>
-<div class="flex flex-col flex-grow-0 lg:h-screen fixed w-full lg:w-84 top-0 lg:top-10 lg:pl-6 z-50 mb-2">
+<div class="h-6 w-full"></div>
+<h1 class="text-xl font-bold px-2 pb-4 pt-3 lg:px-10 lg:pt-2 fixed top-0 left-4 z-50 lg:block lg:top-auto lg:left-auto">
+    <span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3">Pierre Lévy</span>Activities
+</h1>
+<div class="flex flex-col flex-grow-0 lg:h-screen fixed w-full lg:w-84 top-0 lg:top-24 lg:pl-6 z-40 mb-2">
     <div
         class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6 bg-primary-bg border-b-4 border-tertiary-bg">
         <button id="navbox-btn" aria-label="Menu">
@@ -131,45 +134,35 @@
             <div class="bar3"></div>
         </button>
     </div>
-    <div id="target"
-        class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:py-6 px-6 bg-primary-bg lg:shadow-2xl lg:rounded-lg">
-        <div data-filter="all" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu active">
-            Tous
+    <div id="target" class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:py-6 px-4 bg-primary-bg lg:rounded-lg">
+        <div data-filter="all" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu active">Tous
         </div>
-        <div data-filter="research" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu">
-            Recherche</div>
-        <div data-filter="publications" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu">
-            Publications</div>
-        <div data-filter="projects" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu">
-            Projets</div>
-        <div data-filter="other" class="mr-10 my-1 cursor-pointer font-bold lg:text-lg mainMenu">Autre
-        </div>
-        <div class="w-full lg:w-auto tracking-wide my-4 lg:my-14"><input type="text" class="lg:text-lg w-full"
-                name="search" placeholder='Recherche...' data-search></div>
-        <div class="research submenu hidden flex flex-row lg:flex-col flex-wrap w-full"></div>
-        <div class="publications submenu hidden flex flex-row lg:flex-col flex-wrap w-full">
+        <div data-filter="research" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Recherche</div>
+        <div data-filter="publications" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Publications</div>
+        <div class="publications submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
             <div data-filter="publications" class="mb-2 mr-6 lg:mr-0 lg:mb-2 cursor-pointer w-auto">Tous
             </div>
-            <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Journaux</div>
-            <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Conférences
+            <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Journaux</div>
+            <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Conférences
             </div>
-            <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
-                Chapitres</div>
-            <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
-                Dissertations</div>
-            <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Éditions</div>
-            <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
-                Présentations</div>
-            <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Rapports</div>
-            <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer "></div>
+            <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Chapitres
+            </div>
+            <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Dissertations
+            </div>
+            <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Éditions</div>
+            <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Présentations
+            </div>
+            <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Rapports</div>
+            <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer "></div>
         </div>
-        <div class="projects submenu hidden flex flex-row lg:flex-col flex-wrap w-full">
-            <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Projets</div>
-            <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">
-                Projets d&#39;étudiants</div>
-            <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-1 cursor-pointer ">Lectures</div>
-        </div>
-        <div class="other submenu hidden flex flex-row lg:flex-col flex-wrap w-full"></div>
+        <div data-filter="projects" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Projets</div>
+        <div class="projects submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
+            <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Projets</div>
+            <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Projets d&#39;étudiants</div>
+            <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Lectures</div></div>
+        <div data-filter="other" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Autre</div>
+        <div class="w-full lg:w-auto tracking-wide my-4 lg:my-0.54"><input type="text" class="lg:text-lg w-full"
+                name="search" placeholder='Recherche...' data-search></div>
         <div class="flex lg:hidden flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
             
             <div id="languageMode">
@@ -195,7 +188,7 @@
         </div>
     </div>
 </div>
-<div class="flex-grow publili mx-4 ml-84">
+<div class="flex-grow publili mx-4 lg:mx-2 lg:ml-84 mt-10 lg:mt-0">
     <div class="filtr-container">
         
         <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
