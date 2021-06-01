@@ -199,19 +199,83 @@
         <div class="w-full h-0"></div>
     </div>
 </div>
-<div class="bg-primary-bg w-full">
-    <div class="min-h-screen md:container mx-auto flex flex-col justify-between bg-primary-bg px-0 md:px-6" ame="activities"
-        id="activities">
-        <div class="flex flex-col flex-wrap md:flex-row py-14">
-            <div class="filtr-container">
-                
-            </div>
+
+<div class="flex flex-row pt-6 bg-primary-bg" name="activities" id="activities">
+<div class="flex flex-col flex-grow-0 lg:h-screen sticky w-full lg:w-84 top-0 lg:top-24 lg:pl-6 z-40 mb-2">
+    <h1 class="text-xl font-bold px-4 pb-4 pt-3 lg:pt-2 sticky top-0 left-4 z-50 lg:block lg:top-auto lg:left-auto">
+        <span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3">Pierre Lévy</span>Activities</h1>
+        <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6 bg-primary-bg border-b-4 border-tertiary-bg">
+        <button id="navbox-btn" aria-label="Menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </button>
+    </div>
+    <div id="target" class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:py-6 px-4 bg-primary-bg lg:rounded-lg">
+        <div data-filter="all" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu active">全部
         </div>
-        <div class=" w-full bg-primary-bg mt-6 mb-12 px-6 text-center md:text-left"><a href='https://plevy.fr/activities'
-                class="font-bold text-lg border-epierrot hover:border-primary-text border px-6 py-2 rounded">See all activities</a>
+        <div data-filter="research" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Research</div>
+        <div data-filter="publications" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Publications</div>
+        <div class="publications submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
+            <div data-filter="publications" class="mb-2 mr-6 lg:mr-0 lg:mb-2 cursor-pointer w-auto">全部
+            </div>
+            <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">学術誌</div>
+            <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">学会
+            </div>
+            <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">本章
+            </div>
+            <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">論文
+            </div>
+            <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">編集</div>
+            <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">発表
+            </div>
+            <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">報告</div>
+            <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer "></div>
+        </div>
+        <div data-filter="projects" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Projects</div>
+        <div class="projects submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
+            <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Projects</div>
+            <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">学生のプロジェクト</div>
+            <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">授業</div></div>
+        <div data-filter="other" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Other</div>
+        <div class="w-full lg:w-auto tracking-wide my-4 lg:my-0.54"><input type="text" class="lg:text-lg w-full"
+                name="search" placeholder='検索する...' data-search></div>
+        <div class="flex lg:hidden flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
+            
+            <div id="languageMode">
+                <span class="font-medium">JP</span>&nbsp;|&nbsp;<a
+                    href="https://plevy.fr/" title="EN"
+                    data-tooltip="English"
+                    rel="noreferrer">EN</a>&nbsp;|&nbsp;<a
+                    href="https://plevy.fr/fr/" title="FR"
+                    data-tooltip="Français"
+                    rel="noreferrer">FR</a>
+            </div>
+            
+            <div class="relative">
+                <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i
+                            class="far fa-moon"></i>
+                    </div>
+                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
+                            class="far fa-sun"></i></div>
+                </div>
+                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
+                    <div class="fixed hidden" id="is-open"></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<div class="flex-grow publili mx-4 lg:mx-2 mt-10 lg:mt-0">
+    <div class="filtr-container">
+        
+    </div>
+</div>
+</div>
+
+
 </main>
   
   <script>
