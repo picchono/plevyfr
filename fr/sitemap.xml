@@ -83,6 +83,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/fr/publis/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/publis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/publis/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/fr/research/</loc>
     <lastmod>2020-10-24T00:55:28+02:00</lastmod>
     <xhtml:link
