@@ -195,7 +195,8 @@
                     <div class="md:col-span-3 px-6 py-16 md:pt-2 bg-tertiary-bg md:bg-secondary-bg">
                         <p>I am an assistant professor on Enchanting the everyday at the Department of Industrial Design at Eindhoven University of Technology (TU/e). I am co-founder and former president of the European Kansei Group (EKG), and a member of the Kansei Engineering and Emotion Research (KEER) Steering Committee. I have a Mechanical Engineering master degree (UT Compiègne, France), a doctoral degree in Kansei (affective) Science (University of Tsukuba, Japan), and a HDR in Information and Communication Sciences (UT Compiègne, France). I am interested in the relation between theory and practice in transformative practices and sciences. My research mainly focuses on embodiment theories and Japanese philosophy in relation to values and beauty in the everyday.</p>
                         <p class="hidden md:block">&nbsp;</p>
-                        <p class="hidden md:block"><i>Transforming Practices (TP)</i> educational project group leader<br />Founder and responsible for the <i>DataLab</i> of ID@TU/e<br />
+                        <p class="hidden md:block">
+                            <i>Transforming Practices (TP)</i> educational project group leader<br />Founder and responsible for the <i>DataLab</i> of ID@TU/e<br />
                         </p>
                     </div>
                     
@@ -207,78 +208,99 @@
 </div>
 
 <div class="flex flex-col md:flex-row md:pt-6 bg-primary-bg" name="activities" id="activities">
-<div class="flex flex-col flex-grow-0 lg:h-screen sticky w-full lg:w-84 top-0 lg:pl-6 z-40 mb-2">
-    <div class="hidden lg:block lg:h-24"></div>
-    <h1 class="hidden text-xl font-bold px-4 pb-4 pt-3 lg:pt-2 md:sticky top-0 left-4 z-50 lg:block lg:top-auto lg:left-auto">
-        <span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3">Pierre Lévy</span>Activities</h1>
-        <div class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6 bg-primary-bg border-b-4 border-tertiary-bg">
-        <button id="navbox-btn" aria-label="Menu">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </button>
-    </div>
-    <div id="target" class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:py-6 px-4 bg-primary-bg lg:rounded-lg shadow-xl md:shadow-none">
-        <div data-filter="all" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu active">All
+    <div class="flex flex-col flex-grow-0 lg:h-screen sticky w-full lg:w-84 top-0 lg:pl-6 z-40 mb-2">
+        <div class="hidden lg:block lg:h-24"></div>
+        <h1
+            class="hidden text-xl font-bold px-4 pb-4 pt-3 lg:pt-2 md:sticky top-0 left-4 z-50 lg:block lg:top-auto lg:left-auto">
+            <span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3">Pierre
+                Lévy</span>Activities</h1>
+        <div
+            class="flex lg:hidden flex-row justify-end w-full py-3 px-6 lg:pb-6 lg:p-6 bg-primary-bg border-b-4 border-tertiary-bg">
+            <button id="navbox-btn" aria-label="Menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
         </div>
-        <div data-filter="research" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Research</div>
-        <div data-filter="publications" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Publications</div>
-        <div class="publications submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
-            <div data-filter="publications" class="mb-2 mr-6 lg:mr-0 lg:mb-2 cursor-pointer w-auto">All
+        <div id="target"
+            class="hidden lg:flex flex-row lg:flex-col flex-wrap w-full lg:w-72 py-4 lg:py-6 px-4 bg-primary-bg lg:rounded-lg shadow-xl md:shadow-none">
+            <div data-filter="all" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu active">
+                All
             </div>
-            <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Journals</div>
-            <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Conferences
+            <div data-filter="research" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">
+                Research</div>
+            <div data-filter="publications" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">
+                Publications</div>
+            <div class="publications submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
+                <div data-filter="publications" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer w-auto">All
+                </div>
+                <div data-filter="journal" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Journals
+                </div>
+                <div data-filter="conference" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                    Conferences
+                </div>
+                <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                    Book sections
+                </div>
+                <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                    Dissertations
+                </div>
+                <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Editions
+                </div>
+                <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                    Presentations
+                </div>
+                <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Reports</div>
+                <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                </div>
             </div>
-            <div data-filter="book-section" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Book sections
+            <div data-filter="projects" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">
+                Projects</div>
+            <div class="projects submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
+                <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Projects
+                </div>
+                <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">
+                    Student projects</div>
+                <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Lectures
+                </div>
             </div>
-            <div data-filter="dissertation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Dissertations
-            </div>
-            <div data-filter="edition" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Editions</div>
-            <div data-filter="presentation" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Presentations
-            </div>
-            <div data-filter="report" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Reports</div>
-            <div data-filter="keynote" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer "></div>
-        </div>
-        <div data-filter="projects" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Projects</div>
-        <div class="projects submenu hidden flex flex-row lg:flex-col flex-wrap w-full ml-2 my-2">
-            <div data-filter="project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Projects</div>
-            <div data-filter="student-project" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Student projects</div>
-            <div data-filter="lecture" class="mb-2 mr-6 lg:mr-0 lg:my-0.5 cursor-pointer ">Lectures</div></div>
-        <div data-filter="other" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">Other</div>
-        <div class="w-full lg:w-auto tracking-wide my-4 lg:my-0.54"><input type="text" class="lg:text-lg w-full"
-                name="search" placeholder='Search...' data-search></div>
-        <div class="flex lg:hidden flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
-            
-            <div id="languageMode">
-                <span class="font-medium">EN</span>&nbsp;|&nbsp;<a
-                    href="https://plevy.fr/fr/" title="FR"
-                    data-tooltip="Français"
-                    rel="noreferrer">FR</a>&nbsp;|&nbsp;<a
-                    href="https://plevy.fr/jp/" title="JP"
-                    data-tooltip="日本語"
-                    rel="noreferrer">JP</a>
-            </div>
-            
-            <div class="relative">
-                <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
-                    id='lightDarkOptions'>
-                    <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i
-                            class="far fa-moon"></i>
+            <div data-filter="other" class="mr-10 my-0.5 cursor-pointer font-bold lg:text-lg mainMenu">
+                Other</div>
+            <div class="w-full lg:w-auto tracking-wide my-4 lg:my-0.54"><input type="text" class="lg:text-lg w-full"
+                    name="search" placeholder='Search...' data-search></div>
+            <div class="flex lg:hidden flow-col justify-between pt-2 lg:pl-0 lg:mt-4">
+                
+                <div id="languageMode">
+                    <span
+                        class="font-medium">EN</span>&nbsp;|&nbsp;<a
+                        href="https://plevy.fr/fr/" title="FR"
+                        data-tooltip="Français"
+                        rel="noreferrer">FR</a>&nbsp;|&nbsp;<a
+                        href="https://plevy.fr/jp/" title="JP"
+                        data-tooltip="日本語"
+                        rel="noreferrer">JP</a>
+                </div>
+                
+                <div class="relative">
+                    <div class="absolute bg-primary-bg -mx-3 px-3 flex flex-row left-auto right-0 hidden rounded-t-md w-auto cursor-pointer z-40"
+                        id='lightDarkOptions'>
+                        <div class="inline-block text-primary-text hover:text-epierrot" type="Dark"><i
+                                class="far fa-moon"></i>
+                        </div>
+                        <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
+                                class="far fa-sun"></i></div>
                     </div>
-                    <div class="inline-block pl-2 text-primary-text hover:text-epierrot" type="Light"><i
-                            class="far fa-sun"></i></div>
-                </div>
-                <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
-                    <div class="fixed hidden" id="is-open"></div>
+                    <div class="cursor-pointer hover:text-epierrot" id="lightDarkMode"><i class="fas fa-adjust"></i>
+                        <div class="fixed hidden" id="is-open"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="flex-grow publili mx-4 lg:mx-2 mt-10 lg:mt-0">
-    <div class="filtr-container">
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+    <div class="flex-grow publili mx-4 lg:mx-2 mt-10 lg:mt-0">
+        <div class="filtr-container">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/cnam-m2_tnic/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -297,11 +319,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 20 April 2021</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/scaffolding-shared-imagination-with-tangible-design/">
         
@@ -319,11 +338,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 17 February 2021</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="other, video" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="other, video" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/other/communiquer-en-temps-de-crise/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -342,11 +358,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Movie</span> 10 December 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/everyday/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -381,11 +394,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 October 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/philodesigncorrespondance/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -404,11 +414,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 October 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/transformingpractices/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -430,11 +437,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 September 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/artefactual-emptiness-on-appropriation-in-kansei-design/">
         
@@ -452,11 +456,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 30 August 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/studying-requirements-for-designing-a-vitality-data-sharing-platform-from-a-multi-stakeholder-perspective/">
         
@@ -474,11 +475,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 August 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/philosophy-at-work-postphenomenology-as-a-generative-lens-in-design-research-and-practice/">
         
@@ -496,11 +494,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 August 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/exploring-public-playgrounds-through-a-data-enabled-design-approach/">
         
@@ -518,11 +513,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 20 July 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-office-jungle-a-vision-for-wildness-to-turn-offices-into-jungles/">
         
@@ -540,11 +532,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 20 July 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/transforming-practices-squad/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -563,11 +552,8 @@
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 26 April 2020</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/matter-of-transformation/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -601,11 +587,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 04 November 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/designing-for-systemic-change/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -626,11 +609,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 03 October 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book-section" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book-section" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/design-research-and-innovation-framework-for-transformative-practices/">
         
@@ -648,11 +628,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Book section</span> 23 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/designing-for-the-everyday-through-thusness-and-irregularity/">
         
@@ -670,11 +647,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 04 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/design-30-forum/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -709,11 +683,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 03 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="other, lectures" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="other, lectures" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/other/design-lecture-caroline-hummels/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -732,11 +703,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lectures</span> 03 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/probing-future/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -760,11 +728,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/stewart/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -792,11 +757,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/a-design-approach-towards-affording-the-trend-of-privacy/">
         
@@ -814,11 +776,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 28 June 2019</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/time-of-experience/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -938,11 +897,8 @@ This raises the question of the time values that are given to these everyday exp
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Dissertation</span> 18 November 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/contemplating-the-impossible/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1032,11 +988,8 @@ La reconnaissance est la mémoire du cœur.</p>
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 19 October 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/kees-overbeeke-symposium/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1059,11 +1012,8 @@ La reconnaissance est la mémoire du cœur.</p>
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 09 October 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/designing-for-the-everyday/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1098,11 +1048,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 04 September 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/haiku-cocoa/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1129,11 +1076,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 03 September 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-beauty-of-making-hot-chocolate/">
         
@@ -1151,11 +1095,8 @@ The learning objectives of this course include:
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 28 June 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-engineering-and-emotion-research-2018/">
         
@@ -1175,11 +1116,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Edition</span> 22 March 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/analysis-of-the-design-and-engineering-process-towards-a-first-prototype-in-the-field-of-sports-and-vitality/">
         
@@ -1197,11 +1135,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 February 2018</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/light-behavior-design-violation-of-unification-principles-and-the-effect-on-the-user-experience/">
         
@@ -1219,11 +1154,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 June 2017</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/people-place-process/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1249,11 +1181,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 23 May 2017</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/enhancing-co-responsibility-for-patient-engagement/">
         
@@ -1271,11 +1200,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 14 April 2017</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/3d-modeling-and-3d-printing-explorations-on-japanese-tea-ceremony-utensils/">
         
@@ -1293,11 +1219,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 23 March 2017</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals/">
         
@@ -1315,11 +1238,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 02 September 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/reinventing-the-steering-wheel/">
         
@@ -1337,11 +1257,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 02 September 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book section" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book section" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/gesture-based-and-haptic-interfaces-for-connected-and-autonomous-driving/">
         
@@ -1359,11 +1276,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold"></span> 31 July 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/perspectives-en-design-dinteraction/">
         
@@ -1381,11 +1295,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 10 June 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/special-issue-on-making/">
         
@@ -1411,11 +1322,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Edition</span> 22 March 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/kinectic-folds-interaction-priming/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1435,11 +1343,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 February 2016</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/exploring-the-challenge-of-designing-rituals/">
         
@@ -1457,11 +1362,8 @@ The book offers a valuable resource for all graduate students, experienced resea
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 05 November 2015</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/perceptivequalities/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1483,11 +1385,8 @@ The notion of perceptual crossing indicates the experience of interplay between 
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 October 2015</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/composing-everyday-rituals/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1518,11 +1417,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 01 September 2015</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-chatter-door-designing-for-in-between-spaces/">
         
@@ -1540,11 +1436,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 11 May 2015</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/experiential-design-landscapes/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1565,11 +1458,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 15 April 2015</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/designing-rituals/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1591,11 +1481,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 03 November 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/impact-of-perception-theories-on-kansei-design/">
         
@@ -1613,11 +1500,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 06 September 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/agravity/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1640,11 +1524,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/perception-theories-and-kansei-design/">
         
@@ -1662,11 +1543,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 13 August 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/rite-de-transition/">
         
@@ -1684,11 +1562,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 13 August 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/data-resonance/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1709,11 +1584,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 June 2014</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-bases-of-direct-interaction-design/">
         
@@ -1731,11 +1603,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 03 December 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/direct-interaction-design/">
         
@@ -1753,11 +1622,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 19 November 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/exploring-constituents-for-kansei-design-towards-a-framework/">
         
@@ -1775,11 +1641,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 12 September 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/matter-of-transformation-designing-an-alternative-tomorrow-inspired-by-phenomenology/">
         
@@ -1797,11 +1660,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/beyond-kansei-engineering-the-emancipation-of-kansei-design/">
         
@@ -1819,11 +1679,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/sensual-dynamics/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1845,11 +1702,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 03 September 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/holism-and-kansei-design-kansei-beyond-borders/">
         
@@ -1881,11 +1735,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 30 August 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/portfolio-for-the-university-teaching-qualification-bko/">
         
@@ -1903,11 +1754,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Dissertation</span> 30 August 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/people-place-process-lessons-learnt-on-the-path-to-a-dschool/">
         
@@ -1925,11 +1773,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 13 June 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/perceptive-qualities/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -1951,11 +1796,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 23 May 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/designing-for-perceptual-crossing-designing-and-comparing-three-behaviors/">
         
@@ -1973,11 +1815,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 13 February 2013</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/the-eindhoven-school/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2001,11 +1840,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 12 December 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/shift/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2028,11 +1864,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 12 October 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/designing-for-perceptive-qualities-7-showcases/">
         
@@ -2050,11 +1883,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 13 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/designing-for-perceptual-crossing-applying-and-evaluating-design-notions/">
         
@@ -2072,11 +1902,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, report" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, report" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/introducing-research-activities-knowledge-sharing-and-creativity-with-kansei-design/">
         
@@ -2094,11 +1921,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Report</span> 10 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/light-in-transition/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2125,11 +1949,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/luma/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2150,11 +1971,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/monty/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2177,11 +1995,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/passage/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2206,11 +2021,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 03 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/practice-cdr/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2232,11 +2044,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 03 September 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/involving-psychophysiological-knowledge-in-kansei-design/">
         
@@ -2254,11 +2063,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 August 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, " data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, " data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-multi-disciplinary-nature-of-kansei-research-an-historical-approach/">
         
@@ -2276,11 +2082,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold"></span> 13 July 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/special-issue-kansei-research-in-europe/">
         
@@ -2298,11 +2101,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 25 May 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/rights-through-making/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2332,11 +2132,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Project</span> 15 May 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/when-movement-invites-to-experience-a-kansei-design-exploration-on-senses-qualities/">
         
@@ -2354,11 +2151,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 April 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/developing-a-design-approach-exploring-resistance-and-ambiguity/">
         
@@ -2376,11 +2170,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 April 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/making-the-world-through-kansei-3-approaches/">
         
@@ -2398,11 +2189,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 16 March 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, student-project" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/light-through-culture/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2423,11 +2211,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Student project</span> 15 January 2012</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book-section" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, book-section" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/psychophysiological-applications-in-kansei-design/">
         
@@ -2445,11 +2230,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Book section</span> 23 September 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/ohlala-exploring-the-relation-between-content-completeness-and-emotional-experience/">
         
@@ -2467,11 +2249,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 September 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="projects, lecture" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/projects/dqi-theory/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2501,11 +2280,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Lecture</span> 03 September 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/luciole-lighting-up-the-design-process/">
         
@@ -2523,11 +2299,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 June 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-et-kansei-design/">
         
@@ -2545,11 +2318,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 31 March 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/bringing-forth-constructivist-education-assessment-a-frame-of-reference-to-inspire-and-to-support-design-education/">
         
@@ -2567,11 +2337,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 14 March 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-origin-of-experience/">
         
@@ -2589,11 +2356,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 08 March 2011</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-research-in-eurasia/">
         
@@ -2611,11 +2375,8 @@ The final day will close the module by a demonstration of the ritual with the ne
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 23 October 2010</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/jpphilo/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -2638,11 +2399,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 October 2010</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-science-and-kansei-value-creation-through-kansei-behavioral-and-brain-sciences/">
         
@@ -2660,11 +2418,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2010</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, edition" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-engineering-and-emotion-research-2010/">
         
@@ -2682,11 +2437,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Edition</span> 04 March 2010</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/developing-sensory-functions-transfer-human-senses-from-contextual-perception/">
         
@@ -2704,11 +2456,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 04 March 2010</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/prospective-psychophysiological-approach-for-kansei-design-knowledge-sharing-between-psychophysiology-and-design/">
         
@@ -2726,11 +2475,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 September 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/the-repertory-grid-technique-as-a-method-for-the-study-of-cultural-differences/">
         
@@ -2748,11 +2494,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/colourful-rain-experiencing-synaesthesia/">
         
@@ -2770,11 +2513,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 August 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-studies-description-and-mapping-through-kansei-study-keywords/">
         
@@ -2792,11 +2532,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 August 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/methods-and-means-for-kansei-design/">
         
@@ -2814,11 +2551,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 23 June 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/neural-networks-involved-in-artistic-creativity/">
         
@@ -2836,11 +2570,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 March 2009</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, report" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, report" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/lier-affectivite-et-conception-ingenierie-kansei/">
         
@@ -2858,11 +2589,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Report</span> 13 November 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/users-appreciation-of-engagement-in-service-design-the-case-of-food-service-design/">
         
@@ -2880,11 +2608,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 October 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/an-approach-on-functional-analysis-in-developing-guideline-for-designing-service-embedded-product/">
         
@@ -2902,11 +2627,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 October 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/development-of-competences-for-service-design/">
         
@@ -2924,11 +2646,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 22 October 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-engineering-science-rrans-interdisciplinary-research/">
         
@@ -2946,11 +2665,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 02 October 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/designing-based-on-the-evoked-metaphor-case-study/">
         
@@ -2968,11 +2684,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 24 September 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-physiological-measurements-and-contructivist-psychological-explorations-for-approaching-user-subjective-experience-during-and-after-product-usage/">
         
@@ -2990,11 +2703,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 23 September 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/explaining-kansei-design-studies/">
         
@@ -3012,11 +2722,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 25 March 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-studies-description-and-mapping-through-kansei-studies-keywords/">
         
@@ -3034,11 +2741,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 28 February 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-physiological-measurements-and-constructivist-psychological-explorations-for-approaching-users-subjective-experience-during-and-after-the-product-use/">
         
@@ -3056,11 +2760,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 25 February 2008</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/interdisciplinary-design-method-for-ecodesign-introducing-kansei-research-for-design-to-ecodesign/">
         
@@ -3078,11 +2779,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 02 October 2007</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, presentation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-and-kansei-studies-an-overview-towards-kansei-design/">
         
@@ -3100,11 +2798,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Presentation</span> 09 September 2007</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/on-kansei-and-kansei-design-a-description-of-a-japanese-design-approach/">
         
@@ -3122,11 +2817,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 10 July 2007</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/creating-an-evoked-metaphor-for-kansei-design/">
         
@@ -3144,11 +2836,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 June 2007</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/towards-a-definition-of-kansei/">
         
@@ -3166,11 +2855,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 September 2006</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, journal" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/interdisciplinary-workgroup-methodology-based-on-intuition-application-to-a-communication-tool-design-based-on-kansei-information-approach/">
         
@@ -3188,11 +2874,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Journal</span> 10 September 2006</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/matik-cmc-design-by-kansei-information-approach/">
         
@@ -3210,11 +2893,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 June 2006</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/kansei-information-approach-for-an-interdisciplinary-design-method-proposal-based-on-intuition/">
         
@@ -3232,11 +2912,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 April 2006</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/interdisciplinary-design-for-the-cyberspaceby-an-approach-in-kansei-information-methodology-and-workgroup-communication-tool-design-approach-in-kansei/">
         
@@ -3254,11 +2931,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Dissertation</span> 24 March 2006</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/introducing-matik-service-proposition-for-a-new-it-communication-system-through-an-approach-in-kansei/">
         
@@ -3276,11 +2950,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 September 2004</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, conference" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/illustrative-industrial-interactions-through-kansei-towards-a-dynamic-reflection-of-kansei-in-the-marketing-design-engineering-relationship/">
         
@@ -3298,11 +2969,8 @@ presentation
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Conference</span> 29 October 2003</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="research, research-programme" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/research/kansei/">
         <div class="bg-gray-300 rounded-lg w-full h-64 bckgrndImageCover"
@@ -3324,11 +2992,8 @@ For over three decades, kansei engineering has expanded greatly and has become a
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Research programme</span> 16 October 2003</div>
     </a>
 </div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-        <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
+            
+            <div class="filtr-item w-full md:w-96 px-2 pb-4 block" data-category="publications, dissertation" data-sort="value">
     <a class="gridbox rounded-2xl bg-primary-bg border border-tertiary-bg hover:border-primary-bg lg:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full p-5"
         href="https://plevy.fr/publications/design-industriel-et-interdisciplinarite-methode-et-outil-dint%C3%A9gration-de-linterdisciplinarit%C3%A9-dans-la-formation-p%C3%A9dagogique-initiale-du-design-industriel/">
         
@@ -3346,15 +3011,13 @@ For over three decades, kansei engineering has expanded greatly and has become a
         <div class="absolute bottom-4 right-2 text-xs text-gray-600 border-t border-tertiary-bg pl-7 pr-3"><span class="font-bold">Dissertation</span> 30 June 2002</div>
     </a>
 </div>
+            
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
-        
-    </div>
-</div>
-</div>
-
-
 </main>
   
   <script>
