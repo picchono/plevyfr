@@ -658,6 +658,21 @@
   </url>
   
   <url>
+    <loc>https://plevy.fr/other/who-are-you/</loc>
+    <lastmod>2016-11-25T16:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/other/who-are-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/other/who-are-you/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/publications/what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals/</loc>
     <lastmod>2016-09-02T23:06:45+02:00</lastmod>
     <xhtml:link
