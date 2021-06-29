@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://plevy.fr/projects/desgin-apocalypse-manifesto/</loc>
+    <lastmod>2021-06-17T10:27:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://plevy.fr/fr/projects/desgin-apocalypse-manifesto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plevy.fr/projects/desgin-apocalypse-manifesto/"
+                />
+  </url>
+  
+  <url>
     <loc>https://plevy.fr/projects/cnam-m2_tnic/</loc>
     <lastmod>2021-04-20T16:27:15+02:00</lastmod>
     <xhtml:link
