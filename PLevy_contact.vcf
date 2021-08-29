@@ -1,14 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Pierre Lévy
-N;CHARSET=UTF-8:Lévy;Pierre;;dr.;
+FN;CHARSET=UTF-8:Pierre Levy
+N;CHARSET=UTF-8:Levy;Pierre;;Prof.;
 EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:pierre_levy@outlook.com
-EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:plevy@tue.nl
-LABEL;CHARSET=UTF-8;TYPE=WORK:Eindhoven University of Technology
-ADR;CHARSET=UTF-8;TYPE=WORK:;;PO Box 513;Eindhoven;;5600MB;The Netherlands
-TITLE;CHARSET=UTF-8:Assistant professor
-ORG;CHARSET=UTF-8:Eindhoven University of Technology
-URL;CHARSET=UTF-8:https://plevy.fr
-URL;type=WORK;CHARSET=UTF-8:https://www.tue.nl/en/research/researchers/pierre-levy/
-REV:2020-11-21T09:53:31.498Z
+ADR;CHARSET=UTF-8;TYPE=WORK:;;292 rue Saint-Martin;Paris;;75003;France
+TITLE;CHARSET=UTF-8:Professor in design
+ROLE;CHARSET=UTF-8:Chaire Design Jean Prouvé
+ORG;CHARSET=UTF-8:Conservatoire National des Arts et Métiers
+URL;type=WORK;CHARSET=UTF-8:https://plevy.fr
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=twitter:https://twitter.com/PLevy_Design
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=linkedin:https://www.linkedin.com/in/levypier/
+REV:2021-08-29T15:52:03.563Z
 END:VCARD
