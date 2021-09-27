@@ -1,14 +1,10 @@
 BEGIN:VCARD
-VERSION:3.0
-FN;CHARSET=UTF-8:Pierre Levy
-N;CHARSET=UTF-8:Levy;Pierre;;Prof.;
-EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:pierre_levy@outlook.com
-ADR;CHARSET=UTF-8;TYPE=WORK:;;292 rue Saint-Martin;Paris;;75003;France
-TITLE;CHARSET=UTF-8:Professor in design
-ROLE;CHARSET=UTF-8:Chaire Design Jean Prouvé
-ORG;CHARSET=UTF-8:Conservatoire National des Arts et Métiers
-URL;type=WORK;CHARSET=UTF-8:https://plevy.fr
-X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=twitter:https://twitter.com/PLevy_Design
-X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=linkedin:https://www.linkedin.com/in/levypier/
-REV:2021-08-29T15:52:03.563Z
+VERSION:4.0
+N:Levy;Pierre;;Prof.;HDR
+FN:Prof. Pierre Levy, HDR
+EMAIL:pierre.levy1@lecnam.fr
+ORG:Conservatoire National des Arts et Metiers
+URL;type=pref:https://plevy.fr/
+ADR:;292 Rue Saint-Martin;;Paris;;75003;France
+URL:https://www.linkedin.com/in/levypier/
 END:VCARD
