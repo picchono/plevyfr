@@ -29,8 +29,8 @@
 <div class="flex flex-col flex-grow-0 md:h-screen sticky w-full md:w-84 top-0 md:pl-6 z-40 mb-2">
 <div class="hidden md:block md:h-14 md:mt-24"></div>
 <h1 class="text-xl font-bold px-4 pb-4 pt-3 md:pt-20 absolute top-0 left-4 z-50 md:block">
-<span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3">Pierre
-Lévy</span>Événements</h1>
+<span class="text-xl font-bold inline-block border-r-2 border-primary-text pr-3 mr-3"><a href=https://plevy.fr/fr/ class="titlePL text-xl font-bold inline-block">Pierre
+Lévy</a></span>Événements</h1>
 <div class="flex md:hidden flex-row justify-end w-full py-3 px-6 md:pb-6 md:p-6 bg-primary-bg border-b-4 border-tertiary-bg">
 <button id=navbox-btn aria-label=Menu>
 <div class=bar1></div>
@@ -39,32 +39,43 @@ Lévy</span>Événements</h1>
 </button>
 </div>
 <div id=target class="hidden md:flex flex-row md:flex-col flex-wrap w-full md:w-72 py-4 md:pt-0 md:pb-10 px-2 bg-primary-bg md:rounded-lg shadow-xl md:shadow-none">
-<div data-filter=all class="mr-10 my-0.5 cursor-pointer font-bold md:text-lg mainMenu active">
-Tous
-</div>
-<div data-filter=seminar class="mr-10 my-0.5 cursor-pointer font-bold md:text-lg mainMenu">
+<nav class="flex-none w-60 flex flex-row justify-between">
+<div id=topMenu class="h-full transition-all md:w-full flex flex-row md:flex-col flex-wrap justify-end content-start publiselect menu button-group" id=filters>
+<div onclick="menuFilter('.')" class="filterOption cursor-pointer mt-1 mr-4 w-44 font-bold">
+Tous</div>
+<div onclick="menuFilter('.seminar')" class="filterOption cursor-pointer mt-1 mr-4 w-full md:w-72 font-bold">
 Séminaires</div>
-<div data-filter=symposium class="mr-10 my-0.5 cursor-pointer font-bold md:text-lg mainMenu">
+<div onclick="menuFilter('.symposium')" class="filterOption cursor-pointer mt-1 mr-4 w-full md:w-72 font-bold">
 Symposia</div>
-<div data-filter=lecture class="mr-10 my-0.5 cursor-pointer font-bold md:text-lg mainMenu">
-Lectures</div>
-<div data-filter=exhibition class="mr-10 my-0.5 cursor-pointer font-bold md:text-lg mainMenu">
+<div onclick="menuFilter('.exhibition')" class="filterOption cursor-pointer mt-1 mr-4 w-full md:w-72 font-bold">
 Expositions</div>
-<div class="w-full md:w-auto tracking-wide my-4 md:my-0.54"><input type=text class="md:text-lg w-full" name=search placeholder=Recherche... data-search></div>
-<nav class="flex flex-col items-left md:w-full pt-6">
-<div class="flex flow-col justify-between pt-2 md:pl-0 md:mt-4">
-<div id=languageMode>
-<span class=font-medium>FR</span>&nbsp;|&nbsp;<a href=https://plevy.fr/event/ title=English rel=noreferrer>EN</a>
+<div onclick="menuFilter('.other')" class="filterOption cursor-pointer mt-1 mr-4 w-full md:w-72 font-bold">
+Autre</div>
+<input class="control-field search-field form-control bg-transparent mt-8 mr-4 w-full md:w-72 font-bold" type=text name=search placeholder=Recherche...>
+<div id=languageMode class="ml-0 text-base md:text-left w-44 mt-10">
+<span class="font-bold text-lg text-cnam">FR</span><span class="font-bold text-lg">&nbsp;|&nbsp;</span><a href=https://plevy.fr/event/ class="mr-6 text-lg text-primary-text hover:text-cnam">EN</a>
 </div>
 </div>
 </nav>
 </div>
 </div>
 <div class="flex-grow publili mx-4 md:mx-2 md:mt-12">
-<div class=filtr-container>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, seminar" data-sort=value>
+<div class="grid w-full">
+<div class="item seminar w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event seminar     
+
+    Dans les années 80, les recherches en design ont amorcé un tournant qui a remis en scène la matérialité des pratiques du design. Parmi les fondateurs de cette recherche, Donald Schön parle de l'activité du designer comme d'une « conversation avec les matériaux » : pour lui les matériaux sont aussi bien des mots, des paroles avec lesquelles on joue et sur lesquelles on revient, que des dessins qui permettent de préfigurer les architectures ou objets à venir.
+    La recherche en design s'est aussi inspirée pour une bonne part des anthropologues des cultures matérielles (Knappet, Malafouris, Ingold) qui attirent l'attention sur ce que le medium fait au designer et s'intéressent aux pratiques incarnées du design.
+    Ces recherches aujourd'hui rencontrent les media studies aussi bien anglo-saxonnes (McLuhan, Mitchell, Hayles, ) mais aussi la philosophie Allemande des médias (Kittler, Mersh) et les recherches francophones en SIC (Jeanneret, Souchier, Bonacorsi).
+    En effet, depuis le fameux « le medium est le message », on se rend compte à quel point le support n'est pas transparent derrière le message, ou pour le dire en termes de sémiotique (Fontanille) le plan de l'expression ne disparaît par derrière le plan du contenu. Même le numérique présente une matérialité sensible qu'il faut prendre en considération. En France, ce sont les historiens du livre (Chartier) de l'écriture (Christin) et des chercheurs en sciences de l'information et de la communication (Jeanneret) qui ont compris l'importance de revenir sur les incarnations, les métamorphoses, les légitimations, et les circulations de ce qui fait médiation entre notre réalité psychique et le monde extérieur, aussi bien que ce qui fait lien entre nous.
+    Plus largement encore, c'est une théorie de la médialité qui rencontre les théories du design : en effet, pour changer le monde, il ne faut pas être complètement pris dans ce monde. Il nous faut un entre deux, des espaces et des objets de médiation, qui permettent à la fois de relier et de mettre à distance pour composer et recomposer des alternatives à ce qui nous entoure (Guillory, Gentes).
+    Plus>Ainsi, les recherches centrées sur les médiums du design s'intéressent non seulement à l'agentivité des matériaux mais aussi à la façon dont le designer fait sens avec les matières qui s'inscrivent dans une culture et une histoire de leurs mises en œuvre (Greenberg, 1960). Le bois par exemple ne présente pas que des propriétés chimiques et mécaniques, il s'inscrit aussi dans une culture du bois : les valeurs sociales qui lui sont associées, et dans les traditions de son utilisation : pour des objets utilitaires mais aussi pour des sculptures. Cette identité culturelle des matériaux est bien sensible dans les métiers du bâtiment où la charpente, l'électricité, la peinture, ou la maçonnerie renvoient à des sensations physiques différentes mais aussi à une hiérarchie des matières et de leur mise en œuvre.
+    Le rôle des mediums et la relation qui est entretenu entre le designer et ces mediums évoluent de plus dans la temporalité du projet et dans celle de l'usage. D'un côté, la variété et la pluralité des fonctions du prototype au sein du projet en fait un medium au cœur du déploiement du projet. De l'autre côté, l'appropriation est un moment d'évolution du sens
+    Aujourd'hui, le design ne traite plus seulement du bois ou du plastique, mais du vivant, de nos modalités d'être ensemble, et des technologies qui organisent notre vie. De la terre à l'IA, il y a plus d'un pas et pour les designers contemporains des enjeux colossaux. Quelles sont les caractéristiques de ces nouveaux matériaux du design? Quelles sont les méthodes de travail de ces nouveaux médiums ? Comment former à ces nouveaux matériaux du design ?
+    Le séminaire « les médiums du design » invite ceux qui se questionnent sur leurs pratiques, qui s'interrogent sur leurs méthodes à rejoindre la communauté de recherche formée par Cy Ecole de Design et le CNAM pour échanger sur ces questions.
+    La revue Sciences du design est associée à ce travail : nous proposerons aux auteurs qui ont abordé ces questions de faire une présentation de leur article.
+  2021-12-11T20:04:12+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/mediumsendesign/>
-<img data-src="https://images.unsplash.com/photo-1624719507903-7d8b41c7c9cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80" class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Médiums en design" width=500 height=240>
+<img src data-toset="https://images.unsplash.com/photo-1624719507903-7d8b41c7c9cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80" class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Médiums en design" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Médiums en design</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 We are in need of inquiry into the epistemology of practice. What is the kind of knowing in which competent practitioners engage? How is professional knowing like and unlike the kinds of knowledge presented in academic textbooks, scientific papers, and learned journals? In what sense, if any, is there intellectual rigor in professional practice?<br>
@@ -90,9 +101,38 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture Entre méthodes et pratiques en design - un moment d'apprentissage
+Pierre Lévy, professeur du CNAM, Chaire Design Jean Prouvé
+Je voudrais m'intéresser aujourd'hui à la place des méthodes et des pratiques en design, et décrire leur entre-deux comme un lieu de développement des pratiques, c'est-à-dire comme moment d'apprentissage réflexif sur la pratique.
+1. Le design
+Le premier point d'attention porte sur la notion même de design et la façon dont il est décrit par la propre communauté de recherche en design. Un récent article (Blackler et al., 2021) propose une analyse de vingt ans de discussion sur l'une des listes de diffusion les plus actives et renommées dans le monde (PHD-DESIGN List, n.d.) et portant sur la définition du design. Sa conclusion est comme suit (traduit par l'auteur) :
+Malgré un discours robuste autour des perspectives pertinentes sur le design, les discussions de la liste sont et ont été répétitives, sans aucun progrès significatif vers une définition consolidée du design. […] Nous proposons qu'il n'est peut-être pas possible de définir le design de cette manière, et que le domaine devrait s'éloigner de la réitération et discuter de l'importance du rôle du design… (Blackler et al., 2021)
+On note déjà que la tentative de définir le design semble inaboutie, et les auteurs de l'article suggèrent que cette tentative est inévitablement vouée à ne jamais aboutir. Le design ne se laisse pas définir et il serait temps de passer à autre chose : au lieu de questionner ce qu'est le design (description de l'état), il semble plus judicieux de questionner le rôle du design (description de l'action).
+La résistance du design à la définition semble également être exprimée par Johan Redström (2017) lorsqu'il s'intéresse aux fondations du design (traduit par l'auteur) :
+Le design semble fonder son existence sur des complexités issues de dichotomies. De négocier la forme et la function. D'engager l'artisanat et ses compétences, et de travailler avec la production industrielle. De travailler avec des processus ouverts et d'être profondément engagé à la méthode. D'être centré-utilisateur et design-driven. D'être art et science. [...]
+Et le design peut aussi être remarquablement résilient et désireux de s'engager à tout cela, ce qui n'est ni blanc ou noir, mais complexe et coloré.[..]
+La raison pour laquelle on apprécie tellement les dichotomies en design est parce qu'elle permet d'adresser le conflit, la collision, et les contradictions, et d'ouvrir ainsi de nouvelles perspectives et potentiels.
+Ce que nous dit Redström est que l'on peut trouver la force du design (certains disent le pouvoir du design, nous dirons sa capacité d'action) au sein des dichotomies. C'est en effet dans la collision, la contradiction ou l'irrégularité (Lévy, 2018, 2019) que des opportunités nouvelles se créent et que des transformations sont possibles. Dans un entendement commun et global, c'est-à-dire sans friction, la transformation est bien moins probable.
+La première conclusion est donc ainsi : Le design est insaisissable, et c'est plutôt une bonne nouvelle ! La pratique réflexive ainsi que l'acceptation de plusieurs perspectives et de dichotomies semblent donc pertinentes pour le design.
+2. Méthodes et activités
+Les méthodes en design sont essentielles pour la formalisation des processus de conception en design. Elles le sont donc dans l'enseignement puisqu'elles permettent de clarifier un cadre pour le projet et à l'apprenant d'appréhender des complexités précédemment discutées. Elles le sont dans la pratique professionnelle à la fois pour la gestion du projet et pour la communication du et autour du projet.
+Toutefois, les méthodes existantes, et nous prenons ici pour exemples le double diamant proposé par le Design Council (2019) et le Model MV proposé par Kees Dorst (2015), semblent s'attacher à une séquence ordonnée d'activités prédéfinies, séquence souvent contredite par la pratique.
+La pratique peut être plus fidèlement décrite par les actions situées qui la constituent. C'est ce que propose le Reflective Transformative Design Process (C. Hummels & Frens, 2009) qui propose une perspective effective autant pour la pratique elle-même du design que pour son enseignement. La description d'activités permet de cadrer la pratique sans pour autant imposer un ordre hors contexte. L'expérience montre en effet que le projet doit s'adapter aux ressources accessibles et aux contraintes et opportunités qui se présentent.
+De plus, dans une période où le design s'investit de plus en plus dans l'arène sociale et politique, nous avons développé une nouvelle approche, les pratiques transformatives (C. C. M. Hummels et al., 2019), qui justement reprend cette idée de discuter la pratique au travers d'activités tout en incluant des notions liées entre autres à la participation sociale et à la complexité.
+Ces approches ne prescrivent ni séquence ni réelle limite aux activités, si bien que la pratique ainsi décrite peut paraitre à la fois déstructurée et omnipotente. Mais c'est justement au travers de l'une des dichotomies proposées par Redström - travailler avec des processus ouverts et d'être profondément engagé à la méthode - qui expose la force de l'association contradictoire formée par la méthode et la pratique, celle d'une activité réflexive possible grâce au delta entre pratique et méthodes, qui invite justement à une réflexion transformative, et donc apprenante, de la pratique du design.
+C'est donc là la seconde conclusion de ma présentation aujourd'hui : Les méthodes et !es activités forment donc une dichotomie en design. C'est au travers de cette dichotomie que la pratique du design s'établit, au travers d'une réflexion transformative et apprenante de la pratique.
+Bibliographie
+Blackler, A., Swann, L., Chamorro-Koc, M., Mohotti, W. A., Balasubramaniam, T., & Nayak, R. (2021). Can We Define Design? Analyzing Twenty Years of Debate on a Large Email Discussion List. She Ji: The Journal of Design, Economics, and Innovation, 7(1), 41-70. https://doi.org/10.1016/j.sheji.2020.11.004
+Design Council. (2019). What is the framework for innovation? Design Council's evolved Double Diamond. Design Council. https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond
+Dorst, K. (2015). Frame Innovation: Create New Thinking by Design. MIT Press.
+Hummels, C. C. M., Trotto, A., Peeters, J. P. A., Levy, P., Alves Lino, J., & Klooster, S. (2019). Design research and innovation framework for transformative practices. In Strategy for change (pp. 52-76). Glasgow Caledonian University.
+Hummels, C., & Frens, J. (2009). The reflective transformative design process. Proceedings of the 27th International Conference - Extended Abstracts on Human Factors in Computing Systems CHI09, 2655-2658. https://doi.org/10.1145/1520340.1520376
+Lévy, P. (2018). Le temps de l'expérience, enchanter le quotidien par le design [Habilitation à diriger des recherches]. Université de Technologie de Compiègne, France.
+Lévy, P. (2019). Designing for the everyday through thusness and irregularity. Proceedings of the International Association of Societies of Design Research Conference 2019, IASDR19. International Association of Societies of Design Research Conference 2019, Manchester, UK.
+PHD-DESIGN List. (n.d.). Retrieved 4 December 2021, from https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=PHD-DESIGN
+Redström, J. (2017). Making design theory. MIT Press. <p>Le 18 novembre ont eu lieu au CNAM une série d'interventions de professionnels de la création à destination des étudiants des trois parcours de DNMADe et des Terminales Bac STD2A.</p><p>Que signifie créer, inventer, innover aujourd'hui ? Dans un monde saturé par les nouveautés, que peut encore apporter le designer ? Quels sont les moteurs de la créativité ? Quelle place accorder aux technologies actuelles ? Les techniques traditionnelles ou ancestrales ont-elles encore un rôle à jouer ? L'innovation peut-elle se faire « à tout prix » ?…</p><p>Cette journée aura été l'occasion de réfléchir au sens et aux enjeux de la création, de l'invention et de l'innovation. Elle à invité à questionner les concepts, mais aussi les démarches et mises en œuvre de pratiques innovantes dans un monde agité par des urgences écologiques et des interrogations sociales pressantes.</p><p>Intervenants :<br/>9h30 : Gaëlle Periot-Bled, enseignante chercheuse, chaire d'Esthétique, Paris IV - Sorbonne<br/>10h15 : Laurent Ungerer, graphiste, agence C-Album (Paris)<br/>11h : Pierre Lévy, enseignant chercheur, chaire de design Jean Prouvé, Cnam<br/>11h45 : Marlène Huissoud, artiste, designer<br/>14h : Anne Berthinier-Poncet, enseignante chercheuse, chaire de management de l'innovation,Cnam<br/>14h45 : Matthieu Mevel, écrivain (dernière publication : Un Vagabond dans la langue, Gallimard)<br/>15h30 : Emmanuelle Leleu et Julien Hazebroucq, illustrateurs<br/></p> 2021-11-18T10:30:52+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/entre-methodes-et-pratiques-en-design-un-moment-d_apprentissage/>
-<img data-src=https://live.staticflickr.com/65535/51741030752_0ed1b66327.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Entre méthodes et pratiques en design - un moment d'apprentissage" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/51741030752_0ed1b66327.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Entre méthodes et pratiques en design - un moment d'apprentissage" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Entre méthodes et pratiques en design - un moment d'apprentissage</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Lévy, P. (2021). Entre méthodes et pratiques en design - un moment d'apprentissage, presented at Conservatoire National des Arts et Métiers, Paris, France. November 18th, 2021.
@@ -136,9 +176,11 @@ Intervenants :9h30 : Gaëlle Periot-Bled, enseignante chercheuse, chaire d'Esth�
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, symposium" data-sort=value>
+<div class="item symposium w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event symposium 
+For example, should we focus on local challenges starting from an individual perspective, e.g. your grandmother with dementia that can’t live independently anymore, or should we focus on global challenges starting from the bigger perspective, e.g. how can society maintain a healthy lifestyle? Should we invest more in artificial intelligence and new technological possibilities to tackle our challenges, or should we invest more in the socio-cultural values needed to tackle our challenges? And should we focus on moonshot projects that yield systemic change in 2040 or 50, or should we start today designing for tomorrow?
+During this one hour session you will get acquainted with Designing for Systemic Change through interviews with international experts (via videos), 3 presentations of best practices, and having a lively panel debate. Many societal challenges require a systemic approach towards change. An approach where multiple stakeholders together create insight in the challenge at hand, and explore possible directions for systemic change. This session explores the concept of Designing for Systemic Change, including: what is it, how do we approach it, and what are the challenges we face? 2019-10-03T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/designing-for-systemic-change/>
-<img data-src=https://live.staticflickr.com/65535/50588234361_fe97b6c92f.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Designing for Systemic Change" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50588234361_fe97b6c92f.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Designing for Systemic Change" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Designing for Systemic Change</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Many societal challenges require a systemic approach towards change. An approach where multiple stakeholders together create insight in the challenge at hand, and explore possible directions for systemic change. This session explores the concept of Designing for Systemic Change, including: what is it, how do we approach it, and what are the challenges we face?
@@ -155,9 +197,24 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, symposium" data-sort=value>
+<div class="item symposium w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event symposium 
+DESIGN 3.0 FORUM
+New design paradigms for the next generation of design research
+Programme
+Introduction by Dr. Ki-Young Nam, KAIST
+Congratulatory Remark by Prof. Kun-pyo Lee
+Professor Rachel Cooper, Lancaster University
+| Context-setting for the theme: Design for Public Sector and Social Innovation
+Professor Martyn Evans, MMU
+| design for policy
+Dr. Edward Hyunwook Hwangbo, PDR
+| design for policy
+Dr. Pierre Levy, TU Einthoven
+| interaction design for society
+Professor John Vines, Northumbria University
+| digital civics Design 3.0 Forum aims to raise and discuss the challenging issues in design research, education and practice in this newly emerging paradigm we now face with new forms of end-user products such as intelligent products and services, DIY/fabrication tools, and IoTs. These new forms of products and services change the ways people interact with them and shape their everyday lives. 2019-09-03T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/design-30-forum/>
-<img data-src=https://live.staticflickr.com/65535/50587487733_f59134e90a.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Design 3.0 Forum" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50587487733_f59134e90a.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Design 3.0 Forum" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Design 3.0 Forum</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Design 3.0 Forum aims to raise and discuss the challenging issues in design research, education and practice in this newly emerging paradigm we now face with new forms of end-user products such as intelligent products and services, DIY/fabrication tools, and IoTs. These new forms of products and services change the ways people interact with them and shape their everyday lives.
@@ -180,9 +237,80 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture Introduction
+First, I would like to thank Stephan Wensveen for the organisation and for making this day a such a special one, from start to end (although who knows how it will end…).
+I am very glad to be here. It is an honour to participate to this symposium, and to have the role of opening the series of presentations. It is also a challenge I must say. Kees has been enriching the life of many of us, and I believe many of us would have something valuable to tell based on sharing experiences with Kees. I am very conscious of this privilege.
+Times ago, discussing this symposium with Stephan, the idea was to have one eye looking back at what Kees brought to us and hoped for the design community, and to have the other eye on the future trying to tell our current students, to remind our alumni and ourselves some aspects Kees carried through his work, that we may bring further.
+I have the honour and the challenge to operate this eye gymnastic and to share with you today what I see.
+Contemplating the impossible
+Today, in this speech, I will try not to bore you with details of the inaugural lecture of the late Prof Kees Overbeeke, “The Aesthetics of the Impossible”, that he gave in 2007, 11 years ago in exactly a week. Today offers an occasion for me to bore you with a contemplation of some of the key ideas raised during this lecture, and to contemplate them from where and when I stand today. And much have happened in between.
+Today is also for me the occasion of getting bold again in the tradition of DQI. For the ones who hoped this was the past, bear with me and I’ll promise I will try to be soft. For the ones who miss it at times, hope you can enjoy.
+For the ones who did not meet Kees, I would like to briefly introduce him. Late professor in our department of Industrial Design, Kees had a significant impact on the design and CHI communities all over the world, especially on the topics related to embodiment in design for interaction. But that would not tell much about the guy, by far. If he is remembered and celebrated in such a way as today, is because his ideas, his generosity, his friendliness and appreciation to all, impacted many individual lives, many of us both intellectually and humanly. He is, for many, one of these very few people that significantly meant something to us. He is a moment in the development of thoughts and attitudes.
+His inaugural lecture was entitled “the aesthetics of the impossible”. The notion “impossible” demands here a little clarification, which is to me twofold:
+
+Aesthetics, which is the core of design for interaction is ungraspable. It is only when and where it happens, in the here and the now. And then it is gone, suddenly as it happens. It is unique and impossible to grasp. Standardisation is impossible and actually not wished, as it would lead towards an extreme level of boredom and dissatisfaction. Systematic research is difficult but should be challenged.
+Impossibility is also in the complexity we encounter in design: that is, in the variety of disciplines our students are facing (challenging skills, knowledge and practices), and in the inherent complexity of interaction and of experience. To address this impossibility, design approaches require a greater balance between making and thinking (supported by reflection on action, which I will address again later).
+
+Therefore today, to contemplate the impossible, I will especially focus on three aspects: believes, teaching and research, making and thinking. And I will do so by freely mixing what Kees said (at least the way I understand it) and by my reflection on it. For the flow of my discourse, I will often borrow from Kees’s inaugural lecture without systematically mention it.
+Contemplating believes
+Kees explains:
+Every scientist, as well as every designer, has a body of knowledge, as well as a galaxy of believes (that is my wording).
+Knowledge is established through research activities and transmitted through teaching. It is about how things are. Believes contribute to envisioning how things ought to be. They result from philosophy, intuition, awareness, experience, from our being-in-the-world, in a giving culture, in a giving timeframe.
+Believes are guides for where we go, where we look, we what we do, and what strikes us. They condition our engagements, our motives, our stance and our actions in the world. Less than a month ago, Bill Buxton, lecturing here at TU/e, was reminding us the importance, and actually the necessity of having a compass and a horizon in design practice and design research. It is essential for good design (given that this design intends to contribute to the making of a better world).
+In the current context where the most striking thing we know is that we do not know where the world is going, because of its complexity, because of challenges that we are aware of but do not fully comprehend, because of tensions we feel but that are not clear to our sight. This is made even more complex by our relation and use of technology: as we praise it and support its development and its use in society, yet questioning it at the same time.
+Knowledge and believes then are necessary in design practice, design education, and design research.
+A few believes that Kees mentioned during his inaugural lecture, are worth remembering:
+
+“Design is about people. It is about our life and dreams, about our loneliness and joy, our sense of beauty and justice, about the social and the good. It is about being in the world”.
+Meaning emerges in interaction and cannot be detached from action. This demands a primacy of embodiment and a primacy of action.
+
+Considering these two first points, a few consequences can be suggested here. The first two ones are also stated by Kees:
+
+A design theory must be a theory of action (and I would add of transformation, which I will discuss later). This theory should focus on embodiment in the first place, and on meaning in the second place. Reflection in/on and for action is a source of knowledge and a creator of new and valuable perspectives on and for design, on and for the world.
+Design research and practice are powerful source of knowledge. As I will discuss it later, research and education should be highly interwoven.
+
+To these two considerations, I may add the following:
+
+Design research is not solely an applicative research but contains also, and actually is for a large part, a theoretical research, with the condition that we give space to it. Design theory, constitutive of design research, is a theory of action. If design would to be a science (in the modern sense of the term, which I have throughout the years got progressively to agree with), it would be a transformative science, as any other science with transformative outcomes, such as engineering or chemistry (when it tries to create a new molecule for example). Design is not a descriptive science, such as ethnography, physics trying to describe the phenomenon of gravitation, or chemistry trying to describe a natural chemical reaction.
+Design (being practice, education, or research) is about transformations, and is specific as it is about action, about people, and about ethics.
+Therefore, I would challenge any reduction of the world or the experience of it, to data. In this crucial moment, where data related technologies become so predominant, with incredible and promising outcomes, design practitioners and design researchers should obviously embrace such technologies, as well as not forgetting that the experience of the world is embodied, is affective, and symbolic. We are beings with a history, culture, ethics, visions and dreams.
+
+Contemplating teaching and research
+This is especially important when considering the necessity of aligning research and teaching. Kees reminded us clearly and simply the necessity to align both activities for the academic world.
+He told us: “expressivity, beauty and meaning are at the core of design”. In 1999, I (being Kees while in Delft) pointed out the mismatch between teaching and research. Research was about structural aspects of perception, and teaching was about beauty of interaction. I could not change the teaching, so I changed the research. “Emotion became important, which is not obvious as a research topic in the technical background that was then in Delft and now here.”
+The PhD of Stephan Wensveen is one of the first and a clear example of research work on emotionally intelligent products. Already then he noticed the challenge and the necessity of interacting in a continuous and simultaneous way with products (topic that was still challenged in the PhD of Jelle Stienstra just 2 years ago). Many related topics were then developed further in various ways throughout most PhDs executed in the DQI research group. And I am no surprised that Stephan today pushes the research further and focuses on questions related to the “aesthetics of the intelligence”.
+Recently, our students are facing a progressive increase of topics the design community is engaging in (design based on big data, A.I. and other learning algorithms, but also service design, social design…). All these increase challenges and complexity in their education and their future work. They also face a progressive increase of technological solutions at hand to make their designs.
+Now that teaching is challenged by many other topics (related to technology and society), I think It is important for us, as a leading academia in design, to keep focusing where our skills are: as we interact with data through interfaces, being either sensors or actuators… “how do these become meaningful and beautiful to us?” is our core question. Mastering data management (among others) is certainly important, however, providing meaningful, rich and beautiful interactions is the heart of design.
+This demands to care for human and their actual experiences as beings-in-the-world, and to keep design teaching and research focusing on this. Only then, when students will embody that by being curious, sympathetic and independent, only then they will embody and act the richness design may provide. Taking again the lines from Kees: “But the only way to develop curiosity, sympathy, principle, and independence of mind is to practice being curious, sympathetic, principled and independent. For those of us who are teachers, it isn’t what we teach that instills virtue, it is how we teach. We are the books our students read most closely”
+“Let us practice what we preach”. Let us care, through our teaching, what our students learn and become.
+Contemplating making and thinking
+The electronic and digital interfaces are loaded with buttons that demands little of our motor-perceptive skills, and too much of our cognitive skills.
+This situation leads to standardized and efficient interactions, as well as to boring and poor ones if we consider the human being in its entirety.
+Making simple buttons by default is, to my point of view, a triple failure:
+First, as we already mentioned it, it fails the possibility to provide beauty in interaction, beauty and care in the experience. It fails the heart of design.
+Second, it is defeating the idea that design is about challenges and only addressing these challenges will help, in the long term, to find novel, effective, rich and beautiful ways of interacting.
+Third, the button degrades our contact with the world. When there is no experiential relation between the activity of pressing a button and the functional and experiential consequences of doing so, there is also less space for grasping the world, that is for sensemaking. Proposing poor interaction solutions (by opposition of making rich interaction solutions), makes us designer and us users less to experience our being-in-the-world, and therefore inepter (or more moronic is you prefer).
+The button here is obviously only the archetype of a quick and easy decision making, yet leading to boredom, poverty in life experiences, and flattening both designers’ and users’ minds.
+Our design skills exploring possibilities of rich interactions are therefore not only a way to make user’s experiences and life better, but also a way to advance in design research: exploring through making (using design skills well), and reflecting in and on action is what design can do best, and contribute to the most in the world of academia in the first place, and in the world in the second place.
+Finally, as Kees reminded us, we need to keep in mind that we are too many that know, and not enough that make. Reflection on action should be the drive to push design practice and design research further. “in our effort to understand reality, we have been too much abstracted from it”.
+Contemplating transformation
+As mentioned before, design is about transformation, transformation of practices in societies and in our everyday life. Understanding reality, which means understanding our everyday life, is to transform it:
+Étudier la vie quotidienne serait une entreprise parfaitement ridicule, et d’abord condamnée à ne rien saisir de son objet, si l’on ne se proposait pas explicitement d’étudier la vie quotidienne afin de la transformer. Guy Debord
+Studying the everyday life would be an absurd undertaking, and anyway fated to catch nothing of its object, if studying the everyday life would explicitly be with the intention to transform it. Guy Debord
+And I would like to conclude with this notion of everyday transformation, being actually my research topic which I believe I have built partly on the considerations I have discussed today.
+Although this word, “everyday” is so much used in the world of design, addressing it is not as obvious as it seems, and is often actually avoided or subverted. As things become part of our everyday, a process called quotidianisation, they escape from our attention, giving us peace of mind. They stop questioning us, and we stop questioning them. This way, they progressively disappear from our awareness. Perec even speaks about amnesia, rather than lack of attention. What can be extraordinary when new, becomes infra-ordinary through the process of quotidianisation.
+Questioning the everyday requires exploring the infraordinary, which demands exploring tiny and often personal details that we are obviously not aware of in the first place. Exploring the everyday to transform it demands to get aware and to understand its most tiny details, which as Coyne & Mathers explain “often appear irrational from a third-person perspective, but most often rational from a first-person perspective”. Therefore, designing for the everyday demands a continuous and structuring dialog between an exploration at the first-person perspective, to create a rational, observing and transforming ones’ own everyday life to comprehend these rationales, and a third-person perspective that enables us to design for others.
+I have found the sensibility, the attention to tiny details and the beauty in the everyday in the Japanese culture and philosophy, from which I have elaborated a theoretical framework for designing for the everyday. This framework relies indeed on Japanese philosophers and thinkers, such as Nishida Kitaro or Yanagi Soetsu who through their work have pointed out where beauty relies in the everyday, as well as designers, such as Naoto Fukusawa and Kenya Hara who through their work have not only designed but also reflected on their making to show the values of paying attention to the everyday towards human and social elevation, and have made it existing in our societies all over the world, through companies such as Muji.
+Designing for the everyday is to me a clear example of what design claims to do, yet actually (and for now!) fails to do properly. The hope of making design research education and practice an actual unique and yet not isolated contributor to a betterment of our world, goes through a repositioning on what design can do best: focusing and creating meaning in interaction for people’s experiences, using at full reflection in and on action to make sense of the world as it is lived, making sure to enrich the beauty of our everyday life. All that stands in the way of abstraction, standardization.
+Contemplating the impossible
+To finish on Kees’s considerations: “It is our role, scholars and industrialists, to define a new project for design. We have to avoid remaining in a problem-solver perspective, and to wake-up and let grow the challengers that is in each of the designers we are educating.”
+We must dream, to give youngsters hope.
+Thanks to Kees for all this teaching, that even in challenging times remain constitutive of our design compass.
+La reconnaissance est la mémoire du cœur.
+Thank you
+ Times ago, discussing this symposium with Stephan, the idea was to have one eye looking back at what Kees brought to us and hoped for the design community, and to have the other eye on the future trying to tell our current students, to remind our alumni and ourselves some aspects Kees carried through his work, that we may bring further. I have the honour and the challenge to operate this eye gymnastic and to share with you today what I see. 2018-10-19T10:30:52+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/contemplating-the-impossible/>
-<img data-src=https://live.staticflickr.com/65535/50588356242_19c372f4de.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Contemplating the impossible" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50588356242_19c372f4de.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Contemplating the impossible" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Contemplating the impossible</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Lévy, P. (2018). Contemplating the Impossible, presented at Eindhoven University of Technology, Eindhoven, The Netherlands. October 19th, 2018.
@@ -245,9 +373,13 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, symposium" data-sort=value>
+<div class="item symposium w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event symposium 
+Stephan was appointed full professor of ‘Constructive Design Research in Smart Products, Services and Systems’ in the Department of Industrial Design on May 1, 2017. He will deliver his inaugural lecture ‘Constructive Design Research’ at 16:00.
+Additionally, there will be a series of lectures by staff and students including Pierre Levy, Caroline Hummels, Luke Noothout and Angella Mackey.
+Guest speakers include Bill Gaver, from the University of London, who will give a talk describing how he and his team has designed DIY devices that people can make themselves: ‘The first is for a collection of cameras and an audio device designed for Cultural Probes studies. The second, a ‘wildlife’ camera that uses computer vision to trigger image capture when it sees movement.’
+ Preceeding the inaugural lecture of prof. Stephan Wensveen, you are cordially invited to attend the Kees Overbeeke symposium at the Senaatszaal in the Auditorium, on Friday, October 19, 2018.<br/><i>On the legacy of Prof. Kees Overbeeke</i> 2018-10-09T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/kees-overbeeke-symposium/>
-<img data-src=https://live.staticflickr.com/65535/50587487628_cabb76f433.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Kees Overbeeke symposium" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50587487628_cabb76f433.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Kees Overbeeke symposium" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Kees Overbeeke symposium</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Preceeding the inaugural lecture of prof. Stephan Wensveen, you are cordially invited to attend the Kees Overbeeke symposium at the Senaatszaal in the Auditorium, on Friday, October 19, 2018.<br><i>On the legacy of Prof. Kees Overbeeke</i>
@@ -265,9 +397,9 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture  Dans l’esprit de pluridisciplinarité qui a animé le worshop #illuminov – éclairage connecté lors de la semaine du 25 au 29 avril dernier, j’ai le plaisir de vous convier à la présentation de Pierre Lévy, assistant professor en design à l’Université de Technologie de Eindhoven, qui se tiendra le vendredi 10 juin à la Pré-Fabrique de l’innovation à 14h30. Au travers de ses travaux de recherche, Pierre Lévy s’intéresse à l’implication des théories de la perception et de la phénoménologie, dans les domaines du design d’interaction (embodied interaction design) et du design Kansei (regard japonais sur la sensibilité et l’affectif) – sujet pour lequel il a été invité de nombreuses fois pour des conférences à l’internationale. Diplômé d’une thèse en science du Kansei de l’Université de Tsukuba au Japon, il est actuellement président-élu du Groupe Européen du Kansei (EKG).<br>Lors de cette présentation, nous discuterons de l’approche en constructive design research, et la perspective qu’elle propose sur l’attention réciproque entre l’homme et l’artefact, et sur la notion d’”irrésistibilité” en design d’interaction.<br>Cette approche ouvrira sur l’exploration menée par Pierre Lévy en “design de rituels”, qui se place à l’intersection du design kansei et et du design de systèmes. La présentation se construira autour d’exemples de projets concrets développés par l’Université de Technologie de Eindhoven, susceptibles d’intéresser tout autant les chercheurs que les praticiens du design. L’intervention et les échanges se feront en français. Fabien Labarthe (IRAM-Télécom Saint-Etienne, Laboratoire Elico, Centre Max Weber). 2016-06-10T22:02:04+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/perspectives-en-design-dinteraction/>
-<img data-src=https://live.staticflickr.com/65535/51742689558_75ffc55f1b.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Perspectives en design d’interaction" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/51742689558_75ffc55f1b.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Perspectives en design d’interaction" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Perspectives en design d’interaction</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Lévy, P. (2016). Perspectives en design d’interaction, presented at La Pré-Fabrique de l’innovation – UdL, Saint-Étienne. June 10th, 2016
@@ -284,7 +416,7 @@ Cette approche ouvrira sur l’exploration menée par Pierre Lévy en “design 
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2013-12-03T21:39:49+01:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/the-bases-of-direct-interaction-design/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">The bases of direct interaction design</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -300,7 +432,7 @@ Lévy, P. (2013). The bases of direct interaction design, presented at Kyoto Ins
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2013-11-19T21:29:03+01:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/direct-interaction-design/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Direct interaction design</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -316,7 +448,21 @@ Lévy, P. (2013). Direct interaction design, presented at Musashino Art Universi
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture Holism and kansei design – kansei beyond borders
+In the field of kansei research, three main disciplines contribute, in different ways, to the creation of artefacts: kansei engineering, kansei science, and kansei design. In this presentation, I will focus specifically on kansei science and kansei design, and on their differences and similarities. Finally, I will show how these two disciplines are actually complementary and that their collaboration can be relevant.
+First, I will briefly describe these two disciplines and their approach. More detailed work on these descriptions, together with a comprehensive historical approach on the disciplines of kansei research can be found in (Lévy, 2013).
+Kansei science (KS) was first proposed by Akira Harada, and was introduced at the crossing of kansei and cognitive sciences. The research initiated in the eighties by Harada aimed at describing holistically users’ cognitive processes related to preference and choice of products. KS is built upon brain science, mostly cognitive neuroscience and psychophysiology, and relies on related philosophies. The mind/brain identity theory is for example used extensively in KS. Human’s thinking and resulting behaviours can be best understood by using a model involving mental representational structures and mental procedures that operates on these structures. These models and structures can be studied by psychophysiological approaches. In this academic context, KS research aims to characterize and to evaluate emotional experiences and creativity, to contribute to a better understanding of the mind based on physiological and psychological approaches. Moreover, it is important to notice that KS has very often worked with design research to develop conjointly new methods and inspiration means for design and communication.
+Kansei design (KD) is, on the other hand, an emergent discipline in the field of kansei research. Currently, there are two approaches in the discipline of KD, which can be differentiated by their focus.
+The first approach focuses on the physical materiality of artefacts (i.e., their intrinsic properties), and their evaluation or preference by the user. This approach is very close to KS in terms of domains of application, in term of tools (often based on semantics), but differs by their attitude towards ambiguity and uncertainty. While KS intends to avoid it or to “solve” it by means of logic reasoning, KD deals with it by means of design skills and experience.
+The second approach focuses on the interactive materiality of artefacts (i.e., the qualities of the artefact in interaction). This approach is the one adopted and explored by the author. Whereas KE and KS have found their roots in scientific establishment, KD intends to return to (Japanese) philosophical or cultural works related to kansei, and to use them as a source of knowledge and opportunities to be addressed by design. From this perspective, two major stances are taken: the primacy of action (“We see a thing by action, and the thing we see determines us as much as we determine the thing. That is action-intuition.” - Nishida) and the primacy of the body (“Just as the body of an artist is the organ of art, so is the body of a scholar the organ of scholarship; the life of an artist exists in beauty and that of a scholar in truth. Even the activity of thinking does not exist separately from our physical body.” - Nishida). Example of kansei design works can be seen in the aforementioned referenced paper.
+What is interesting to notice when overviewing these two disciplines together is the closeness of the focus despites the great difference in the approach. KS is obviously internalist (perception is a process taking place within the human mind), and KD externalist (perception is a process taking place within a system composed of the human and the environment). However, both disciplines focus on the immediate experience, i.e., on the here and the now of the human experience.
+In previous research projects, addressed from a kansei science perspective, I have explored the idea that as long as there are two persons in the same space, there is diversity. I call this interX. Most classically studied ones are the intercultural and interdisciplinary aspects. I have focused on the diversity in a broader sense and used a kansei science approach to contribute to the creation of tools that supports this diversity. The output were the Evoked Metaphor (a conceptualising tool facilitating knowledge sharing among members of an interdisciplinary design workgroup to work together upon individual and disciplinary differences) and MATiK (a computer-mediated communication system, inspired by the cocktail party effect using positive filters to provide each member the necessary information according to the consideration of individual qualities). See (Lévy & Yamanaka, 2006) for more details.
+Now, I would like to succinctly explore what could be the starting point from a KD perspective on the same topic. As the variety of interX types is immense and can hardly be overviewed (KD aims at considering opportunities from a holistic perspective), I propose to reverse this inquiry and to address a fundamental commonality: we are in the world, and there is a primacy of the body in interaction (as suggested by Nishidian’s action-intuition). Note that he stance is also addressed by various contemporary psychology and philosophy, notably: Gibson’s ecological psychology and Merleau-Ponty’s phenomenology of perception. Kansei design address is how to design for direct and immediate experience. It addresses it by synthesising concepts coming from Japanese philosophy (notably the school of Kyoto) and relying on Japanese cultural values of aesthetics and craftsmanship. However, as kansei design is a very emerging discipline highly related to direct interaction design, many conceptual and methodological aspects are still borrowed to it. Consequently, kansei design aims at creating ‘irresistible’ artefacts, i.e., that resonate with the user engaged in interaction. Resonance interaction is the “perfect interplay between the product and the person which evokes strong positive emotions” [Kevin Andersen].
+To conclude, based on my research experiences within the two disciplines, I strongly believe that we can go beyond the theoretical differences (not to say the contradictions) and mutually contribute to both the understanding of kansei and its application to the creation of kansei-quality artefacts. From this mutual contribution, kansei will be more widely, and therefore better understood, and kansei designs will be more irresistible. Challenges are to be faced, opportunities are to be taken!
+References
+Lévy, P. & Yamanaka T. (2006). MATiK – CMC Design by Kansei Information Approach, in Proc. KEIS’06.
+Lévy, P. (2013). Beyond kansei engineering: The emancipation of kansei design. International Journal of Design, 7(2).
+  2013-08-30T21:55:59+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/holism-and-kansei-design-kansei-beyond-borders/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Holism and kansei design, kansei beyond borders</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -345,9 +491,14 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, exhibition" data-sort=value>
+<div class="item exhibition w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event exhibition The future of design is unclear, as designerly responsibilities are changing. The emphasis used to be on form and production, but as the products to be designed have changed, design has changed. With an interactive product the designer needs to consider not only the form but also the temporal aspects of the product?s interaction and behaviour, and even the specifics of its functionality. While we are starting to understand how to design for interaction through the integrating of form, interaction and function, the next challenge is already in sight: designing for systems.
+From a design perspective, there is very little experience of designing systems, and there are no methods ready at hand. However, our question of ?how to design for systems? is not a ?methodology? question in the first place. To formulate a method is to simplify and abstract the design challenge into a defined set of subsequent steps to be taken. In the case of design for systems, this is problematic because it is difficult, if not impossible, to have an overview of the complete system before it exists or of its impact on society. Not only is our grasp of the system limited by our point of view, but systems also allow for many different yet valid points of view, thanks to their inherent complexity.
+In order to overcome these issues it is necessary to start exploring the design space for systems. As we have little experience in this area, it is essential that we get involved in designing ourselves and let our insight in these matters grow until we can compile it into a relevant methodology. What is more, we need to take an experiential approach to the design of these systems. That is, we need to undergo the experience of living with such systems as we are designing them if we are to make value judgements on the direction the solution should take. In other words, the uncertainty of method and the complex nature of systems call for a research-through-design approach, with ?doing? as the mechanism for obtaining insight into the process at hand guided by relevant theory and a vision of what we want to achieve.
+This exposition contains a selection of projects involving members of the Designing Quality in Interaction (DQI) group in which research, education and industry come together. These projects provide insights into our perspective on design and how it has changed over the years. We aim to paint a picture of a world that could be, as well as giving insight into how we think the design challenge for industrial designers is changing.
+Text by Oscar Tomico
+ While we are starting to understand how to design for interaction through the integrating of form, interaction and function, the next challenge is already in sight: designing for systems. 2012-12-12T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/the-eindhoven-school/>
-<img data-src=https://live.staticflickr.com/65535/50588233741_0d25b7c9d9.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Systems Design - The Eindhoven School" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50588233741_0d25b7c9d9.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Systems Design - The Eindhoven School" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Systems Design - The Eindhoven School</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 While we are starting to understand how to design for interaction through the integrating of form, interaction and function, the next challenge is already in sight: designing for systems.
@@ -367,9 +518,13 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, exhibition" data-sort=value>
+<div class="item exhibition w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event exhibition SHIFT is the product of 18 master students working within OPENLIGHT, the creative lab of the Intelligent Lighting Institute at TU/e.**
+Our world is in a constant state of transformation. Most of the time, our view of the world will change parallel to this transformation. The changes in the world are often propelled us as an individual, group, generation or country. Are we aware of the influence we have on our environment? The installation allows you to experience and admire this influence by joining forces with others.Your acts have meaning!
+Students of the Intelligent Lighting Institute of Eindhoven University of Technology want to make visitors of GLOW 2012 think about the amount of control we have on the changing façade of the world. The visitors will be able to experience individual and collective influence on the world around them by collectively replacing weight.
+Students: Sietse Dols, Rik Vegt, Evy Ansems, Dennis de Klein, Thom van Boheemen, Nick Hermans, Karin Niemantsverdriet, Troy Reugebrink, Tijmen van Gurp, Job Huberts, Daniël van Paesschen, Martijn Peeters, Jelle Tuinhout, Adriaan de Regt, Maxim Sakovic, Freek de Bruijn, Teije Oudshoorn, Tom Kölker.
+&nbsp;&nbsp;More at the OPENLIGHT Light through Culture is an international design school which explores the theme of complexity in learning environments. 2012-10-12T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/shift/>
-<img data-src=https://live.staticflickr.com/65535/50587487263_eab0753e4b.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Shift - an installation for the Glow festival" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50587487263_eab0753e4b.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Shift - an installation for the Glow festival" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Shift - an installation for the Glow festival</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Light through Culture is an international design school which explores the theme of complexity in learning environments.
@@ -390,9 +545,12 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, symposium" data-sort=value>
+<div class="item symposium w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event symposium 
+The Practice of Constructive Design Research is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.
+'Catalysts (=invited participants) for the conversation were researchers in this field: Lorenzo Davoli, Mahmoud Keshavarz, Pierre Lévy and Ambra Trotto. In order to feed and frame the conversation, I made a video containing statements taken from interviews with more consolidated researchers: Pelle Ehn, Daniel Fällman, Caroline Hummels, Johan Redström and John Zimmerman.' (Stoffel Kuenen)
+ The Practice of Constructive Design Research is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.</i> 2012-09-03T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/practice-cdr/>
-<img data-src=https://live.staticflickr.com/65535/50587487593_401ed67d43.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="The Practice of Constructive Design Research" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50587487593_401ed67d43.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="The Practice of Constructive Design Research" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">The Practice of Constructive Design Research</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 The Practice of Constructive Design Research is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.</i>
@@ -408,7 +566,7 @@ The Practice of Constructive Design Research is a conversation proposed by Stoff
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, " data-sort=value>
+<div class="item w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event   During the last three decades, kansei engineering has expanded greatly and has been highly recognized both in the industrial and the academic worlds. Nowadays, the term ‘kansei engineering’ is so strong in the kansei community that activities related to kansei, but not to engineering, keep on naming themselves kansei engineering research. This prevents the emancipation of other kansei disciplines, the enrichment of the field by the multiplication of point-of-views, and the dialogue between disciplines to understand better what kansei and kansei related disciplines are about. By presenting the historical path of kansei research and exploring the variety of disciplines within kansei research, I point out the multi-disciplinary nature of kansei research. Thereafter, I focus on three disciplines directly related to the making of physical artifacts: kansei engineering, kansei science, and kansei design. Whereas kansei engineering and kansei science have found their roots in scientifically established approaches (respectively engineering and brain science), kansei design intends to return to earlier Japanese philosophical or cultural works to rediscover the essence of kansei, and to use them as inspirational means for design. A case study of kansei research through design is also presented. 2012-07-13T15:46:21+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/the-multi-disciplinary-nature-of-kansei-research-an-historical-approach/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">The multi-disciplinary nature of kansei research: an historical approach</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -424,7 +582,7 @@ Lévy, P. (2012). The multi-disciplinary nature of kansei research: an historica
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture  Many academic laboratories and companies in Europe have worked in kansei research. As on other continents, kansei engineering is the most important discipline, but is not the only one. The disciplines in Kansei Research in Europe are multiple, as are their origins. This multiplicity of disciplines and points-of-views creates a great opportunity for the development of the field in Europe. As an expression of the interest for kansei engineering, Europe has recently welcomed two major conferences related to Kansei Engineering: ICBAKE2009 (including KEAS2009) in Cieszyn, Poland, and KEER2010 in Paris, France. For this last edition of the KEER conference, 32% of the presentations were presented by European researchers, and 40% of the attendants were affiliated in Europe. However, there is no European community on Kansei Research, neither officially nor practically. Laboratories and companies have not found yet the way and the means to create such community, which would certainly help the promotion and the development of Kansei Research in Europe. In this presentation I would like to show an overview of the European presentations at KEER2010, as a starting point to scan the current state of Kansei Research in Europe. I hope this presentation will elicit reactions towards the construction of such European community. 2012-05-25T21:30:22+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/special-issue-kansei-research-in-europe/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Special issue: kansei research in Europe</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -440,7 +598,7 @@ Lévy, P. (2012). Special issue: kansei research in Europe, presented at the Kan
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2012-03-16T21:48:30+01:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/making-the-world-through-kansei-3-approaches/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Making the world through kansei: 3 Approaches</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -456,9 +614,11 @@ Lévy, P. (2012). Making the world through kansei: 3 Approaches, presented at To
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, exhibition" data-sort=value>
+<div class="item exhibition w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event exhibition 
+Light through Culture is an international design school which explores the theme of complexity in learning environments. The aim of the school is to weave the newest technologies and the rich existing culture into a new canvas for making and thinking. The school was funded in 2011 by Patrizia Marti (University of Siena) and Kees Overbeeke (Technical University of Eindhoven).
+This ehibition proposes a reflection on the individual vs. social perception of human rights, exploring 2 fundamental and controverted articles of the Universal Declaration of Human Rights. Article 13: Everyone has the right to freedom of movement and residence within the borders of each state. Everyone has the right to leave any country, including his own, and to return to his country. Article 19: Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Visitors travel through an interactive path, where they experience the application or the negation of such rights. This concurs in stimulating and reinforcing a reflection on their relevance and universality. Light through Culture is an international design school which explores the theme of complexity in learning environments.</i> 2012-01-15T16:27:15+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/light-through-culture/>
-<img data-src=https://live.staticflickr.com/65535/50751856182_4a23b0cc3e.jpg class="imgBox object-cover rounded-t-lg w-full h-64" loading=lazy alt="Light through Culture - Experience Human Rights" width=500 height=240>
+<img src data-toset=https://live.staticflickr.com/65535/50751856182_4a23b0cc3e.jpg class="imag imgBox object-cover rounded-t-lg w-full h-64" alt="Light through Culture - Experience Human Rights" width=500 height=240>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Light through Culture - Experience Human Rights</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
 Light through Culture is an international design school which explores the theme of complexity in learning environments.</i>
@@ -475,7 +635,7 @@ event
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture  Auparavant, il a été maître de conférence en “Service Product Design” a Chiba University et à la Kansei Information Design de University of Tsukuba, au Japon. Docteur en Science de cette même université, il a un master d’ingénieur mécanique de l’Université de Technologie de Compiègne. En tant que chercheur, il s’est intéressé à tous les aspects de partage (des connaissances, espace, temps, compétences, motivation …), conduisant à la socialisation et à la créativité. Il pense que la recherche kansei et le design sont deux approches d’ouverture d’esprit qui peuvent apporter des idées originales aux mondes universitaires, industriels et sociaux. Une approche phénoménologique peut aider à mieux comprendre et à améliorer leurs relations, souvent complexes, avec les différents aspects du monde en réseau. 2011-03-31T21:21:51+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/kansei-et-kansei-design/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Kansei et kansei design</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -491,7 +651,7 @@ Lévy, P. (2011). Kansei et kansei design, presented at l'École Nationale Supé
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2011-03-08T21:11:59+01:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/the-origin-of-experience/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">The origin of experience</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -507,7 +667,7 @@ Lévy, P. (2011). The origin of experience, presented at the the seminar series 
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture  The International Conference on Kansei Engineering and Emotion Research 2010 (KEER2010), held at the Arts et Mètiers ParisTech in Paris, has been a promising event for the future of Kansei Research in Europe. For the first time, numerous European researchers in Kansei Engineering and related topics met not only each other, but also their colleagues from all over the world. For the first time, a European community on Kansei research gathered and exchanged knowledge and views on Kansei with the Asian communities.<br/>I would like to take the chance of this presentation to frame again the current situation of the European research on Kansei, and to position it from an Eurasian perspective. To do so, I will take two steps:<br/>- A review on the history of Kansei research will show the early implications of European philosophy in the ‘academic establishment’ of the term Kansei and of the philosophy of Kansei. This aspect is crucial as it shows already existing bridges between Asian and European thoughts, and stresses points for reciprocal interests and future collaborations.<br/>- A picture of the current Kansei research in Europe will show main driving European activities on Kansei research. To do so, I will present a review of KEER2010, picturing the presence of European researchers in the field of Kansei and related topics. Although this picture, based only on the outcome of KEER2010, may not be complete, it will render the great possibilities of further Kansei research development in Europe.<br/>With this presentation, I hope to be able to clarify better the current situation of Kansei research in Europe, towards greater involvement of Europe in this field, towards better exchange between Europe and Asia for a more international Kansei research community. 2010-10-23T21:16:30+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/kansei-research-in-eurasia/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Kansei research in Eurasia</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -523,7 +683,7 @@ Lévy, P. (2010). Kansei research in Eurasia, presented at the the TIK Symposium
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2008-10-02T21:03:50+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/kansei-engineering-science-rrans-interdisciplinary-research/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Kansei Engineering|Science, Trans|Interdisciplinary Research</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -539,7 +699,7 @@ Lévy, P. (2008). Kansei Engineering|Science – Trans|Interdisciplinary Researc
 </div>
 </a>
 </div>
-<div class="filtr-item w-full md:w-96 px-0 md:px-3 pb-6 block" data-category="event, lecture" data-sort=value>
+<div class="item lecture w-full md:w-96 px-0 md:px-3 pb-6 block" data-search="event lecture   2007-09-09T20:52:21+02:00">
 <a class="gridbox rounded-lg bg-primary-bg md:hover:shadow-2xl transition-all duration-700 ease-in-out flex flex-col w-full border border-tertiary-bg" href=https://plevy.fr/fr/event/kansei-and-kansei-studies-an-overview-towards-kansei-design/>
 <h5 class="block px-2 md:px-8 pt-5 rounded-lg w-full h-auto text-lg font-semibold">Kansei and Kansei Studies: an Overview towards Kansei Design</h5>
 <p class="block text-sm px-2 md:px-8 py-3 overflow-ellipsis overflow-hidden ...">
@@ -558,8 +718,7 @@ Lévy, P. (2008). Kansei and Kansei Studies: an Overview towards Kansei Design, 
 </div>
 </div>
 </div>
-<script type=text/javascript src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
-<script type=text/javascript src=https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js></script>
+<script src=https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js></script>
 <script>document.addEventListener('DOMContentLoaded',()=>{switchBurger()})</script>
 <footer class="w-full bg-secondary-bg text-right px-6 pb-1">
 <div class="m-2 float-left flex flex-row items-center"></div>
