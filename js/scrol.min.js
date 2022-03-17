@@ -1,1 +1,0 @@
-function scrollit(){document.documentElement.clientWidth>768?docSlider.enable(!0):docSlider.enable(!1)}docSlider.init({speed:800,easing:"ease-in-out",afterChange:function(){showPic()}}),window.addEventListener("resize",function(){scrollit()}),scrollit()
