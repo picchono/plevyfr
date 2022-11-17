@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://test.plevy.fr/</loc>
+    <lastmod>2020-10-24T00:55:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publications/</loc>
+    <lastmod>2020-10-21T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publications/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/contact/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/cv/</loc>
+    <lastmod>2020-10-16T20:03:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/cv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/artefactual-emptiness-on-appropriation-in-kansei-design/</loc>
+    <lastmod>2020-08-30T17:03:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/</loc>
+    <lastmod>2020-08-30T17:03:37+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publis/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/philosophy-at-work-postphenomenology-as-a-generative-lens-in-design-research-and-practice/</loc>
+    <lastmod>2020-08-14T08:55:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/the-office-jungle-a-vision-for-wildness-to-turn-offices-into-jungles/</loc>
+    <lastmod>2020-07-20T17:08:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/exploring-public-playgrounds-through-a-data-enabled-design-approach/</loc>
+    <lastmod>2020-07-20T16:08:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/design-research-and-innovation-framework-for-transformative-practices/</loc>
+    <lastmod>2019-09-23T13:46:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/designing-for-the-everyday-through-thusness-and-irregularity/</loc>
+    <lastmod>2019-09-04T15:00:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/a-design-approach-towards-affording-the-trend-of-privacy/</loc>
+    <lastmod>2019-06-28T12:29:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/time-of-experience/</loc>
+    <lastmod>2018-11-18T13:00:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/publis/le-temps-de-lexperience-enchanter-le-quotidien-par-le-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/publis/time-of-experience/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/contemplating-the-impossible/</loc>
+    <lastmod>2018-10-19T10:30:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/the-beauty-of-making-hot-chocolate/</loc>
+    <lastmod>2018-06-28T15:04:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/kansei-engineering-and-emotion-research-2018/</loc>
+    <lastmod>2018-03-22T23:44:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/analysis-of-the-design-and-engineering-process-towards-a-first-prototype-in-the-field-of-sports-and-vitality/</loc>
+    <lastmod>2018-02-22T23:14:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/light-behavior-design-violation-of-unification-principles-and-the-effect-on-the-user-experience/</loc>
+    <lastmod>2017-06-14T23:20:07+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/3d-modeling-and-3d-printing-explorations-on-japanese-tea-ceremony-utensils/</loc>
+    <lastmod>2017-03-23T23:11:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/what-matters-for-ritual-visualization/</loc>
+    <lastmod>2016-09-02T23:06:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/reinventing-the-steering-wheel/</loc>
+    <lastmod>2016-09-02T22:55:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/gesture-based-and-haptic-interfaces-for-connected-and-autonomous-driving/</loc>
+    <lastmod>2016-07-31T15:17:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/perspectives-en-design-dinteraction/</loc>
+    <lastmod>2016-06-10T22:02:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/special-issue-on-making/</loc>
+    <lastmod>2016-03-22T23:38:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/exploring-the-challenge-of-designing-rituals/</loc>
+    <lastmod>2015-11-05T23:00:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/the-chatter-door-designing-for-in-between-spaces/</loc>
+    <lastmod>2015-05-11T22:37:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/impact-of-perception-theories-on-kansei-design/</loc>
+    <lastmod>2014-09-06T13:36:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/enhancing-co-responsibility-for-patient-engagement/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/publis/perception-theories-and-kansei-design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://test.plevy.fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://test.plevy.fr/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://test.plevy.fr/tags/"
+                />
+  </url>
+  
+</urlset>
