@@ -1,0 +1,3 @@
+[submodule "themes/plevy"]
+	path = themes/plevy
+	url = https://github.com/wangchucheng/hugo-eureka
