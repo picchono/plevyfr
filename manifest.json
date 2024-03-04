@@ -80,6 +80,29 @@
           "sizes": "1024x1024"
         }
       ],
+      "screenshots": [
+        {
+         "src": "/img/homepage.gif",
+          "sizes": "1280x640",
+          "type": "image/jpg",
+          "form_factor": "portrait",
+          "label": "Homepage"
+        },
+        {
+          "src": "/img/liste.gif",
+           "sizes": "1280x640",
+           "type": "image/jpg",
+           "form_factor": "portrait",
+           "label": "List"
+         },
+         {
+           "src": "/img/inaugurale.gif",
+            "sizes": "1280x640",
+            "type": "image/jpg",
+            "form_factor": "portrait",
+            "label": "Inaugural lecture page"
+          }
+      ],
       "start_url": "/",
       "display": "standalone",
       "orienation": "portrait",
