@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^(?:www\.)plevy\.fr$ [NC]
+RewriteRule ^https://chaire-design.fr%{REQUEST_URI} [L,R=301]
