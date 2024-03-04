@@ -82,21 +82,21 @@
       ],
       "screenshots": [
         {
-         "src": "/img/homepage.gif",
+         "src": "/img/homepage.jpg",
           "sizes": "1280x640",
           "type": "image/jpg",
           "form_factor": "narrow",
           "label": "Homepage"
         },
         {
-          "src": "/img/liste.gif",
+          "src": "/img/liste.jpg",
            "sizes": "1280x640",
            "type": "image/jpg",
            "form_factor": "narrow",
            "label": "List"
          },
          {
-           "src": "/img/inaugurale.gif",
+           "src": "/img/inaugurale.jpg",
             "sizes": "1280x640",
             "type": "image/jpg",
             "form_factor": "narrow",
