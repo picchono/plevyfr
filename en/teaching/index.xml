@@ -49,9 +49,9 @@ Une introduction se doit d&amp;rsquo;être engageante et convaincante, claire et
 &lt;div class="flex flex-col p-0 my-10">
  
  &lt;div class="videoFrame w-full">
- &lt;div class="py-0 px-1 text-xs italic">By playing this movie, you accept
+ &lt;div class="py-0 px-1 petitTxt italic">By playing this movie, you accept
  the &lt;a href="https://policies.google.com/" target="_blank" rel="noreferrer"
- aria-label="Policies and terms of Google" class="text-xs">Policies &amp; Terms
+ aria-label="Policies and terms of Google" class="petitTxt">Policies &amp; Terms
  of Google&lt;/a>.&lt;/div>
  &lt;div class="embed-wrapper">&lt;iframe src="https://www.youtube-nocookie.com/embed/JR1Ovv3B4FA" frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
