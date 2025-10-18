@@ -129,7 +129,7 @@ Une introduction se doit d&amp;rsquo;être engageante et convaincante, claire et
  of Google&lt;/a&gt;.&lt;/div&gt;
  &lt;div class="embed-wrapper"&gt;&lt;iframe src="https://www.youtube-nocookie.com/embed/JR1Ovv3B4FA" frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
- allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+ allowfullscreen class="rounded"&gt;&lt;/iframe&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="w-full flex-grow flex-shrink flex flex-col justify-start self-start max-w-xl p-1"&gt;
  
@@ -156,7 +156,7 @@ Une introduction se doit d&amp;rsquo;être engageante et convaincante, claire et
  of Google&lt;/a&gt;.&lt;/div&gt;
  &lt;div class="embed-wrapper"&gt;&lt;iframe src="https://www.youtube-nocookie.com/embed/JR1Ovv3B4FA" frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
- allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+ allowfullscreen class="rounded"&gt;&lt;/iframe&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="w-full flex-grow flex-shrink flex flex-col justify-start self-start max-w-xl p-1"&gt;
  
@@ -361,7 +361,7 @@ I am a professor of design of Cnam since 2021. Previously, I have been educated 
  of Google&lt;/a&gt;.&lt;/div&gt;
  &lt;div class="embed-wrapper"&gt;&lt;iframe src="https://www.youtube-nocookie.com/embed/_aFo_BV-UzI" frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
- allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+ allowfullscreen class="rounded"&gt;&lt;/iframe&gt;&lt;/div&gt;
  &lt;/div&gt;
  &lt;div class="w-full flex-grow flex-shrink flex flex-col justify-start self-start max-w-xl p-1"&gt;
  
