@@ -2,14 +2,15 @@
 /tp                /research/programme-tp/
 /pl                /
 
-# Courses hosted elsewhere (pages are not rendered, see build.render: link)
-/en/courses/master-info-iot/  https://master.roc.cnam.fr/index.php/master-program/  301
-/courses/master-info-iot/  https://master.roc.cnam.fr/index.php/master-program/  301
-/en/courses/master-info-tic/  https://bedeo.cnam.fr/public/cursus/view/MR14602A  301
-/courses/master-info-tic/  https://bedeo.cnam.fr/public/cursus/view/MR14602A  301
-/en/courses/master-meca/  https://www.lmssc.cnam.fr/MRI/home.html  301
-/courses/master-meca/  https://www.lmssc.cnam.fr/MRI/home.html  301
-/en/courses/master-2-ingenierie-culture-creation/  https://innovation.cnam.fr/sous-domaines-de-formation/culture-et-creation/  301
-/courses/master-2-ingenierie-culture-creation/  https://innovation.cnam.fr/sous-domaines-de-formation/culture-et-creation/  301
-/en/courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301
-/courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301
+# Courses hosted elsewhere (pages are not rendered, see build.render: link).
+# Forced (!) so a leftover file at the old path cannot shadow the rule.
+/en/courses/master-info-iot/  https://master.roc.cnam.fr/index.php/master-program/  301!
+/courses/master-info-iot/  https://master.roc.cnam.fr/index.php/master-program/  301!
+/en/courses/master-info-tic/  https://bedeo.cnam.fr/public/cursus/view/MR14602A  301!
+/courses/master-info-tic/  https://bedeo.cnam.fr/public/cursus/view/MR14602A  301!
+/en/courses/master-meca/  https://www.lmssc.cnam.fr/MRI/home.html  301!
+/courses/master-meca/  https://www.lmssc.cnam.fr/MRI/home.html  301!
+/en/courses/master-2-ingenierie-culture-creation/  https://innovation.cnam.fr/sous-domaines-de-formation/culture-et-creation/  301!
+/courses/master-2-ingenierie-culture-creation/  https://innovation.cnam.fr/sous-domaines-de-formation/culture-et-creation/  301!
+/en/courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301!
+/courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301!
