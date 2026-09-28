@@ -14,3 +14,6 @@
 /courses/master-2-ingenierie-culture-creation/  https://innovation.cnam.fr/sous-domaines-de-formation/culture-et-creation/  301!
 /en/courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301!
 /courses/master-transition-numerique-codesign/  https://communication-culture.cnam.fr/master-information-communication/master-transition-numerique-et-innovation-collaborative-mr05901a--867672.kjsp  301!
+
+# Japanese moved from /jp/ to the standard language code /ja/
+/jp/*  /ja/:splat  301!
